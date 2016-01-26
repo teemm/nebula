@@ -1,3 +1,6 @@
 $('#reg').on('click', function(){
- $('.mainReg').css("opacity","1");
+ $('.mainReg').fadeIn("slow");
+});
+$('.closse').on('click', function(){
+ $('.mainReg').fadeOut("slow");
 });
