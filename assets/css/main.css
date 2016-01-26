@@ -207,9 +207,9 @@
 	left: 0;
 	position: absolute;
 	width: 100%;
-	z-index: 5;
 	height: 100%;
 	background: rgba(0,0,0, 0.5);
+	opacity: 0;
 }
 .mainReg .regPage{
 	width: 370px;
@@ -217,7 +217,6 @@
 	background: #ffffff;
 	position: relative;
 	top: 0px;
-	z-index: 99999;
 }
 .mainReg .allcenter{
     top:50%;
@@ -225,7 +224,6 @@
     margin-right:-50%;
     transform:translate(-50%,-50%);
     position: absolute;
-    z-index: 5;
 }
 .mainReg .closse{
 	width: 31px;
@@ -261,14 +259,14 @@
 	font-family: 'bpg-web-001-caps';
 	color: #fff;
 }
-.mainRegPage .headers span a{
+.mainRegPage .headers span{
 	font-family: 'bpg-web-001-caps';
 	text-decoration: none;
 	font-size: 14px;
 	color: #c4c4c4;
 }
-.mainRegPage .headers span a:hover,
-.mainRegPage .headers span a:link{
+.mainRegPage .headers span:hover,
+.marginainRegPage .headers span:link{
 	color: #616161;
 }
 .mainRegPage .headers .last{
