@@ -201,3 +201,78 @@
 	color: #6d6e71 !important;
 }
 /* თეორია სავარჯიშოები ტესტები */
+/* რეგისტრაცის პოპაპი */
+.mainReg{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 5;
+	height: 100%;
+	background: rgba(0,0,0, 0.5);
+}
+.mainReg .regPage{
+	width: 370px;
+	height: 480px;
+	background: #ffffff;
+	position: relative;
+	top: 0px;
+	z-index: 99999;
+}
+.mainReg .allcenter{
+    top:50%;
+    left: 50%;
+    margin-right:-50%;
+    transform:translate(-50%,-50%);
+    position: absolute;
+    z-index: 5;
+}
+.mainReg .closse{
+	width: 31px;
+	height: 31px;
+	background: url('../img/svg/closse.svg');
+	position: absolute;
+	top: -50px;
+	cursor: pointer;
+	left: 45%;
+}
+.regPage .mainRegPage{
+	width: 250px;
+	height: 350px;
+	margin: 0 auto;
+	margin-top: 10%; 
+}
+.mainRegPage .headers input{
+	width: 100%;
+	height: 55px;
+	margin-top: 10px;
+	font-family: 'bpg-web';
+	padding-left: 10px;
+	outline: none;
+	font-size: 14px;
+}
+.mainRegPage .headers button{
+	width: 100%;
+	height: 55px;
+	margin-top: 10px;
+	background: #f1aa28;
+	border: 0px;
+	outline: none;
+	font-family: 'bpg-web-001-caps';
+	color: #fff;
+}
+.mainRegPage .headers span a{
+	font-family: 'bpg-web-001-caps';
+	text-decoration: none;
+	font-size: 14px;
+	color: #c4c4c4;
+}
+.mainRegPage .headers span a:hover,
+.mainRegPage .headers span a:link{
+	color: #616161;
+}
+.mainRegPage .headers .last{
+	float: right;
+
+}
+/* რეგისტრაცის პოპაპი */
