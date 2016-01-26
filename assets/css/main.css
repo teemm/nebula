@@ -242,6 +242,14 @@
 	margin: 0 auto;
 	margin-top: 10%; 
 }
+.mainRegPage .headers p{
+	height: 35px;
+	text-align: center;
+	font-family: 'bpg-web-001-caps';
+	color: #616161;
+	margin-top: 20px;
+	font-size: 25px;
+}
 .mainRegPage .headers input{
 	width: 100%;
 	height: 55px;
@@ -261,11 +269,15 @@
 	font-family: 'bpg-web-001-caps';
 	color: #fff;
 }
+.mainRegPage .headers button.fb-login{
+	background: #3A5795;
+}
 .mainRegPage .headers span{
 	font-family: 'bpg-web-001-caps';
 	text-decoration: none;
 	font-size: 14px;
 	color: #c4c4c4;
+	cursor: pointer;
 }
 .mainRegPage .headers span:hover,
 .marginainRegPage .headers span:link{
@@ -273,6 +285,8 @@
 }
 .mainRegPage .headers .last{
 	float: right;
-
+}
+.hide{
+	display: none;
 }
 /* რეგისტრაცის პოპაპი */
