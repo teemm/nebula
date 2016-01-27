@@ -199,8 +199,8 @@
 	list-style: circle;
 }
 .circle{
-	width: 10px;
-    height: 10px;
+	width: 7px;
+    height: 7px;
     background: #e0e0e0;
     display: inline-block;
     border-radius: 50%;
@@ -212,6 +212,7 @@
 	font-family: 'bpg-web';
 	font-size: 13px;
 	color: #6d6e71;
+	margin-top: 5px;
 }
 .rows ul li a{
 	text-decoration: none;
@@ -353,7 +354,7 @@
 }
 .aboutCont .textAbout h2{
 	color: #00ace0;
-	font-style: 'bpg-web';
+	font-family: 'bpg-web';
 	font-size: 25px;
 }
 .aboutCont .textAbout .texts{
@@ -366,3 +367,102 @@
 }
 /* right-content */
 /*  about page */
+
+/*test page*/
+
+/* col-sm-4 */
+span.arrow-back{
+	width: 35px;
+	height: 30px;
+	background: url('../img/svg/back.svg');
+	display: inline-block;
+	cursor: pointer;
+	vertical-align: middle;
+}
+span.test{
+	margin-left: 15px;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'bpg-web';
+	color: #bdbdbd;
+	font-size: 16px;
+
+} 
+span.verbal{
+	margin-left: 15px;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'bpg-web';
+	color: #616161;
+	font-size: 16px;
+
+}
+/* col-sm-4 */
+
+/* col-sm-8 */
+span.tesTexts{
+	font-size: 14px;
+	font-family: 'bpg-web';
+	color: #898989;
+	display: inline-block;
+	vertical-align: middle;
+}
+span.clock{
+	margin-left: 20px;
+	width: 25px;
+    height: 30px;
+	display: inline-block;
+	background: url('../img/svg/clock.svg')center no-repeat;
+	background-size: cover; 
+	vertical-align: middle;
+}
+button.answerBut{
+	margin-left: 20px;
+	width: 160px;
+	height: 30px;
+	background: #00ace0;
+	color: #fff;
+	font-family: "bpg-web-001-caps";
+	font-size: 11px;
+	outline: none;
+	border: 0px; 
+}
+/* col-sm-8 */ 
+
+
+/* col-sm-4 */
+.testLeftNav{	
+	margin-top: 15px;
+	-webkit-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+}
+.testLeftNav .testLeftNavHeader{
+	background: #00ace0;
+	height: 50px;
+	width: 100%;
+}
+.testLeftNav .testLeftNavHeader h3{
+	padding: 18px 0px 0px 30px;
+	font-family: 'bpg-web-001-caps';
+	font-size: 14px;
+	color: #fff;
+}
+.testLeftNav .testsAswers{
+	widows: 100%;
+}
+.testLeftNav ol{
+	
+}
+.testLeftNav ol li{
+	height: 50px;
+	padding: 10px 0 0 50px;
+	border-bottom: 2px solid #eceff1; 
+}
+.testLeftNav ol li a{
+	color: #616161;
+	text-decoration: none;
+}
+/* col-sm-4 */
+
+/*test page*/
