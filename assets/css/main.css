@@ -31,6 +31,12 @@
  body{
  	background: #fefefe;
  }
+ .transition {
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
 .navbar-default{
 	background-color: transparent;
     border-bottom-color: #e7e7e7;
@@ -51,6 +57,7 @@
 	color: #acacac;
 	font-size: 12px;
 }
+/* index page */
 .enterBut{
 	width: 115px;
 	height: 40px;
@@ -166,7 +173,17 @@
 	background: url('../img/svg/book.svg') center no-repeat;
 	background-size: cover;
 }
-
+.forHover:hover{
+	background: #fefefe;
+	position: relative;
+	top: -50px;
+	padding-bottom: 50px;
+	border-top: 7px solid #80bc7f;
+	padding-top: 10px; 
+	-webkit-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+}
 .rows{
 	display: inline-block;
 	width: calc(100% - 90px);
@@ -279,8 +296,7 @@
 	color: #c4c4c4;
 	cursor: pointer;
 }
-.mainRegPage .headers span:hover,
-.marginainRegPage .headers span:link{
+.mainRegPage .headers span:hover{
 	color: #616161;
 }
 .mainRegPage .headers .last{
@@ -290,3 +306,63 @@
 	display: none;
 }
 /* რეგისტრაცის პოპაპი */
+/* index page */
+
+
+/*  about page */
+/* left-navigation */
+.aboutCont{
+	margin-top: 70px;
+}
+.aboutCont .navlist{
+	background: #fff;
+	-webkit-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+}
+.aboutCont .navlist ul{
+	padding: 35px 0 35px 0;
+}
+.aboutCont .navlist ul li{
+	height: 65px;
+	padding: 20px 0px 0px 50px;
+	cursor: pointer;
+}
+.aboutCont .navlist ul li:hover{
+	height: 65px;
+	padding-top: 20px;
+	background: #00ace0;
+	width:110%;
+	-webkit-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+}
+.aboutCont .navlist ul li:hover a{
+	color: #fff;
+}
+.aboutCont .navlist ul li a{
+	text-decoration: none;
+	color: #898989;
+	font-size: 18px;
+	font-family: 'bpg-web';
+}
+/* left-navigation */
+/* right-content */
+.aboutCont .textAbout{
+	margin-left: 10%;
+}
+.aboutCont .textAbout h2{
+	color: #00ace0;
+	font-style: 'bpg-web';
+	font-size: 25px;
+}
+.aboutCont .textAbout .texts{
+	margin-top: 15px;
+}
+.aboutCont .textAbout .texts p{
+	font-family: 'bpg-web';
+	font-size: 14px;
+	color: #979797;
+}
+/* right-content */
+/*  about page */
