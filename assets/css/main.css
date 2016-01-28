@@ -54,8 +54,9 @@
 }
 /* მარჯვენა ნავიგაცია */
 .navbar-default .navbar-nav>li>a{
-	color: #acacac;
+	color: #7e7e7e;
 	font-size: 12px;
+	display: inline-block;
 }
 /* index page */
 .enterBut{
@@ -482,7 +483,7 @@ margin-top: -20px;
 	text-decoration: none;
 	font-size: 15px;
 }.testLeftNav ol li a.disable{
-	color: #dddddd .QuizAnswers;
+	color: #dddddd;
 }
 /* col-sm-4 */
 /* col-sm-8 */
@@ -568,6 +569,46 @@ margin-top: -20px;
 	color: #bdbdbd;
 }
 /* col-sm-8 */
-
-
 /*test page*/
+
+/* exams page */
+.userCircle{
+	width: 30px;
+	height: 30px;
+	background: #ef5350;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: -15px;
+}
+.greenCube{
+	width: 60px;
+	height: 30px;
+	background: #9ccc65;
+	font-size: 15px;
+	text-align: center;
+	margin: 9px 0px 0px 30px;
+}
+.navbar-default .navbar-nav>li>a.greenCubeText{
+	font-size: 15px;
+	padding: 6px 0px 0px 3px;
+	color: #fff;
+}
+.navbar-default .navbar-nav>li>a.greenCubeText:hover{
+	color: #fff;
+}
+.dropDownIcon{
+	width: 14px;
+    height: 14px;
+	background: url('../img/svg/down.svg')center no-repeat;
+	background-size: cover;
+	display: inline-block;
+}
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover{
+	background:transparent;
+}
+/* // exams page // */
+
