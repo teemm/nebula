@@ -568,6 +568,17 @@ margin-top: -20px;
 	background: #eeeeee;
 	color: #bdbdbd;
 }
+.QuizTest .QuizAnswers .red { 
+	background: #f06361;
+	color: #fff;
+}
+.QuizTest .QuizAnswers .green { 
+	background: #9ccc65;
+	color: #fff;
+}
+.QuizTest .QuizAnswers .current-answer{
+	margin-top: 30px;
+}
 /* col-sm-8 */
 /*test page*/
 
@@ -609,6 +620,54 @@ margin-top: -20px;
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover{
 	background:transparent;
+}
+.ExamsLeftNav{
+	margin-top: 50px;
+	-webkit-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+}
+.ExamsLeftNav ul{
+}
+.ExamsLeftNav ul li{
+	padding:30px 0 0 25px;
+	height: 80px;
+	border-bottom: 1px solid #eceff1;
+	vertical-align: middle;
+	font: 14px "bpg-web";
+	
+}
+.ExamsLeftNav ul li .car-quest{
+	width: auto;
+	height: 25px;
+	background: #bdbdbd;
+	display: inline-block;
+	text-align: center;
+	padding: 5px 10px; 
+	float: right;
+	margin-right: 30px;
+	color: #fff;
+}
+.ExamsLeftNav ul li a{
+	text-decoration: none;
+	color: #898989;
+}
+
+.ExamsRightQuiz{
+	margin-top: 50px;
+}
+.current-answer{
+	padding: 25px 20px; 
+	-webkit-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+}
+.current-answer div span.trueAnswer{
+	font-size: 23px;
+}
+.current-answer div p.true{
+	color: #959595;
+	margin-top: 10px;
 }
 /* // exams page // */
 
