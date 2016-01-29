@@ -671,3 +671,110 @@ margin-top: -20px;
 }
 /* // exams page // */
 
+/* row page */
+/* video tuts */
+.videoTut{
+
+}
+.videoTut ul{
+	margin-top: 30px;
+}
+.videoTut ul li{
+	margin-top: 30px
+}
+.videoTut ul li span{
+	vertical-align: middle;
+	display: inline-block; 
+}
+.videoTut ul li a{
+	font: 13px 'bpg-web';
+	color: #a0a0a0;
+	width: calc(100% - 50px);
+	display: inline-block;
+	padding: 10px 0px 0px 30px;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+.videoTut ul li a:hover{
+	color: #58bee6;
+}
+.videoTut ul li span.video{
+	width: 45px;
+	height: 45px;
+	background-color: #f1aa28;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.videoTut ul li span.block{
+	width: 45px;
+	height: 45px;
+	background-color: #eceff1;
+	border-radius: 50%;
+}
+.videoTut .headText{
+
+}
+.videoTut .headText span{
+	width: 49px;
+	height: 35px;
+	background: url('../img/svg/tv.svg')center no-repeat;
+	background-size: cover;
+	vertical-align: middle;
+	display: inline-block;
+}
+.headText h2{
+	padding-left: 30px;
+	vertical-align: middle;
+	font: 16px 'bpg-web-001-caps';
+	color: #616161;
+	display: inline-block;
+}
+.headText .examBook{
+	margin-right: 0px;
+}
+.rowsExams ul {
+	margin-top: 30px;
+}
+.rowsExams ul li{
+	padding-top: 20px;
+}
+/* // video tuts*/
+/*exams book*/
+.examBookSec .rightText{
+	float: right;
+	display: inline-block;
+	font-size: 16px;
+	color: #cbcbcb;
+	font-family: 'bpg-web';
+	padding-top: 15px;
+}
+.examBookSec ul{
+	margin-top: 25px;
+}
+.examBookSec ul li{
+	padding: 25px 0 0 10px;
+}
+.examBookSec ul li .rightTexts{
+	float: right;
+	color: #c6c6c6;
+	font-size: 13px;
+	font-family: 'bpg-web';
+}
+.examBookSec ul li a{
+	padding: 25px 0 0 10px;
+	color: #888888;
+}
+.examBookSec ul li a:hover{
+	color: #58bee6;
+}
+.examBookSec ul li a:hover .rightTexts{
+	color: #58bee6;
+}
+/* // exams book*/
+/* simul  */
+.testSimulate .simulBook{
+	margin-right: 0px;
+}
+/* // simul  */
+/* // row page */
+
