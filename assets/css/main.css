@@ -767,13 +767,48 @@ margin-top: -20px;
 .examBookSec ul li a:hover{
 	color: #58bee6;
 }
-.examBookSec ul li a:hover .rightTexts{
-	color: #58bee6;
-}
 /* // exams book*/
 /* simul  */
 .testSimulate .simulBook{
 	margin-right: 0px;
+}
+.testSimulate ul {
+	margin-top: 25px;
+}
+.testSimulate ul li{
+	padding: 25px 0 0 10px;
+}
+.testSimulate ul li a{
+	padding: 25px 0 0 10px;
+	color: #888888;
+}
+.testSimulate ul li a:hover{
+	color: #58bee6;
+}
+.testSimulate ul li .rightTexts{
+	float: right;
+	color: #c6c6c6;
+	font-size: 13px;
+	font-family: 'bpg-web';
+}
+.testSimulate ul li .green-bl{
+	background: #9ccc65;
+	padding: 3px 13px;
+	color: #fff;
+
+}
+.testSimulate ul li .red-bl{
+	background: #ef5350;
+	padding: 3px 13px;
+	color: #fff
+}
+.testSimulate ul li .blue-bl{
+	background: #00ace0;
+	padding: 3px 23px;
+	color: #fff;
+	border: 0px;
+	outline: none;
+	font-family: 'bpg-web-001-caps';
 }
 /* // simul  */
 /* // row page */
