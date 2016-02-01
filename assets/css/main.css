@@ -32,10 +32,10 @@
  	background: #fefefe;
  }
  .transition {
-    -webkit-transition: all 200ms ease-in-out;
-    -moz-transition: all 200ms ease-in-out;
-    -o-transition: all 200ms ease-in-out;
-    transition: all 200ms ease-in-out;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
 }
 .navbar-default{
 	background-color: transparent;
@@ -864,18 +864,24 @@ margin-top: -20px;
 }
 /* // simul  */
 /* progress barr */
-.prgoressJumbotron{
+@media (min-width: 768px){
+	.prgoressJumbotron{
 	padding-top: 30px;
 	padding-bottom: 0px;
 	background: #ffffff;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	margin-bottom: 0px;
 	width: 100%;
 	-webkit-box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
 	-moz-box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
 	box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
+	}
+	/*.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+		font-family: 'gotham-bold';
+	}*/
 }
+
 .progress{
 	height: 7px;
 	background-color: #fbfbfb;
@@ -888,11 +894,19 @@ margin-top: -20px;
 .progress-bar{
 	background-color: #00ace0;
 }
-.progres-desc span.circle{
+@media (max-width: 768px){
+	.progres-desc span.circle{
+	width: 2%;
+	}
+}
+@media (min-width: 768px){
+	.progres-desc span.circle{
 	width: 8%;
 	display: inline-block;
 	margin-right: 0px;
+	}
 }
+
 .progres-desc span.text{
 	width: 85%;
 	display: inline-block;
