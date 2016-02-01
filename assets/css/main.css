@@ -704,8 +704,8 @@ margin-top: -20px;
 	color: #58bee6;
 }
 .videoTut ul li span.video{
-	width: 45px;
-	height: 45px;
+	width: 42px;
+    height: 42px;
 	background: #f1aa28 url('../img/svg/play.svg')center no-repeat;
 	background-size: 25px 20px;
 	border-radius: 50%;
@@ -925,6 +925,49 @@ margin-top: -20px;
 	color: #c5c5c5;
 	font: 12px;
 }
-/* // progress barr */
+/* // progress barr */ 
+/* exams page */
+.leftOlPanel{
+	margin-top: 35px;
+	-webkit-box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
+	-moz-box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
+	box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
+}
+.leftOlPanel ol{
+	padding: 0px 0px 0px 30px;
+}
+.leftOlPanel ol li{
+	height: 75px;
+	width: 100%;
+	padding: 17px 0 0 20px;
+	border-bottom: 1px solid #eceff1;
+}
+.leftOlPanel ol li span.video{
+	width: 42px;
+    height: 42px;
+    background: #f1aa28 url('../img/svg/play.svg')center no-repeat;
+    background-size: 25px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+.leftOlPanel ol li span.cube{
+	padding: 2px 15px;
+	margin-left: 20px;
+	background: #bdbdbd;
+	color: #e2e2e2;
+	font: 13px;
+}
+.leftOlPanel ol li a{
+	text-decoration: none;
+	font: 14px 'bpg-web';
+	color: #616161;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 20px;
+}
+   
+/* //exams page */
 /* // row page */
 
