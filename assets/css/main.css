@@ -111,7 +111,7 @@
 }
 /* first row */
 /* jumbotron */
-.jumbotron {
+.mainJumb {
 	background: url("../img/coverBeg.jpg") no-repeat center;
 	background-size: cover; 
 	height: 270px;
@@ -233,7 +233,7 @@
 }
 .mainReg .regPage{
 	width: 370px;
-	height: 480px;
+	height: 430px;
 	background: #ffffff;
 	position: relative;
 	top: 0px;
@@ -674,7 +674,12 @@ margin-top: -20px;
 /* row page */
 /* video tuts */
 .videoTut{
-
+	padding: 15px 15px;
+}
+.videoTut:hover{
+	-webkit-box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
+	box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
 }
 .videoTut ul{
 	margin-top: 30px;
@@ -740,6 +745,25 @@ margin-top: -20px;
 }
 /* // video tuts*/
 /*exams book*/
+.examBookSec{
+	padding: 15px 15px;
+}
+/* hover */
+.examBookSec:hover{
+	-webkit-box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
+	box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
+}
+.examBookSec:hover .headText{
+	background: #00ace0;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.examBookSec:hover .headText h2{
+	color: #fff; 
+}
+/* hover */
 .examBookSec .rightText{
 	float: right;
 	display: inline-block;
@@ -769,8 +793,33 @@ margin-top: -20px;
 }
 /* // exams book*/
 /* simul  */
+.testSimulate{
+	padding: 15px 15px;
+}
+.testSimulate:hover{
+	-webkit-box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
+	box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
+}
 .testSimulate .simulBook{
 	margin-right: 0px;
+}
+.testSimulate .BuyCourse{
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+.testSimulate .BuyCourse button{
+	background: #f1aa28;
+	font:14px 'bpg-web-001-caps';
+	outline: none;
+	border: 0px;
+	width: 215px;
+	height: 50px;
+	-webkit-box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
+	box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
+	color: #fff;
 }
 .testSimulate ul {
 	margin-top: 25px;
@@ -810,6 +859,56 @@ margin-top: -20px;
 	outline: none;
 	font-family: 'bpg-web-001-caps';
 }
+.rowCircle{
+	margin-right: 5px;
+}
 /* // simul  */
+/* progress barr */
+.prgoressJumbotron{
+	padding-top: 30px;
+	padding-bottom: 0px;
+	background: #ffffff;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 0px;
+	width: 100%;
+	-webkit-box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
+	-moz-box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
+	box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
+}
+.progress{
+	height: 7px;
+	background-color: #fbfbfb;
+	border-radius: 0px;
+	margin-bottom: 10px;
+}
+.mainProg{
+	background-color: #9ccc65!important;	
+}
+.progress-bar{
+	background-color: #00ace0;
+}
+.progres-desc span.circle{
+	width: 8%;
+	display: inline-block;
+	margin-right: 0px;
+}
+.progres-desc span.text{
+	width: 85%;
+	display: inline-block;
+	padding-right: 15px;
+    padding-left: 8px;
+    font:11px 'bpg-web';
+    color: #5e5e5e;
+    vertical-align: middle;
+}
+.progres-desc span.mainProgres{
+	font-size: 25px;
+}
+.progres-desc p{
+	color: #c5c5c5;
+	font: 12px;
+}
+/* // progress barr */
 /* // row page */
 
