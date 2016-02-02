@@ -927,6 +927,7 @@ margin-top: -20px;
 }
 /* // progress barr */ 
 /* exams page */
+/* left navbar */
 .leftOlPanel{
 	margin-top: 35px;
 	-webkit-box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
@@ -967,7 +968,108 @@ margin-top: -20px;
 	vertical-align: middle;
 	padding-left: 20px;
 }
-   
+/* //left navbar */
+ /* video slide bar */
+ .sliderbar{
+ 	position: relative;
+ 	margin-top: 20px;
+ 	width: 100%;
+ 	-webkit-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+ }
+ .sliderbar .sliderBarArea{
+ 	width: 100%;
+ 	height: 70px;
+ }
+  .sliderbar .sliderBarArea span.goToPrev{
+ 	display: inline-block;
+ 	width: 65px;
+ 	height: 100%;
+ 	border-right: 1px solid #eceff1;
+ 	float: left;
+ 	background: url('../img/svg/left.svg') no-repeat center;
+ 	background-size: 30px 19px;
+ 	cursor: pointer;  
+ }
+  .sliderbar .sliderBarArea span.goToNext{
+ 	display: inline-block;
+ 	width: 65px;
+ 	height: 100%;
+ 	border-left: 1px solid #eceff1;
+ 	float:right;
+ 	background: url('../img/svg/right.svg') no-repeat center;
+ 	background-size: 30px 19px;
+ 	cursor: pointer; 
+ }
+ .sliderbar .sliderBarArea .slideMove{
+ 	right: 65px;
+ 	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 65px;
+    overflow: hidden;
+
+ }
+ .sliderbar .sliderBarArea .slideMove ul{
+ 	width: 100%;
+ 	height: 100%;
+ 	margin-bottom: 0px;
+ 	position: absolute;
+ }
+ .sliderbar .sliderBarArea .slideMove li{
+ 	display: inline-block;
+ 	width: calc(100%/6);
+ 	text-align: center;
+ 	color: #616161;
+ 	font: 13px 'bpg-web-001-caps';
+ 	border-right: 1px solid #eceff1;
+ 	padding-top: 20px; 
+ 	height: 70px;
+ 	float: left;
+ 	cursor: pointer;
+ }
+ .sliderbar .sliderBarArea .slideMove li.active{
+ 	background: #00ace0;
+ 	color: #fff;
+ }
+ .sliderbar .sliderBarArea .slideMove li:last-child{
+ 	display: inline-block;
+ 	width: calc(100%/6 - 4px);
+ 	text-align: center;
+ 	color: #616161;
+ 	font: 13px 'bpg-web-001-caps';
+ 	border-right: 0px;
+ 	padding-top: 20px; 
+ 	height: 70px;
+ }
+.sliderbar .sliderBarArea .slideMove li span{
+ 	display:block;
+ 	margin-bottom: 8px;
+ }
+ /* //video slide bar */
+ /* textarea and submit */
+.examsTextarea{
+	margin-top: 40px;
+	width: 100%;
+}
+.examsTextarea textarea{
+	width: 100%;
+	border: 1px solid #c2c2c2;
+	outline: none;
+}
+.examsTextarea button{
+	margin-top: 20px;
+	float: right;
+	background: #00ace0;
+	font: 13px 'bpg-web-001-caps';
+	color: #fff;
+	padding: 10px 15px;
+	outline: none;
+	border:0px;
+}
+
+ /* //textarea and submit */
 /* //exams page */
 /* // row page */
 

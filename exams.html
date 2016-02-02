@@ -8,8 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.plyr.io/1.5.9/plyr.css">
-  <link rel="stylesheet" href="assets/css/dist/docs.css">
+  <link rel="stylesheet" href="assets/css/dist/plyr.css">
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -90,25 +89,80 @@
     </div>
 
     <div class="col-sm-7">
-      <div class="js-media-player">
-        <video poster="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.jpg" controls crossorigin>
-            <!-- Video files -->
-            <source src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.mp4" type="video/mp4">
-            <source src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.webm" type="video/webm">
+      <section>
+          <div class="js-media-player">
+            <video poster="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.jpg" controls crossorigin>
+                <!-- Video files -->
+                <source src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.mp4" type="video/mp4">
+                <source src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.webm" type="video/webm">
 
-            <!-- Text track file -->
-            <track kind="captions" label="English" srclang="en" src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.vtt" default>
-
-            <!-- Fallback for browsers that don't support the <video> element -->
-        </video>
-      </div>
-    </div>
-
+                <!-- Text track file -->
+                <track kind="captions" label="English" srclang="en" src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.vtt" default>
+            </video>
+          </div>
+      </section>
+      <section class="sliderbar">
+        <div class="sliderBarArea">
+          <span class="goToPrev"></span>
+          <span class="goToNext"></span>
+          <div class="slideMove">
+            <ul id="movingSlider">
+                <li><span>01</span>ნაწილი</li>
+                <li><span>02</span>ნაწილი</li>
+                <li><span>03</span>ნაწილი</li>
+                <li><span>04</span>ნაწილი</li>
+                <li><span>05</span>ნაწილი</li>
+                <li><span>06</span>ნაწილი</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="examsTextarea">
+        <textarea rows="4" cols="50" placeholder="გააკეთე კომენტარი"></textarea>
+        <button>დატოვე კომენტარი</button>
+   </div><!-- col-sm-7 -->
 
   </div><!-- row -->
 
   </div>
+ <script>
+        (function() {
+            [
+                'assets/css/dist/sprite.svg',
+                'assets/css/dist/docs.svg'
+            ]
+            .forEach(function(u) {
+                var x = new XMLHttpRequest(),
+                    b = document.body;
 
+                // Check for CORS support
+                // If you're loading from same domain, you can remove the whole if/else statement
+                // XHR for Chrome/Firefox/Opera/Safari/IE10+
+                if ('withCredentials' in x) {
+                    x.open('GET', u, true);
+                }
+                // XDomainRequest for IE8 & IE9
+                else if (typeof XDomainRequest == 'function') {
+                    x = new XDomainRequest();
+                    x.open('GET', u);
+                }
+                else { return; }
+
+                // Inject hidden div with sprite on load
+                x.onload = function() {
+                    var c = document.createElement('div');
+                    c.setAttribute('hidden', '');
+                    c.innerHTML = x.responseText;
+                    b.insertBefore(c, b.childNodes[0]);
+                }
+
+                // Timeout for IE9
+            setTimeout(function () {
+              x.send();
+            }, 0);
+            });
+        })();
+        </script>
 <!-- რეგისტრაცია -->
 <div class="mainReg">
     <div class="regPage allcenter">
@@ -140,10 +194,9 @@
     </div> 
 </div>
 <!-- რეგისტრაცია -->
-
 <script type="text/javascript" src="assets/js/bootstrap.js"></script> 
 <script type="text/javascript" src="assets/js/main.js"></script> 
-<script src="https://cdn.plyr.io/1.5.9/plyr.js"></script>
+<script src="assets/css/dist/plyr.js"></script>
 <script src="assets/css/dist/docs.js"></script>
 </body>
 </html>
