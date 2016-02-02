@@ -15,3 +15,7 @@ $('#aut-form, #reg-form').on('click', function(){
 	$('.forms').toggleClass('hide');
 });
 // რეგისტრაციდან ავტორიზაციაზე გადასვლა და პირიქით
+$('#movingSlider li').on('click', function(){
+	$('#movingSlider li').removeClass('active');
+	$(this).addClass('active');
+});

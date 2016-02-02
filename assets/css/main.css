@@ -292,6 +292,9 @@
 .mainRegPage .headers button.fb-login{
 	background: #3A5795;
 }
+.mainRegPage .headers button.google-login{
+	background: #E46D62;
+}
 .mainRegPage .headers span{
 	font-family: 'bpg-web-001-caps';
 	text-decoration: none;
@@ -1034,14 +1037,8 @@ margin-top: -20px;
  	color: #fff;
  }
  .sliderbar .sliderBarArea .slideMove li:last-child{
- 	display: inline-block;
- 	width: calc(100%/6 - 4px);
- 	text-align: center;
- 	color: #616161;
- 	font: 13px 'bpg-web-001-caps';
  	border-right: 0px;
- 	padding-top: 20px; 
- 	height: 70px;
+
  }
 .sliderbar .sliderBarArea .slideMove li span{
  	display:block;
