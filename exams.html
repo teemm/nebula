@@ -8,6 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.plyr.io/1.5.9/plyr.css">
+  <link rel="stylesheet" href="assets/css/dist/docs.css">
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -86,8 +88,24 @@
         </ol>
       </div>
     </div>
-    <div class="col-sm-7">sadasdas</div>
-  </div>
+
+    <div class="col-sm-7">
+      <div class="js-media-player">
+        <video poster="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.jpg" controls crossorigin>
+            <!-- Video files -->
+            <source src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.mp4" type="video/mp4">
+            <source src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.webm" type="video/webm">
+
+            <!-- Text track file -->
+            <track kind="captions" label="English" srclang="en" src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.vtt" default>
+
+            <!-- Fallback for browsers that don't support the <video> element -->
+        </video>
+      </div>
+    </div>
+
+
+  </div><!-- row -->
 
   </div>
 
@@ -122,7 +140,10 @@
     </div> 
 </div>
 <!-- რეგისტრაცია -->
+
 <script type="text/javascript" src="assets/js/bootstrap.js"></script> 
 <script type="text/javascript" src="assets/js/main.js"></script> 
+<script src="https://cdn.plyr.io/1.5.9/plyr.js"></script>
+<script src="assets/css/dist/docs.js"></script>
 </body>
 </html>
