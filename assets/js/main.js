@@ -39,17 +39,10 @@ $('.goToPrev').on('click', function(){
 	};
 	$('#movingSlider').animate({ left: animateWidth });
 });
-
-
 // სლაიდერი
+// quiz select
 $('.QuizTest .QuizAnswers p').on('click', function(){
 	$('.QuizTest .QuizAnswers .quizCats').removeClass('selected')
 	$('.quizCats',this).addClass('selected');
 });
-
-
-// $(".QuizTest .QuizAnswers p").hover(function(){
-//     $('.QuizTest .QuizAnswers .quizCats').addClass('selected');
-//     }, function(){
-//     $(this).css("background-color", "transparet");
-// });
+// quiss select
