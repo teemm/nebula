@@ -972,6 +972,9 @@ margin-top: -20px;
 	padding-left: 20px;
 }
 /* //left navbar */
+.videoPlayer{
+	margin-top: 35px;
+}
  /* video slide bar */
  .sliderbar{
  	position: relative;
