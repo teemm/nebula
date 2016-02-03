@@ -525,8 +525,10 @@ margin-top: -20px;
 .QuizTest .QuizAnswers .quizCats{
 	width: 35px;
 	height: 35px;
-	background: #e0e0e0;
-	color: #616161;
+	background: #eeeeee;
+	
+	color: #bdbdbd;
+	
 	font-family: 'bpg-web';
 	font-size: 14px;
 	display: block;
@@ -534,12 +536,24 @@ margin-top: -20px;
 	text-align: center;
 	border-radius: 50%;
 	margin-right: 20px;
-	padding-top: 5px; 
+	padding-top: 7px; 
 	float: left;
 	cursor: pointer;
 
 }
-.QuizTest .QuizAnswers span{
+.QuizTest .QuizAnswers .quizCats:hover{
+	color: #616161;
+	background: #e0e0e0;
+}
+.QuizTest .QuizAnswers .quizCats:focus {
+  border-color: #FF0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+.QuizTest .QuizAnswers .quizCats:active{
+	background: #00ace0;
+	color: #fff;
+}
+/*.QuizTest .QuizAnswers span{
 	display: inline-block;
 	width: calc(100% - 100px);
 	color: #616161;
@@ -548,7 +562,7 @@ margin-top: -20px;
 	vertical-align: middle;
 	margin: 10px 0 0 0;
 
-}
+}*/
 .QuizTest .QuizAnswers button {
 	margin: 30px 0 0 0;
 	background: #f1aa28;
@@ -563,14 +577,14 @@ margin-top: -20px;
 	-moz-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
 	box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
 }
-.QuizTest .QuizAnswers .selected { 
+/*.QuizTest .QuizAnswers .selected { 
 	background: #00ace0;
 	color: #fff;
 }
 .QuizTest .QuizAnswers .disable { 
 	background: #eeeeee;
 	color: #bdbdbd;
-}
+}*/
 .QuizTest .QuizAnswers .red { 
 	background: #f06361;
 	color: #fff;
