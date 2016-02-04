@@ -1081,5 +1081,103 @@ margin-top: -20px;
 
  /* //textarea and submit */
 /* //exams page */
+/* artboard page */
+.artboardpanel{
+}
+.forMarg{
+	margin-top: 60px;
+	position: relative;
+}
+.artBoard{
+	margin: 0 auto;
+	height: 130px;
+	width: 100%;
+	-webkit-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
+	-moz-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
+	box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
+}
+.date{
+	position: absolute;
+	bottom: -30px;
+    left: 15px;
+	display: inline-block;
+	font: 12px 'bpg-web-001-caps';
+	color: #bdbdbd;
+}
+.artBoard .leftBlock{
+	width: 25%;
+	height: 100%;
+	background:;
+	border-right: 2px solid #eceff1;
+	display: inline-block;
+	float: left; 
+}
+.artBoard .leftBlock p{
+	text-align: center;
+	margin-bottom: 0px;
+}
+.artBoard .leftBlock p.firstpar{
+	font-size: 50px;
+	color: #616161;
+	margin-top: 20px;
+}
+.artBoard .leftBlock p.secpar{
+	font: 13px 'bpg-web-001-caps';
+	color: #616161;
+}
+.artBoard .rightBlock{
+	display: inline-block;
+	width: 60%;
+	height: 100%;
+	background:;
+}
+.artBoard .rightBlock .two-bl{
+	width: 100%;
+	height: 100%;
+}
+.artBoard .rightBlock .two-bl .firstBlock{
+	display: inline-block;
+	width: 100%;
+	height: 49%;
+	border-bottom: 2px solid #eceff1; 
+}
+.artBoard .rightBlock .two-bl .firstBlock .CountTrueAnswer{
+	display: inline-block; 
+	font-size: 30px;
+	color: #9ccc65;
+	padding: 13px 8px;
+}
+.artBoard .rightBlock .two-bl .firstBlock .TrueAnswer{
+	display: inline-block; 
+	font: 13px 'bpg-web-001-caps'; 
+	color: #616161;
+
+}
+.artBoard .rightBlock .two-bl .secBlock .CountFalseAnswer{
+	display: inline-block; 
+	font-size: 30px;
+	color: #ef5350;
+	padding: 13px 8px;
+}
+.artBoard .rightBlock .two-bl .secBlock .FalseeAnswer{
+	display: inline-block; 
+	font: 13px 'bpg-web-001-caps'; 
+	color: #616161;
+}
+.artBoard .rightBlock .two-bl .secBlock{
+	display: inline-block;
+	width: 100%;
+	height: 50%;
+}
+.artBoard .BlueBlock{
+	width: 15%;
+	height: 100%;
+	display: inline-block;
+	float: right; 
+	background: #00ace0 url('../img/svg/right-white.svg')center no-repeat;
+	background-size: 30px 19px;
+	cursor: pointer; 
+}
+/* //artboard page */
 /* // row page */
 
