@@ -442,7 +442,15 @@ button.answerBut{
 	-webkit-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
 	-moz-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
 	box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	overflow: hidden;
+    height: 550px
 }
+.fullHeight{
+	height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+   
 .testLeftNav{
 margin-top: -20px; 	
 }
@@ -480,6 +488,9 @@ margin-top: -20px;
 	border-radius: 50%;
 	margin-right: 20px;
 	padding-top: 5px; 
+}
+.testLeftNav ol li span.disable{
+	background: #eeeeee;
 }
 .testLeftNav ol li a{
 	color: #616161;
