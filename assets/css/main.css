@@ -254,7 +254,7 @@
 	position: absolute;
 	top: -50px;
 	cursor: pointer;
-	left: 45%;
+	left: 48%;
 }
 .regPage .mainRegPage{
 	width: 250px;
@@ -312,6 +312,47 @@
 	display: none;
 }
 /* რეგისტრაცის პოპაპი */
+/* წარმატებული რეგისტრაცია */
+.MainRegSuc{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0, 0.5);
+	display: none;
+}
+.MainRegSuc .succPage{
+	width: 570px;
+	height: 300px;
+	background: #ffffff;
+	position: relative;
+	z-index: 5;
+	margin: 15% auto;
+	padding: 55px 0 0 0;
+}
+.succPage .closse{
+	width: 31px;
+	height: 31px;
+	background: url('../img/svg/closse.svg');
+	position: absolute;
+	top: -50px;
+	cursor: pointer;
+	left: 48%;
+}
+.succPage .SuccLogo{
+	width: 60px;
+	height: 60px;
+	background: blue;
+	margin: 0 auto;
+}
+.succPage h2{
+	text-align: center;
+	font: 25px 'bpg-web-001-caps';
+	color: #616161;
+}
+
+/* წარმატებული რეგისტრაცია */
 /* index page */
 
 

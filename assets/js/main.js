@@ -15,6 +15,15 @@ $('#aut-form, #reg-form').on('click', function(){
 	$('.forms').toggleClass('hide');
 });
 // რეგისტრაციდან ავტორიზაციაზე გადასვლა და პირიქით
+// წარმატებული რეგისტრაცია
+$('#registration').on('click', function(){
+	$('.mainReg').fadeOut("fast");
+	$('.MainRegSuc').fadeIn("slow");
+});
+$('.closse').on('click', function(){
+ 	$('.MainRegSuc').fadeOut("slow");
+});
+// წარმატებული რეგისტრაცია
 // rows პანელზე ვიდეოს ნაწილზე კლიკის ბეგრაუნდი
 $('#movingSlider li').on('click', function(){
 	$('#movingSlider li').removeClass('active');
