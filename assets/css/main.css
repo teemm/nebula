@@ -469,12 +469,13 @@ margin-top: -20px;
 	widows: 100%;
 }
 .testLeftNav ol{
-	padding-left: 50px;
 }
 .testLeftNav ol li{
 	height: 50px;
 	padding: 10px 0 0 0px;
-	border-bottom: 2px solid #eceff1; 
+	border-bottom: 2px solid #eceff1;
+	list-style-position: inside;
+	padding-left: 35px 
 }
 .testLeftNav ol li span{
 	width: 35px;
@@ -958,12 +959,12 @@ margin-top: -20px;
 	box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
 }
 .leftOlPanel ol{
-	padding: 0px 0px 0px 30px;
 }
 .leftOlPanel ol li{
+	list-style-position: inside;
 	height: 75px;
 	width: 100%;
-	padding: 17px 0 0 20px;
+	padding: 17px 5px 0 15px;
 	border-bottom: 1px solid #eceff1;
 }
 .leftOlPanel ol li span.video{
@@ -980,8 +981,10 @@ margin-top: -20px;
 	padding: 2px 15px;
 	margin-left: 20px;
 	background: #bdbdbd;
-	color: #e2e2e2;
-	font: 13px;
+	color: #fff;
+	font-size: 13px;
+	float: right;
+	margin-top: 8px
 }
 .leftOlPanel ol li a{
 	text-decoration: none;
