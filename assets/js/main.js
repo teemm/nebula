@@ -55,3 +55,9 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
 	$('.quizCats',this).addClass('selected');
 });
 // quiss select
+// ტესტების კიკლზე ანიმაცია როდისაც კითხვას ვაჭერთ ადის თავში
+  $('.testLeftNav ol li').on('click', function(e){
+    console.log(this.offsetTop);
+    $('.fullHeight').animate({scrollTop:this.offsetTop}, 500);
+  });
+  // ტესტების კიკლზე ანიმაცია როდისაც კითხვას ვაჭერთ ადის თავში

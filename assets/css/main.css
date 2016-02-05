@@ -1234,5 +1234,30 @@ margin-top: -20px;
 	cursor: pointer; 
 }
 /* //artboard page */
+/* license */
+.freebar{
+	position: relative;
+}
+.freeBarArea{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 402px;
+	height: 422px;
+	border-right: 1px solid gray;
+	background:green;
+	text-align: center;
+}
+.PremiumBarArea{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 402px;
+	height: 422px;
+	border-right: 1px solid gray;
+	background:green;
+	text-align: center;
+}
+/* // license */
 /* // row page */
 
