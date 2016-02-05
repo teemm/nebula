@@ -31,6 +31,18 @@
  body{
  	background: #fefefe;
  }
+ ::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0 , 0, 0.3);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 172, 224, 0.5);
+    background: #00ace0;
+}
  .transition {
     -webkit-transition: all 400ms ease-in-out;
     -moz-transition: all 400ms ease-in-out;
@@ -489,7 +501,7 @@ button.answerBut{
 .fullHeight{
 	height: 100%;
     width: 100%;
-    overflow: scroll;
+    overflow-y: scroll;
 }
    
 .testLeftNav{
