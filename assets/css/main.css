@@ -558,6 +558,13 @@ margin-top: -20px;
 .QuizTest .QuizAnswers .quizAsk{
 	display: block;
 }
+/*ტექსტის გააზრება*/
+.QuizTest .textHeader{
+	font: 25px 'bpg-web-001-caps';
+	text-align: center;
+
+}
+/*ტექსტის გააზრება*/
 .QuizTest .QuizAnswers h2{
 	color: #616161;
 	font-size: 20px;
@@ -569,7 +576,8 @@ margin-top: -20px;
 .QuizTest .QuizAnswers{
 	margin-top: 20px;
 }
-.QuizTest .QuizAnswers p{
+.QuizTest .QuizAnswers p,
+.QuizTest p{
 	color: #616161;
 	font-size: 15px;
 	font-family: 'bpg-web';

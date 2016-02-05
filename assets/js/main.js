@@ -56,8 +56,7 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
 });
 // quiss select
 // ტესტების კიკლზე ანიმაცია როდისაც კითხვას ვაჭერთ ადის თავში
-  $('.testLeftNav ol li').on('click', function(e){
-    console.log(this.offsetTop);
+  $('.testLeftNav ol li').on('click', function(){
     $('.fullHeight').animate({scrollTop:this.offsetTop}, 500);
   });
   // ტესტების კიკლზე ანიმაცია როდისაც კითხვას ვაჭერთ ადის თავში
