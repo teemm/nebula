@@ -961,14 +961,24 @@ margin-top: -20px;
 	padding-left: 30px;
 	padding-top: 20px;
 }
+.testSimulate:hover .headText .exeamsBook{
+	background: url('../img/svg/white-book.svg') center no-repeat;
+}
 .testSimulate:hover .headText h2{
 	color: #fff;
 }
 /* hover */
 .testSimulate .headText .exeamsBook{
-
-	background: url('../img/svg/white-book.svg') center no-repeat;
-
+	background: url('../img/svg/book.svg') center no-repeat;
+	width: 54px;
+    height: 48px;
+	background-size: cover;
+	vertical-align: middle;
+	display: inline-block;
+}
+.testSimulate .BuyCourse{
+	text-align: center;
+	margin-top: 20px;
 }
 .testSimulate .BuyCourse button{
 	background: #f1aa28;
