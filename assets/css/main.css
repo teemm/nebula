@@ -353,7 +353,7 @@
 .succPage .SuccLogo{
 	width: 60px;
 	height: 60px;
-	background: url('../img/reg-suc.png')center no-repeat;
+	background: url('../img/png/reg-suc.png')center no-repeat;
 	margin: 0 auto;
 }
 .succPage h2{
@@ -470,11 +470,11 @@ span.verbal{
 }
 .testProgress span.true{
 	border: 4px solid #a6d174;
-	background:#fff url('../img/true.png')center no-repeat;
+	background:#fff url('../img/png/true.png')center no-repeat;
 }
 .testProgress span.false{
 	border: 4px solid #ef5350;
-	background:#fff url('../img/false.png')center no-repeat;
+	background:#fff url('../img/png/false.png')center no-repeat;
 }
 /* col-sm-8 */
 
@@ -689,7 +689,6 @@ margin-top: -20px;
 }
 /* col-sm-8 */
 /*test page*/
-
 /* exams page */
 .userCircle{
 	width: 30px;
@@ -808,9 +807,6 @@ margin-top: -20px;
 	margin-top: 10px;
 	vertical-align: middle;
 }
-.videoTut ul li a:hover{
-	color: #58bee6;
-}
 .videoTut ul li span.video{
 	width: 42px;
     height: 42px;
@@ -826,9 +822,24 @@ margin-top: -20px;
 	background-size: 30px 25px;
 	border-radius: 50%;
 }
-.videoTut .headText{
-
+/*from hover*/
+.videoTut:hover .headText{
+	background: #00ace0;
+	position: relative;
+	top: -30px;
+	left: -10%;
+	width: 120%;
+	height: 80px;
+	padding-left: 30px;
 }
+.videoTut:hover .headText span{
+	background: url('../img/svg/white-tv.svg')center no-repeat;
+}
+.videoTut:hover .headText h2{
+	padding: 20px;
+	color: #fff;
+}
+/* from hover*/
 .videoTut .headText span{
 	width: 49px;
 	height: 35px;
@@ -858,21 +869,40 @@ margin-top: -20px;
 .examBookSec{
 	padding: 15px 15px;
 }
+.examBookSec .headText span{
+	width: 42px;
+    height: 49px;
+	background: url('../img/svg/book2.svg') center no-repeat;
+	background-size: cover;
+	vertical-align: middle;
+	display: inline-block;
+}
+.examBookSec .headText h2{
+	display: inline-block;
+}
 /* hover */
 .examBookSec:hover{
 	-webkit-box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
 	box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
 }
-/*.examBookSec:hover .headText{
+.examBookSec:hover .headText{
 	background: #00ace0;
 	position: relative;
-	top: 0;
-	left: 0;
+	top: -30px;
+	left: -10%;
+	width: 120%;
+	height: 80px;
+	padding-left: 30px;
+}
+.examBookSec:hover .headText span{
+	padding: 20px;
+	background: url('../img/svg/white-book2.svg') center no-repeat;
 }
 .examBookSec:hover .headText h2{
-	color: #fff; 
-}*/
+	padding: 20px;
+	color: #fff;
+}
 /* hover */
 .examBookSec .rightText{
 	float: right;
@@ -891,12 +921,13 @@ margin-top: -20px;
 .examBookSec ul li .rightTexts{
 	float: right;
 	color: #c6c6c6;
-	font-size: 13px;
+	font-size: 11px;
 	font-family: 'bpg-web';
 }
 .examBookSec ul li a{
 	padding: 25px 0 0 10px;
 	color: #888888;
+	font-size: 13px;
 }
 .examBookSec ul li a:hover{
 	color: #58bee6;
@@ -906,18 +937,38 @@ margin-top: -20px;
 .testSimulate{
 	padding: 15px 15px;
 }
+.testSimulate .headText .exeamsBook{
+	width: 48px;
+    height: 43px;
+	background: url('../img/svg/book.svg') center no-repeat;
+	background-size: cover;
+	vertical-align: middle;
+	display: inline-block;
+}
+/* hover */
 .testSimulate:hover{
 	-webkit-box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
 	box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
 }
-.testSimulate .simulBook{
-	margin-right: 0px;
+.testSimulate:hover .headText{
+	background: #00ace0;
+	position: relative;
+	top: -30px;
+	left: -10%;
+	width: 120%;
+	height: 80px;
+	padding-left: 30px;
+	padding-top: 20px;
 }
-.testSimulate .BuyCourse{
-	width: 100%;
-	text-align: center;
-	margin-top: 30px;
+.testSimulate:hover .headText h2{
+	color: #fff;
+}
+/* hover */
+.testSimulate .headText .exeamsBook{
+
+	background: url('../img/svg/white-book.svg') center no-repeat;
+
 }
 .testSimulate .BuyCourse button{
 	background: #f1aa28;
@@ -1372,7 +1423,7 @@ margin-top: -20px;
 	height: 35px;
 	display: inline-block;
 	border-radius: 50%;
-	background: #eeeeee url('../img/pencil.png')center no-repeat;
+	background: #eeeeee url('../img/png/pencil.png')center no-repeat;
 	vertical-align: middle;
 }
 .PremiumBarArea .changePass .infoInput{

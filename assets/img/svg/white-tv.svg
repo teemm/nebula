@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42 30" style="enable-background:new 0 0 42 30;" xml:space="preserve">
+<style type="text/css">
+	
+		.st0{clip-path:url(#XMLID_34_);fill:none;stroke:#fff;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#fff;stroke-width:2;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="XMLID_5_">
+	<defs>
+		<rect id="XMLID_6_" width="42" height="26"/>
+	</defs>
+	<clipPath id="XMLID_34_">
+		<use xlink:href="#XMLID_6_"  style="overflow:visible;"/>
+	</clipPath>
+	<rect id="XMLID_7_" class="st0" width="42" height="26"/>
+</g>
+<line id="XMLID_4_" class="st1" x1="21" y1="25" x2="21" y2="28"/>
+<line id="XMLID_3_" class="st1" x1="18" y1="29" x2="24" y2="29"/>
+<polygon id="XMLID_2_" class="st2" points="18,16.5 18,9.5 24,13 "/>
+</svg>
