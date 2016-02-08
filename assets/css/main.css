@@ -353,7 +353,7 @@
 .succPage .SuccLogo{
 	width: 60px;
 	height: 60px;
-	background: blue;
+	background: url('../img/reg-suc.png')center no-repeat;
 	margin: 0 auto;
 }
 .succPage h2{
@@ -576,8 +576,10 @@ margin-top: -20px;
 }
 /* col-sm-4 */
 /* col-sm-8 */
-.QuizTest{
-	margin: 37px 0px 0px 120px;
+@media (min-width: 768px){
+	.QuizTest{
+		margin: 37px 0px 0px 120px;
+	}
 }
 .QuizTest .QuizAnswers .headerSp{
 	color: #616161;
