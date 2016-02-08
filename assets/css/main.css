@@ -1252,30 +1252,139 @@ margin-top: -20px;
 	cursor: pointer; 
 }
 /* //artboard page */
-/* license */
-.freebar{
+/* personal imfo edit */
+.two-cl{
+	width: 100%
+}
+.freeBar{
 	position: relative;
+}
+@media (min-width: 800px){
+	.freeBarArea{
+	display: block;
+	width: 100%;
+	}
+	.PremiumBarArea{
+	display: block;
+	width: 100%;
+
+	}
 }
 .freeBarArea{
 	position: absolute;
 	right: 0;
 	top: 0;
 	width: 402px;
-	height: 422px;
-	border-right: 1px solid gray;
-	background:green;
-	text-align: center;
+	height: 475px;
+	-webkit-box-shadow: -16px 0px 73px -16px rgba(0,0,0,0.47);
+	-moz-box-shadow: -16px 0px 73px -16px rgba(0,0,0,0.47);
+	box-shadow: -16px 0px 73px -16px rgba(0,0,0,0.47);
 }
+.freeBarArea .changePass{
+	max-width: 250px;
+	margin: 0 auto;
+	padding: 5px 0px;
+	height: 100% 
+}
+.freeBarArea .changePass h2{
+	font: 18px 'bpg-web';
+	color: #616161;
+}
+.freeBarArea .changePass input{
+	height: 55px;
+	margin-top: 20px;
+	width: 100%;
+	border:1px solid #eceff1; 
+	outline: none;
+	font: 13px "bpg-web";
+	padding-left: 20px;
+}
+.freeBarArea .changePass button{
+	margin-top: 20px;
+	border:0px;
+	outline: none;
+	height: 55px;
+	width: 100%;
+	font: 15px "bpg-web-001-caps";
+	color: #fff;	
+}
+.freeBarArea .changePass button.welcomMail{
+	background: #00ace0;
+}
+.freeBarArea .changePass button.Update{
+	background: #f1aa28;	
+}
+
 .PremiumBarArea{
 	position: absolute;
 	left: 0;
 	top: 0;
 	width: 402px;
-	height: 422px;
-	border-right: 1px solid gray;
-	background:green;
-	text-align: center;
+	height: 475px;
+	-webkit-box-shadow: 20px 4px 73px -16px rgba(0,0,0,0.47);
+	-moz-box-shadow: 20px 4px 73px -16px rgba(0,0,0,0.47);
+	box-shadow: 20px 4px 73px -16px rgba(0,0,0,0.47);
 }
-/* // license */
+.PremiumBarArea .changePass{
+	max-width: 250px;
+	margin: 0 auto;
+	padding: 5px 0px;
+	height: 100% 
+}
+.PremiumBarArea .changePass h2{
+	font: 18px 'bpg-web';
+	color: #616161;
+	margin-bottom: 30px;
+}
+.PremiumBarArea .changePass .person p{
+	font: 17px 'bpg-web';
+	color: #616161;
+	display: inline-block;
+	vertical-align: middle;
+}
+.PremiumBarArea .changePass .person span{
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	border-radius: 50%;
+	background: #eeeeee url('../img/pencil.png')center no-repeat;
+	vertical-align: middle;
+}
+.PremiumBarArea .changePass .infoInput{
+	width: 100%;
+	height: 55px;
+	margin-top: 20px;
+	border:1px solid #eceff1; 
+}
+.PremiumBarArea .changePass .infoInput input{
+	height: 100%;
+	width: 80%;
+	outline: none;
+	border:0px;
+	font: 13px "bpg-web";
+	padding-left: 20px;
+}
+.PremiumBarArea .changePass .infoInput span{
+	width: 20%;
+	height: 100%;
+	background: #00ace0;
+	float: right;
+}
+.PremiumBarArea .changePass button{
+	margin-top: 20px;
+	border:0px;
+	outline: none;
+	height: 55px;
+	width: 100%;
+	font: 15px "bpg-web-001-caps";
+	color: #fff;	
+}
+.PremiumBarArea .changePass button.welcomMail{
+	background: #00ace0;
+}
+.PremiumBarArea .changePass button.Update{
+	background: #f1aa28;	
+}
+/* // personal imfo edit */
 /* // row page */
 
