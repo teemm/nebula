@@ -1400,7 +1400,22 @@ margin-top: -20px;
 .freeBarArea .changePass button.Update{
 	background: #f1aa28;	
 }
-
+@media (max-width: 800px){
+	.freeBarArea{
+	top: 476px;
+	left: 0px;
+	margin: 0 auto;
+	-webkit-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
+	-moz-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
+	box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
+	}
+	.PremiumBarArea{
+	margin: 0 auto;
+	-webkit-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
+	-moz-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
+	box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
+	}
+}
 .PremiumBarArea{
 	position: absolute;
 	left: 0;
