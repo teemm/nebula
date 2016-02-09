@@ -60,3 +60,9 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
     $('.fullHeight').animate({scrollTop:this.offsetTop}, 500);
   });
   // ტესტების კიკლზე ანიმაცია როდისაც კითხვას ვაჭერთ ადის თავში
+  // 
+  $('.examsList').on('click', function(){
+  	$('.examsList').removeClass('active');
+  	$(this).addClass('active');
+  })
+  // 
