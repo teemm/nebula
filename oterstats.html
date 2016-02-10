@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title></title>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+   </head>
+   <body>
+      <nav class="navbar navbar-default">
+         <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="main.html">NEBULA</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="about.html">ნებულას შესახებ</a></li>
+                  <li>
+                     <a href="#">გიორგი მაისურაძე</a>
+                     <div class="userCircle">12</div>
+                  </li>
+                  <li class="greenCube"><a class="greenCubeText" href="#">21/80</a></li>
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <div class="dropDownIcon"></div>
+                     </a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="">Log Out</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container -->
+      </nav>
+      <div class="container">
+         <!-- first hedaer row -->
+         <div class="row">
+
+            <div class="col-sm-4">
+               <div class="statisticsPerson">
+                  <h2>გიორგი მაისურაძე</h2>
+                  <p>ტესტი 04. მათემატიკური</p>
+                  <p>
+                     <span class="circle"></span>
+                     <span class="timer">42:54</span>
+                  </p>
+               </div>
+            </div>
+
+            <div class="col-sm-8">
+               <div class="statisticsButBar">
+                  <button class="verbal"  data-buttonid=".verbal-bl">ვერბალური</button>
+                  <button class="math" data-buttonid=".math-bl">მათემატიკური</button>
+                  <button class="all-V-M active" data-buttonid=".all-bl">სრული ანალიზი</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="jumbotron fr-mr" style="margin-top: 30px;">
+      <!-- verbal -->
+         <div class="verbal-bl allHidden">
+            <div class="container" style="text-align: center;">
+              <div class="row">
+                  <div class="col-sm-6">
+                     <div class="row">
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle green">
+                                  <p class="green">65</p>
+                              </div>
+                              <p>სწორი პასუხები</p>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle red">
+                                  <p class="red">41</p>
+                              </div>
+                              <p>არასწორი პასუხი</p>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle gray">
+                                  <p class="gray">15</p>
+                              </div>
+                              <p>პასუხგაუცემელი</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-6">
+                     <div class="row">
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle gray">
+                                 <p class="gray">11</p>
+                              </div>
+                              <p>არგადატანილი</p>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle orange">
+                                  <p class="orange">25</p>
+                              </div>
+                              <p>შეცვლილი სწორად</p>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle orange">
+                                  <p class="orange">8</p>
+                              </div>
+                              <p>შეცვლილი არასწორად</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+              </div>
+            </div>
+         </div>
+      <!-- verbal -->
+      <!-- math -->
+      <div class="math-bl allHidden">
+            <div class="container" style="text-align: center;">
+              <div class="row">
+                  <div class="col-sm-6">
+                     <div class="row">
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle green">
+                                  <p class="green">15</p>
+                              </div>
+                              <p>სწორი პასუხები</p>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle red">
+                                  <p class="red">43</p>
+                              </div>
+                              <p>არასწორი პასუხი</p>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle gray">
+                                  <p class="gray">13</p>
+                              </div>
+                              <p>პასუხგაუცემელი</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-6">
+                     <div class="row">
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle gray">
+                                 <p class="gray">51</p>
+                              </div>
+                              <p>არგადატანილი</p>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle orange">
+                                  <p class="orange">18</p>
+                              </div>
+                              <p>შეცვლილი სწორად</p>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle orange">
+                                  <p class="orange">80</p>
+                              </div>
+                              <p>შეცვლილი არასწორად</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+              </div>
+            </div>
+         </div>
+      <!-- math -->
+      <!-- all -->
+      <div class="all-bl allHidden active">
+            <div class="container" style="text-align: center;">
+              <div class="row">
+                  <div class="col-sm-6">
+                     <div class="row">
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle green">
+                                  <p class="green">75</p>
+                              </div>
+                              <p>სწორი პასუხები</p>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle red">
+                                  <p class="red">4</p>
+                              </div>
+                              <p>არასწორი პასუხი</p>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle gray">
+                                  <p class="gray">1</p>
+                              </div>
+                              <p>პასუხგაუცემელი</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-6">
+                     <div class="row">
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle gray">
+                                 <p class="gray">1</p>
+                              </div>
+                              <p>არგადატანილი</p>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle orange">
+                                  <p class="orange">12</p>
+                              </div>
+                              <p>შეცვლილი სწორად</p>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <div class="circelBar">
+                              <div class="circle orange">
+                                  <p class="orange">8</p>
+                              </div>
+                              <p>შეცვლილი არასწორად</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+              </div>
+            </div>
+         </div>
+      <!-- all -->
+      </div>
+      <!-- end junbjotron -->
+      <div class="container">
+         <h2 class="moreinfo">დეტალური ინფორმაცია</h2>
+         <div class="row">
+            <div class="col-sm-6">
+               <div class="row">
+                  <div class="col-sm-3">
+                     <div class="progressBlock">
+                        <div class="progresDone" style="height: 40%;"></div>
+                     </div>
+                     <p>
+                        <span class="circle"></span>
+                        <span class="textt">ანალოგიები</span>
+                     </p>
+                     <p class="numeratic">16/20</p>
+                  </div> 
+                  <div class="col-sm-3">
+                     <div class="progressBlock">
+                        <div class="progresDone" style="height: 11%;"></div>
+                     </div>
+                     <p>
+                        <span class="circle"></span>
+                        <span class="textt">ანალოგიები</span>
+                     </p>
+                     <p class="numeratic">16/20</p>
+                  </div> 
+                  <div class="col-sm-3">
+                     <div class="progressBlock">
+                        <div class="progresDone" style="height: 25%;"></div>
+                     </div>
+                     <p>
+                        <span class="circle"></span>
+                        <span class="textt">ანალოგიები</span>
+                     </p>
+                     <p class="numeratic">16/20</p>
+                  </div> 
+                  <div class="col-sm-3">
+                     <div class="progressBlock">
+                        <div class="progresDone" style="height: 10%;"></div>
+                     </div>
+                     <p>
+                        <span class="circle"></span>
+                        <span class="textt">ანალოგიები</span>
+                     </p>
+                     <p class="numeratic">16/20</p>
+                  </div> 
+               </div>
+            </div>
+            <div class="col-sm-6">
+               <div class="row">
+                  <div class="col-sm-3">
+                     <div class="progressBlock">
+                        <div class="progresDone" style="height: 40%;"></div>
+                     </div>
+                     <p>
+                        <span class="circle"></span>
+                        <span class="textt">ანალოგიები</span>
+                     </p>
+                     <p class="numeratic">16/20</p>
+                  </div> 
+                  <div class="col-sm-3">
+                     <div class="progressBlock">
+                        <div class="progresDone" style="height: 40%;"></div>
+                     </div>
+                     <p>
+                        <span class="circle"></span>
+                        <span class="textt">ანალოგიები</span>
+                     </p>
+                     <p class="numeratic">16/20</p>
+                  </div> 
+                  <div class="col-sm-3">
+                     <div class="progressBlock">
+                        <div class="progresDone" style="height: 90%;"></div>
+                     </div>
+                     <p>
+                        <span class="circle"></span>
+                        <span class="textt">ანალოგიები</span>
+                     </p>
+                     <p class="numeratic">16/20</p>
+                  </div> 
+                  <div class="col-sm-3">
+                     <div class="progressBlock">
+                        <div class="progresDone" style="height: 60%;"></div>
+                     </div>
+                     <p>
+                        <span class="circle"></span>
+                        <span class="textt">ანალოგიები</span>
+                     </p>
+                     <p class="numeratic">16/20</p>
+                  </div> 
+               </div>
+            </div>
+         </div>
+      </div>
+      <script type="text/javascript" src="assets/js/bootstrap.js"></script> 
+      <script type="text/javascript" src="assets/js/main.js"></script> 
+   </body>
+</html>

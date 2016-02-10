@@ -66,3 +66,11 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
   	$(this).addClass('active');
   })
   // rows page click and active function
+  // statistics panel clic
+  $('.statisticsButBar button').on('click', function(){
+  	dateid = $(this).data('buttonid');
+  	$('.statisticsButBar button , .allHidden').removeClass('active');
+  	$(this).addClass('active');
+  	$(dateid).addClass('active')
+  });
+  // statistics panel clic

@@ -750,12 +750,10 @@ margin-top: -20px;
 	border-bottom: 1px solid #eceff1;
 	vertical-align: middle;
 	font: 14px "bpg-web";
-	background: #00ace0;
-	
+	background: #00ace0;	
 }
 .ExamsLeftNav ul li.active a{
 	color: #fff;
-	
 }
 .ExamsLeftNav ul li .car-quest{
 	width: auto;
@@ -1527,5 +1525,158 @@ margin-top: -20px;
 .progresbarArea{
 	padding: 40px 50px;
 }
+/* paragraps */
+.useroabenelsparagraps{
+	margin-top: 40px;
+}
+.useroabenelsparagraps h2{
+	font: 12px 'bpg-web-001-caps';
+	color: #bdbdbd;
+}
+.useroabenelsparagraps button{
+	font: 12px 'bpg-web-001-caps';
+	color: #fff;
+	background: #00ace0;
+	border:0px;
+	outline: none;
+	padding: 10px 10px 5px 10px;
+}
+.allexam h2{
+	font: 12px 'bpg-web-001-caps';
+	color: #bdbdbd;
+}
+/* paragraps */
 /* // userpanel */
+/* statistic panel */
+/* statistic person */
+.statisticsPerson h2{
+	font: 25px 'bpg-web-001-caps';
+	color: #616161;
+}
+.statisticsPerson p{
+	font: 16px 'bpg-web';
+	color: #616161;
+}
+.statisticsPerson p .timer{
+	vertical-align: middle;
+}
+.statisticsPerson p .circle{
+	width: 22px;
+    height: 25px;
+    background: url('../img/svg/clock.svg') no-repeat center;
+    background-size: cover;
+    vertical-align: middle;
+}
+/* //statistic person */
+/* statistic but bar */
+.statisticsButBar{
+	margin-top: 15px;
+}
+.statisticsButBar button{
+	width: 200px;
+	padding: 20px 30px;
+	border:0px;
+	outline: none;
+	-webkit-box-shadow: 0px 7px 107px -16px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 7px 107px -16px rgba(0,0,0,0.75);
+	box-shadow: 0px 7px 107px -16px rgba(0,0,0,0.75);
+	margin-left: 30px;
+	font: 16px 'bpg-web-001-caps';
+	color: #616161;
+	background: #fff;
 
+}
+.statisticsButBar button.active{
+	background: #00ace0;
+	color: #fff
+}
+/* //statistic but bar */
+/* circle bar */
+.jumbotron .fr-mr{
+	margin-top: 30px!important;
+}
+.statisticsButBar{
+	margin-top: 30px;
+}
+.allHidden:not(.active){
+	display: none;
+}
+.allhidden.active{
+	display: block
+}
+.circelBar .circle{
+	width: 80px;
+	height: 80px;
+	border: 10px solid #e0e0e0;
+	background: transparent;
+}
+.circelBar p{
+	font: 14px 'bpg-web';
+	color: #616161;
+	padding-top: 20px;
+}
+.circelBar .circle p{
+	line-height: 20px;
+	font-size: 25px; 
+}
+.circelBar .green{
+	border-color: #9ccc65;
+}
+.circelBar .circle p.green{
+	color: #9ccc65;
+}
+.circelBar .red{
+	border-color: #ef5350;
+}
+.circelBar .circle p.red{
+	color: #ef5350;
+}
+.circelBar .gray{
+	border-color: #bdbdbd;
+}
+.circelBar .circle p.gray{
+	color: #bdbdbd;
+}
+.circelBar .orange{
+	border-color: #f1aa28;
+}
+.circelBar .circle p.orange{
+	color: #f1aa28;
+}
+/* //circle bar */
+/* more info */
+.moreinfo{
+	font: 16px 'bpg-web';
+	color: #bdbdbd;
+	margin-bottom: 50px;
+}
+/* more info */
+
+/* progres blocks */
+.progressBlock{
+	height: 150px;
+	width: 100%;
+	background: #dfdfdf;
+	position: relative;
+	margin-bottom: 10px;
+}
+.progressBlock .progresDone{
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #00ace0;
+	position: absolute;
+}
+.textt{
+	width: calc(100% - 37px);
+	display: inline-block;
+	font: 12px 'bpg-web';
+	color: #616161;
+}
+.numeratic{
+	text-align: center;
+	font: 20px 'bpg-web';
+	color: #616161;
+}
+/* // progres blocks */
+/* //statistic panel */
