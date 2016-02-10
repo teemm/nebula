@@ -1170,12 +1170,12 @@ margin-top: -20px;
 }
 /* //left navbar */
 .videoPlayer{
-	margin-top: 35px;
+	/*margin-top: 35px;*/
 }
  /* video slide bar */
  .sliderbar{
  	position: relative;
- 	margin-top: 20px;
+ 	margin-top: 35px;
  	width: 100%;
  	-webkit-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
 	-moz-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
