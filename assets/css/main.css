@@ -42,10 +42,10 @@
     background: #00ace0;
 }
  .transition {
-    -webkit-transition: all 400ms ease-in-out;
-    -moz-transition: all 400ms ease-in-out;
-    -o-transition: all 400ms ease-in-out;
-    transition: all 400ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
 }
 .navbar-default{
 	background-color: transparent;
@@ -121,24 +121,27 @@
 }
 /* first row */
 /* jumbotron */
-.mainJumb {
+.mainJumb{
 	background: url("../img/coverBeg.jpg") no-repeat center;
 	background-size: cover; 
 	height: 270px;
 	width: 100%;
-	margin-bottom: 30px;
 }
-.jumbotron h1 {
+.mainJumb .centerText{
+	text-align: center;
+	padding-top: 30px;
+}
+.mainJumb h1 {
 	font-size: 32px;
 	color: #ffffff;
 	font-family: 'bpg-web';
 }
-.jumbotron h3 {
+.mainJumb h3 {
 	font-size: 15px;
 	color: #ffffff;
 	font-family: 'bpg-web';
 }
-.jumbotron button {
+.mainJumb button {
 	margin-top: 20px;
 	font-size: 15px;
 	color: #ffffff;
@@ -184,16 +187,31 @@
 	background: url('../img/svg/book.svg') center no-repeat;
 	background-size: cover;
 }
+.forHover{
+	top: 0;
+	padding-top: 30px;
+}
 .forHover:hover{
 	background: #fefefe;
 	position: relative;
 	top: -50px;
 	/*padding-bottom: 50px;*/
-	border-top: 7px solid #80bc7f;
-	padding-top: 10px; 
+	/*border-top: 7px solid #80bc7f;*/
+	/*padding-top: 10px; */
 	-webkit-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
 	-moz-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
 	box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+}
+.forHover .hedBL{
+	position: absolute;
+	width: 100%;
+	top:0;
+	left: 0;
+	height: 7px;
+	background: transparent;
+}
+.forHover:hover .hedBL{
+	background: #80bc7f;
 }
 .rows{
 	display: inline-block;
