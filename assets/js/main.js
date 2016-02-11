@@ -80,8 +80,10 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
   	style = $(this).parent('.user-par').attr('style');
   	if(style == undefined){
   	$(this).parent('.user-par').css('height', paragHeight);	
+  	$(this).siblings('p').animate({'line-height':'18px'},300);	
   	}else{
   	$(this).parent('.user-par').removeAttr('style');
+  	$(this).siblings('p').animate({'line-height':'30px'},300);
   	}
   })
   // click an animation

@@ -1547,17 +1547,18 @@ margin-top: -20px;
 	margin-top: 40px;
 }
 .useroabenelsparagraps .user-par {
-	height: 18px;
-	overflow: hidden;
-	position: relative;
-	background:#dfdfdf;
-	margin-top: 10px;
-	/*padding: 10px;*/
+	height: 48px;
+    overflow: hidden;
+    position: relative;
+    background: #dfdfdf;
+    margin-top: 10px;
 }
 .useroabenelsparagraps .user-par p{
 	width: calc(100% - 50px);
-	font: 14px 'bpg-web';
-	color: #616161;
+    font: 14px 'bpg-web';
+    color: #616161;
+    padding: 10px;
+    line-height: 30px;
 }
 .colapsee{
 	background:red;
@@ -1577,6 +1578,7 @@ margin-top: -20px;
 	border:0px;
 	outline: none;
 	padding: 10px 10px 5px 10px;
+	margin-top: 20px;
 }
 .allexam{
 	margin-top: 60px;
