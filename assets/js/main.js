@@ -74,3 +74,14 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
   	$(dateid).addClass('active')
   });
   // statistics panel clic
+  // click an animation
+  $('.colapsee').on('click', function(){
+  	paragHeight = ($(this).siblings('p').css('height'));
+  	style = $(this).parent('.user-par').attr('style');
+  	if(style == undefined){
+  	$(this).parent('.user-par').css('height', paragHeight);	
+  	}else{
+  	$(this).parent('.user-par').removeAttr('style');
+  	}
+  })
+  // click an animation

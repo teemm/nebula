@@ -1538,7 +1538,6 @@ margin-top: -20px;
 	font: 25px 'bpg-web';
 	color: #616161;
 	height: 90px;
-	/*display: block;*/
 }
 .progresbarArea{
 	padding: 40px 50px;
@@ -1546,6 +1545,26 @@ margin-top: -20px;
 /* paragraps */
 .useroabenelsparagraps{
 	margin-top: 40px;
+}
+.useroabenelsparagraps .user-par {
+	height: 18px;
+	overflow: hidden;
+	position: relative;
+	background:#dfdfdf;
+	margin-top: 10px;
+	/*padding: 10px;*/
+}
+.useroabenelsparagraps .user-par p{
+	width: calc(100% - 50px);
+	font: 14px 'bpg-web';
+	color: #616161;
+}
+.colapsee{
+	background:red;
+	cursor: pointer;
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
 .useroabenelsparagraps h2{
 	font: 12px 'bpg-web-001-caps';
@@ -1559,9 +1578,96 @@ margin-top: -20px;
 	outline: none;
 	padding: 10px 10px 5px 10px;
 }
+.allexam{
+	margin-top: 60px;
+}
+.cl-fr-date{
+	position: absolute;
+    bottom: -30px;
+    right: 15px;
+    display: inline-block;
+    font: 12px 'bpg-web-001-caps';
+    color: #bdbdbd;
+}
+.cls-for-mr{
+	margin-top: 0px;
+}
 .allexam h2{
 	font: 12px 'bpg-web-001-caps';
 	color: #bdbdbd;
+	margin: 15px;
+}
+.allexam button{
+	outline: none;
+	border:0px;
+	margin: 15px;
+	color: #fff;
+	background: #00ace0;
+	font: 12px 'bpg-web-001-caps';
+	padding: 7px 15px 5px 15px;
+}
+.for-mr{
+	margin-bottom: 180px;
+}
+.leftOlPanel ol li{
+	position: relative;
+}
+.leftOlPanel ol li span.left-sp{
+	position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 5px;
+}
+.leftOlPanel ol li span.red{
+	background: #e57373;
+}
+.leftOlPanel ol li span.green{
+	background: #9ccc65;
+}
+.leftOlPanel ol li span.orange{
+	background: #f1aa28;
+}
+.origresBarDesc{
+	width: 100%;
+	height: 40px;
+}
+/*.origresBarDesc::before{
+  content:'';
+  width:33.2%;
+  width:calc(33.2% + 2px);
+  height:100%;
+  position:absolute;
+  top:0;left:0;
+}
+.origresBarDesc::after{
+  content:'';
+  display:block;
+  widht:0;height:0;
+  clear:both;
+}*/
+.column{
+  width:16.6%;
+  float:left;
+}
+.column::before{
+  content:'';
+  display: block;
+  background:gray;
+  height:7px;
+  width:2px;
+  margin-bottom:20px;
+}
+.column::after{
+  display: block;
+  font-size:15px;
+  font-family:Arial;
+  content:attr(data-num);
+  margin-left:-2px;
+}
+.column:last-child{
+  width:0;
+  margin-left:-1px;
 }
 /* paragraps */
 /* // userpanel */
