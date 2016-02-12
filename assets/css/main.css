@@ -31,13 +31,13 @@
  body{
  	background: #fefefe;
  }
- ::-webkit-scrollbar {
+ .fullHeight::-webkit-scrollbar {
     width: 6px;
 }
-::-webkit-scrollbar-track {
+.fullHeight::-webkit-scrollbar-thumbtrack {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0 , 0, 0.3);
 }
-::-webkit-scrollbar-thumb {
+.fullHeight::-webkit-scrollbar-thumb {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 172, 224, 0.5);
     background: #00ace0;
 }
@@ -1518,6 +1518,48 @@ margin-top: -20px;
 /* // personal imfo edit */
 /* // row page */
 /* userpanel */
+/*canvas circle*/
+.progresArea{
+	text-align: center;
+}
+.circleStatsItem {
+position: relative;
+background: rgba(255,255,255,0.7);
+-webkit-box-shadow: inset 0 0px 0 7px #e0e0e0;
+-moz-box-shadow: inset 0 0px 0 7px #e0e0e0;
+box-shadow: inset 0 0px 0 7px #e0e0e0;
+-webkit-border-radius: 50em;
+-moz-border-radius: 50em;
+border-radius: 50em;
+width: 78px;
+height: 78px;
+margin: 0 auto;
+color: #6b6b6d;
+}
+.circleStatsItem .num-value {
+ font-size: 18px;
+ font-weight: bold;
+ position: absolute;
+ top: 36%;
+ color: #9ccc65;
+ left: 35%;
+ height: auto;
+}
+.circleStatsItem .percent {
+ font-size: 16px;
+ position: absolute;
+ top: 38%;
+ margin-left: 44px;
+}
+.userBarDesc h2{
+	font: 20px 'bpg-web-001-caps';
+	color: #7e7e7e;
+}
+.userBarDesc p{
+	font: 14px 'bpg-web-001-caps';
+	color: #7e7e7e;
+}
+/* canvas circle */
 .userArea{
 	width: 100%;
 	height: 100%;
@@ -1538,7 +1580,9 @@ margin-top: -20px;
 .userArea span{
 	font: 25px 'bpg-web';
 	color: #616161;
-	height: 90px;
+	width: calc(100% - 100px);
+    display: inline-block;
+    vertical-align: middle;
 }
 .progresbarArea{
 	padding: 40px 50px;
@@ -1840,3 +1884,5 @@ margin-top: -20px;
 }
 /* // progres blocks */
 /* //statistic panel */
+
+
