@@ -28,4 +28,5 @@
      }
      render();
  }
-animate('myCanvas1', 25, '#9ccc65');
+animate('myCanvas1', 25 , '#9ccc65');
+	// $('#myCanvas1').attr('progresTemp
