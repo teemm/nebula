@@ -1,4 +1,6 @@
  function animate(elementId, endPercent, color) {
+     var article = document.getElementById('myCanvas1');
+     var progresTemp = article.dataset.progresTemp;
      var canvas = document.getElementById(elementId);
      var context = canvas.getContext('2d');
      var x = canvas.width / 2;
@@ -28,5 +30,7 @@
      }
      render();
  }
-animate('myCanvas1', 25 , '#9ccc65');
-	// $('#myCanvas1').attr('progresTemp
+var progresTemp = parseInt($('#myCanvas1').attr('data-progresTemp'));
+
+animate('myCanvas1', progresTemp , '#9ccc65');
+	// $('#myCanvas1').attr('progresTemp')
