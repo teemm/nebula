@@ -632,9 +632,8 @@ margin-top: -20px;
 .QuizTest .QuizAnswers p,
 .QuizTest p{
 	color: #616161;
-	font-size: 15px;
+	font-size: 30px;
 	font-family: 'bpg-web';
-	display: inline-block;
 	cursor: pointer;
 }
 .QuizTest .QuizAnswers p:hover .quizCats{
@@ -804,6 +803,7 @@ margin-top: -20px;
 .current-answer div p.true{
 	color: #959595;
 	margin-top: 10px;
+	font-size: 15px;
 }
 /* // exams page // */
 
