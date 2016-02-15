@@ -1,6 +1,4 @@
  function animate(elementId, endPercent, color) {
-     var article = document.getElementById('myCanvas1');
-     var progresTemp = article.dataset.progresTemp;
      var canvas = document.getElementById(elementId);
      var context = canvas.getContext('2d');
      var x = canvas.width / 2;
