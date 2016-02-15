@@ -1938,4 +1938,11 @@ color: #6b6b6d;
 	padding-top: 20px;
 }
 /* packets */
+/* all msg */
+.all-mesg-all{
+	text-align: center;
+	font: 25px 'bpg-web-001-caps';
+	color: #616161;
+}
+/* all msg */
 
