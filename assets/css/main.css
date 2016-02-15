@@ -1581,7 +1581,7 @@ color: #6b6b6d;
 	width: 30px;
 	height: 100%;
 }
-.bla{
+.forClickAn{
 	width: calc(100% - 50px);
     height: 28px;
     border: 5px solid#dfdfdf;
@@ -1852,5 +1852,53 @@ color: #6b6b6d;
 }
 /* // progres blocks */
 /* //statistic panel */
-
+/* packets */
+.freepac,
+.premiumpack{
+	position: relative;
+	height: 424px!important;
+}
+.freepac h1,
+.premiumpack h1{
+	font: 25px 'bpg-web';
+	color: #616161;
+}
+.freepac h3,
+.premiumpack h3{
+	font: 14px 'bpg-web';
+	color: #959595;
+}
+.freepac p,
+.premiumpack p{
+	margin-top: 15px;
+}
+.premiumpack button.premiumBut{
+	background: #00ace0;
+}
+.freepac button.freeBut{
+	background: #f1aa28;
+	position: absolute;
+	bottom: 50px;
+}
+.premium-list span.sp-ok,
+.freepac span.sp-ok{
+	width: 20px;
+	height: 20px;
+	background: url('../img/png/ok.png')center no-repeat;
+	background-size: cover;
+	display: inline-block;
+	vertical-align: middle;
+}
+.premium-list span.sp-text,
+.freepac span.sp-text{
+	display: inline-block;
+	font: 13px 'bpg-web';
+	color: #6d6e71;
+	margin-left: 10px;
+}
+.tr-bl{
+	height: 454px;
+	padding-top: 20px;
+}
+/* packets */
 

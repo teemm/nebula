@@ -76,16 +76,16 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
   // statistics panel clic
   // click an animation
   $('.colapsee').on('click', function(){
-  	paragHeight = parseFloat(($(this).siblings('.bla').children('p').css('height')));
+  	paragHeight = parseFloat(($(this).siblings('.forClickAn').children('p').css('height')));
   	style = $(this).parent('.user-par').attr('style');
   	if(style == undefined){
     $(this).parent('.user-par').css('height', paragHeight +10 + 'px');
-  	$(this).siblings('.bla').css('height', paragHeight +10 + 'px');
+  	$(this).siblings('.forClickAn').css('height', paragHeight +10 + 'px');
     $(this).children('.whit-dw').addClass('active');      	
   	}else{
   	$(this).parent('.user-par').removeAttr('style');
     $(this).children('.whit-dw').removeClass('active'); 
-    $(this).siblings('.bla').css('height', '28px');
+    $(this).siblings('.forClickAn').css('height', '28px');
   	}
   })
   // click an animation
