@@ -1369,31 +1369,20 @@ margin-top: -20px;
 /* //artboard page */
 /* personal imfo edit */
 .two-cl{
-	width: 100%
+	margin: 50px auto;
+	width: 810px;
+	height: 500px;
+	-webkit-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
+	-moz-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
+	box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
 }
 .freeBar{
-	position: relative;
-}
-@media (min-width: 800px){
-	.freeBarArea{
-	display: block;
-	width: 100%;
-	}
-	.PremiumBarArea{
-	display: block;
-	width: 100%;
-
-	}
 }
 .freeBarArea{
-	position: absolute;
-	right: 0;
-	top: 0;
 	width: 402px;
 	height: 475px;
-	-webkit-box-shadow: -16px 0px 73px -16px rgba(0,0,0,0.47);
-	-moz-box-shadow: -16px 0px 73px -16px rgba(0,0,0,0.47);
-	box-shadow: -16px 0px 73px -16px rgba(0,0,0,0.47);
+	display: inline-block;
+	vertical-align: top;
 }
 .freeBarArea .changePass{
 	max-width: 250px;
@@ -1429,31 +1418,10 @@ margin-top: -20px;
 .freeBarArea .changePass button.Update{
 	background: #f1aa28;	
 }
-@media (max-width: 800px){
-	.freeBarArea{
-	top: 476px;
-	left: 0px;
-	margin: 0 auto;
-	-webkit-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
-	-moz-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
-	box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
-	}
-	.PremiumBarArea{
-	margin: 0 auto;
-	-webkit-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
-	-moz-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
-	box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
-	}
-}
 .PremiumBarArea{
-	position: absolute;
-	left: 0;
-	top: 0;
 	width: 402px;
 	height: 475px;
-	-webkit-box-shadow: 20px 4px 73px -16px rgba(0,0,0,0.47);
-	-moz-box-shadow: 20px 4px 73px -16px rgba(0,0,0,0.47);
-	box-shadow: 20px 4px 73px -16px rgba(0,0,0,0.47);
+	display: inline-block;
 }
 .PremiumBarArea .changePass{
 	max-width: 250px;
