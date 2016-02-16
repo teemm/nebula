@@ -53,7 +53,7 @@
 }	
 .navbar {
     position: relative;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     border-radius: 0px;
 }
 .navbar-default .navbar-brand{
@@ -67,6 +67,10 @@
 	color: #7e7e7e;
 	font-size: 12px;
 	display: inline-block;
+}
+.jumbotron{
+	margin-bottom: 15px;
+	margin-top: 20px;
 }
 /* index page */
 .enterBut{
@@ -1801,11 +1805,10 @@ color: #6b6b6d;
 }
 /* //statistic but bar */
 /* circle bar */
-.jumbotron .fr-mr{
-	margin-top: 30px!important;
-}
-.statisticsButBar{
-	margin-top: 30px;
+.fr-mr{
+	margin-top: 15px;
+	padding-top: 30px ;
+    padding-bottom: 20px ;
 }
 .allHidden:not(.active){
 	display: none;
@@ -1857,7 +1860,7 @@ color: #6b6b6d;
 .moreinfo{
 	font: 16px 'bpg-web';
 	color: #bdbdbd;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 /* more info */
 
