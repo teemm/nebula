@@ -1976,7 +1976,7 @@ color: #6b6b6d;
     background: #ffffff;
     position: relative;
     z-index: 5;
-    margin: 15% auto;
+    margin: 10% auto;
     padding: 25px 0;
 }
 .videoQuiz .QuizArea .closse{
@@ -1987,6 +1987,11 @@ color: #6b6b6d;
 	top: -50px;
 	cursor: pointer;
 	left: 48%;
+}
+.QuizNumeratic{
+	text-align: center;
+	font: 25px 'bpg-web-001-caps';
+	color: #616161;
 }
 /* row pages quis on video */
 
