@@ -24,6 +24,16 @@ $('.closse').on('click', function(){
  	$('.MainRegSuc').fadeOut("slow");
 });
 // წარმატებული რეგისტრაცია
+// ვიდეოს დროს კითხვა
+$('#quizz').on('click', function(){
+  $('.videoQuiz').fadeIn("slow");
+  $('body').css('overflow','hidden');
+});
+$('#GoNexQuiz').on('click', function(){
+  $('.videoQuiz').fadeOut("slow");
+  $('body').css('overflow','scroll');
+});
+// ვიდეოს დროს კთხვა
 // rows პანელზე ვიდეოს ნაწილზე კლიკის ბეგრაუნდი
 $('#movingSlider li').on('click', function(){
 	$('#movingSlider li').removeClass('active');
