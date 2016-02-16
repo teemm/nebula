@@ -56,17 +56,47 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
 });
 // quiss select
 // ტესტების კიკლზე ანიმაცია როდისაც კითხვას ვაჭერთ ადის თავში
-  $('.testLeftNav ol li').on('click', function(){
+    $('.testLeftNav ol li').on('click', function(){
     $('.testLeftNav ol li').removeClass('active');
     $(this).addClass('active');
     $('.fullHeight').animate({scrollTop:this.offsetTop}, 500);
   });
   // ტესტების კიკლზე ანიმაცია როდისაც კითხვას ვაჭერთ ადის თავში
   // ტესტის დროს შემდეგზე დაჭერისას შემდეგი ელემენტი გახდეს აქტივ
+  // $('#GoNexQuiz').on('click', function(){
+  //   scope = $('.testsAswers ol li.active');
+  //   CurrentIndex = scope.index()
+  //   lastLi = 0;
+  //    allOl = scope.parents('ol').find('li').length;
+  //    if ((CurrentIndex + 1) == allOl) { 
+  //     lastLi = 50;
+  //    }
+  //   forTop = ((CurrentIndex + 2) * 50) + lastLi + 'px';
+  //   console.log(forTop);
+  //   paret = $('li.active').parents('.testLeftNav');
+  //   scope.removeClass('active').next('li').addClass('active');
+  //   $('.fullHeight').animate({scrollTop:forTop}, 500);
+  //   if ((CurrentIndex + 1) == allOl) { 
+  //     paret.next('.testLeftNav').find('ol').find('li:first-child').addClass('active');
+  //    }
+  // });
   $('#GoNexQuiz').on('click', function(){
-    count = $('.testsAswers ol li').length;
-    whoActive = $('.testsAswers ol li').find('.active');
-    console.log(whoActive);
+    // count = $('.testsAswers ol li').length;
+    // whoActive = $('.testsAswers ol li').find('.active');
+    // console.log(whoActive);
+    var allAnswersArr = $('.testsAswers ol li'),
+        indexOfActive = 0;
+    for(var i = 0, length = allAnswersArr.length;i<length;i++){
+        if($(allAnswersArr[i]).hasClass('active')){
+            indexOfActive = i;
+            break;
+        }
+    }
+    if(allAnswersArr[indexOfActive + 1]){
+        $('.testLeftNav ol li.active').removeClass('active');        
+        $(allAnswersArr[indexOfActive + 1]).addClass('active');
+        $('.fullHeight').animate({scrollTop:allAnswersArr[indexOfActive + 1].offsetTop}, 500);
+    }
   });
   // ტესტის დროს შემდეგზე დაჭერისას შემდეგი ელემენტი გახდეს აქტივ
   // rows page click and active function
