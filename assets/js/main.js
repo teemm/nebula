@@ -57,9 +57,18 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
 // quiss select
 // ტესტების კიკლზე ანიმაცია როდისაც კითხვას ვაჭერთ ადის თავში
   $('.testLeftNav ol li').on('click', function(){
+    $('.testLeftNav ol li').removeClass('active');
+    $(this).addClass('active');
     $('.fullHeight').animate({scrollTop:this.offsetTop}, 500);
   });
   // ტესტების კიკლზე ანიმაცია როდისაც კითხვას ვაჭერთ ადის თავში
+  // ტესტის დროს შემდეგზე დაჭერისას შემდეგი ელემენტი გახდეს აქტივ
+  $('#GoNexQuiz').on('click', function(){
+    count = $('.testsAswers ol li').length;
+    whoActive = $('.testsAswers ol li').find('.active');
+    console.log(whoActive);
+  });
+  // ტესტის დროს შემდეგზე დაჭერისას შემდეგი ელემენტი გახდეს აქტივ
   // rows page click and active function
   $('.examsList').on('click', function(){
   	$('.examsList').removeClass('active');
