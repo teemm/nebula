@@ -25,7 +25,7 @@ $('.closse').on('click', function(){
 });
 // წარმატებული რეგისტრაცია
 // ვიდეოს დროს კითხვა
-$('#quizz').on('click', function(){
+$('#quizz ,.limitButt').on('click', function(){
   $('.videoQuiz').fadeIn("slow");
   $('body').css('overflow','hidden');
 });
@@ -34,6 +34,16 @@ $('#GoNexQuiz').on('click', function(){
   $('body').css('overflow','scroll');
 });
 // ვიდეოს დროს კთხვა
+// ტემპის შეცვლის პოპაპი
+$('.limitButt').on('click', function(){
+  $('.TempPop').fadeIn("slow");
+  $('body').css('overflow','hidden');
+});
+$('.closseTempBut').on('click', function(){
+  $('.TempPop').fadeOut("slow");
+  $('body').css('overflow','scroll');
+});
+// ტემპის შეცვლის პოპაპი
 // rows პანელზე ვიდეოს ნაწილზე კლიკის ბეგრაუნდი
 $('#movingSlider li').on('click', function(){
 	$('#movingSlider li').removeClass('active');
@@ -73,27 +83,7 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
   });
   // ტესტების კიკლზე ანიმაცია როდისაც კითხვას ვაჭერთ ადის თავში
   // ტესტის დროს შემდეგზე დაჭერისას შემდეგი ელემენტი გახდეს აქტივ
-  // $('#GoNexQuiz').on('click', function(){
-  //   scope = $('.testsAswers ol li.active');
-  //   CurrentIndex = scope.index()
-  //   lastLi = 0;
-  //    allOl = scope.parents('ol').find('li').length;
-  //    if ((CurrentIndex + 1) == allOl) { 
-  //     lastLi = 50;
-  //    }
-  //   forTop = ((CurrentIndex + 2) * 50) + lastLi + 'px';
-  //   console.log(forTop);
-  //   paret = $('li.active').parents('.testLeftNav');
-  //   scope.removeClass('active').next('li').addClass('active');
-  //   $('.fullHeight').animate({scrollTop:forTop}, 500);
-  //   if ((CurrentIndex + 1) == allOl) { 
-  //     paret.next('.testLeftNav').find('ol').find('li:first-child').addClass('active');
-  //    }
-  // });
   $('#GoNexQuiz').on('click', function(){
-    // count = $('.testsAswers ol li').length;
-    // whoActive = $('.testsAswers ol li').find('.active');
-    // console.log(whoActive);
     var allAnswersArr = $('.testsAswers ol li'),
         indexOfActive = 0;
     for(var i = 0, length = allAnswersArr.length;i<length;i++){
@@ -123,6 +113,14 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
   	$(dateid).addClass('active')
   });
   // statistics panel clic
+  // ტემპის შეცვლის პოპაპი
+    $('.TempPop .tempp .tempArea .buTtonsBar button').on('click', function(){
+    tempId = $(this).attr('data-tempId');
+    $('.TempPop .tempp .tempArea .buTtonsBar button, .allHidden').removeClass('active');
+    $(this).addClass('active');
+    $(tempId).addClass('active')
+  });
+  // ტემპის შეცვლის პოპაპი
   // click an animation
   $('.colapsee').on('click', function(){
   	paragHeight = parseFloat(($(this).siblings('.forClickAn').children('p').css('height')));

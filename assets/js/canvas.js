@@ -28,7 +28,12 @@
      }
      render();
  }
-var progresTemp = parseInt($('#myCanvas1').attr('data-progresTemp'));
+var progresTemp = parseInt($('#myCanvas1,#myCanvas10,#myCanvas20,#myCanvas30').attr('data-progresTemp'));
+var progresTemp10 = parseInt($('#myCanvas10').attr('data-progresTemp10'));
+var progresTemp20 = parseInt($('#myCanvas20').attr('data-progresTemp20'));
+var progresTemp30 = parseInt($('#myCanvas30').attr('data-progresTemp30'));
 
 animate('myCanvas1', progresTemp , '#9ccc65');
-	// $('#myCanvas1').attr('progresTemp')
+animate('myCanvas10', progresTemp10 , '#9ccc65');
+animate('myCanvas20', progresTemp20 , '#9ccc65');
+animate('myCanvas30', progresTemp30 , '#9ccc65');

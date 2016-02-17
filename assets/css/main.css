@@ -1564,9 +1564,89 @@ color: #6b6b6d;
 	color: #7e7e7e;
 }
 .userBarDesc p{
-	font: 14px 'bpg-web-001-caps';
+	font: 13px 'bpg-web-001-caps';
 	color: #7e7e7e;
 }
+.userBarDesc button{
+	font: 14px 'bpg-web-001-caps';
+	color: #fff;
+	background: #00ace0;
+	border:0px;
+	outline: none;
+	padding: 5px 10px;
+}
+/* ტემპის ღილაკზე კლიკი */
+.TempBut{
+	margin: 0px;
+	padding:40px; 
+}
+.TempPop{
+	top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.5);
+    display: none;
+}
+.TempPop .tempp{
+    max-width: 850px;
+    height: 500px;
+    background: #ffffff;
+    position: relative;
+    z-index: 5;
+    margin: 10% auto;
+    padding: 25px 0;
+}
+.TempPop .tempp .closseTempBut{
+	width: 31px;
+	height: 31px;
+	background: url('../img/svg/closse.svg');
+	position: absolute;
+	top: -50px;
+	cursor: pointer;
+	left: 48%;
+}
+.TempPop .tempp .tempArea{
+	padding: 0px 30px;
+	text-align: center;
+}
+.TempPop .tempp .tempArea h1{
+	font: 25px 'bpg-web-001-caps';
+	color: #616161;
+}
+.TempPop .tempp .tempArea .buTtonsBar{
+	margin-top: 40px;
+}
+.TempPop .tempp .tempArea .buTtonsBar button{
+	padding: 20px 25px;
+	font: 15px 'bpg-web-001-caps';
+	color: #616161;
+	outline: none;
+	border:0px;
+	-webkit-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
+	-moz-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
+	box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
+	margin-right: 30px;
+	background: #fff;
+}
+.TempPop .tempp .tempArea .buTtonsBar button.active{
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0 1);
+	-moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0 1);
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0 1);
+	background: #00ace0;
+	color: #fff;
+}
+.TempPop .tempp .tempArea .buTtonsBar button:last-child{
+	margin-right: 0px;
+}
+.TempCircle{
+	margin-top: 35px;
+}
+.DayProgres{
+	width: 100%;
+}
+/* ტემპის ღილაკზე კლიკი */
 /* canvas circle */
 .userArea{
 	width: 100%;
@@ -1762,6 +1842,7 @@ color: #6b6b6d;
   font-family:Arial;
   content:attr(data-num);
   margin-left:-2px;
+  float: left;
 }
 .column:last-child{
   width:0;
