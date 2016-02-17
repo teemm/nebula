@@ -1591,12 +1591,12 @@ color: #6b6b6d;
 }
 .TempPop .tempp{
     max-width: 850px;
-    height: 500px;
+    height: 460px;
     background: #ffffff;
     position: relative;
     z-index: 5;
     margin: 10% auto;
-    padding: 25px 0;
+    padding: 10px 0;
 }
 .TempPop .tempp .closseTempBut{
 	width: 31px;
@@ -1616,7 +1616,7 @@ color: #6b6b6d;
 	color: #616161;
 }
 .TempPop .tempp .tempArea .buTtonsBar{
-	margin-top: 40px;
+	margin-top: 20px;
 }
 .TempPop .tempp .tempArea .buTtonsBar button{
 	padding: 20px 25px;
