@@ -135,4 +135,14 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
     $(this).siblings('.forClickAn').css('height', '28px');
   	}
   })
-  // click an animation
+  // click an animation 
+  // navbar dropdown
+  $('.navbarDropDown').on('click', function(){
+    if($('#prodIcon').hasClass('active')){
+      $('#prodIcon').removeClass('active');
+    } else if (!$('#prodIcon').hasClass('active')){
+      $('#prodIcon').addClass('active');
+    }
+  });
+  // navbar dropdown
+  
