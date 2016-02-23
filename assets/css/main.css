@@ -97,9 +97,6 @@
 	    margin-top: 15px;
 	    font-family: 'bpg-web-001-caps';
 	}
-	/*.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
-		font-family: 'gotham-bold';
-	}*/
 }
 /* first row */
 .firstBlockBottom{
@@ -1960,7 +1957,7 @@ color: #6b6b6d;
 /* more info */
 
 /* progres blocks */
-.progressBlock{
+/*.progressBlock{
 	height: 150px;
 	width: 100%;
 	background: #dfdfdf;
@@ -1973,6 +1970,31 @@ color: #6b6b6d;
 	width: 100%;
 	background: #00ace0;
 	position: absolute;
+}*/
+.meter { 
+	height: 150px;
+	position: relative;
+	background: #dfdfdf;
+}
+.meter > span {
+	position: absolute;
+	bottom: 0;left: 0;
+	display: block;
+	width: 100%;
+	background-color: rgb(0,172,224);
+	background-image: -webkit-gradient(
+	  linear,
+	  left bottom,
+	  left top,
+	  color-stop(0, rgb(0,172,224)),
+	  color-stop(1, rgb(0,172,224))
+	 );
+	background-image: -moz-linear-gradient(
+	  center bottom,
+	  rgb(0,172,224) 37%,
+	  rgb(0,172,224)69%
+	 );
+	overflow: hidden;
 }
 .textt{
 	width: calc(100% - 37px);
