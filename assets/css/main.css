@@ -30,6 +30,7 @@
    }
  body{
  	background: #fefefe;
+ 	padding-bottom: 40px!important;
 }
  .fullHeight::-webkit-scrollbar {
     width: 6px;
@@ -516,14 +517,13 @@ span.clock{
 }
 button.answerBut{
 	margin-left: 20px;
-	width: 160px;
-	height: 30px;
 	background: #00ace0;
 	color: #fff;
 	font-family: "bpg-web-001-caps";
 	font-size: 11px;
 	outline: none;
 	border: 0px; 
+	padding: 7px 15px;
 }
 /* col-sm-8 */ 
 
@@ -617,6 +617,8 @@ margin-top: -20px;
 	width: 40px;
 	height: 20px;
 	margin: 0px;
+	position: absolute;
+	margin-left: -45px;
 }
 .QuizTest .QuizAnswers .quizAsk{
 	display: block;
@@ -628,10 +630,9 @@ margin-top: -20px;
 
 }
 /*ტექსტის გააზრება*/
-.QuizTest .QuizAnswers h2{
+.QuizTest .QuizAnswers .for-h{
 	color: #616161;
-	font-size: 20px;
-	font-family: 'bpg-web';
+	font-size: 16px;
 }
 .QuizTest .QuizAnswers:nth-child(2){
 	margin-top: 30px;
@@ -643,7 +644,7 @@ margin-top: -20px;
 .QuizTest p{
 	color: #616161;
 	font-size: 30px;
-	font-family: 'bpg-web';
+	/*font-family: 'bpg-web';*/
 	cursor: pointer;
 }
 .QuizTest .QuizAnswers p:hover .quizCats{
@@ -659,7 +660,7 @@ margin-top: -20px;
 	height: 35px;
 	background: #eeeeee;
 	color: #bdbdbd;
-	font-family: 'bpg-web';
+/*	font-family: 'bpg-web';*/
 	font-size: 14px;
 	display: block;
 	vertical-align: middle;
@@ -679,7 +680,7 @@ margin-top: -20px;
 	display: inline-block;
 	width: calc(100% - 100px);
 	color: #616161;
-	font-family: 'bpg-web';
+	/*font-family: 'bpg-web';*/
 	font-size: 14px;
 	vertical-align: middle;
 	margin: 10px 0 0 0;
@@ -695,9 +696,9 @@ margin-top: -20px;
 	color: #fff;
 	font-size: 15px;
 	font-family: 'bpg-web-001-caps';
-	-webkit-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	/*-webkit-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
 	-moz-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
-	box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
+	box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);*/
 }
 .QuizTest .QuizAnswers .selected { 
 	background: #00ace0;
@@ -2102,4 +2103,11 @@ color: #6b6b6d;
 	color: #616161;
 }
 /* row pages quis on video */
-
+/*last*/
+.quiz{
+	margin-bottom: 40px;
+}
+.for-mrgn{
+	margin-bottom: 30px;
+}
+/*last*/
