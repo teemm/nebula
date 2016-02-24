@@ -1158,6 +1158,9 @@ margin-top: -20px;
 	padding: 17px 5px 0 15px;
 	border-bottom: 1px solid #eceff1;
 }
+.leftOlPanel ol li.active{
+	background: #00ace0;
+}
 .leftOlPanel ol li span.video{
 	width: 42px;
     height: 42px;
@@ -1184,6 +1187,9 @@ margin-top: -20px;
 	display: inline-block;
 	vertical-align: middle;
 	padding-left: 20px;
+}
+.leftOlPanel ol li.active a{
+	color: #fff;
 }
 /* //left navbar */
 .videoPlayer{
@@ -2111,3 +2117,54 @@ color: #6b6b6d;
 	margin-bottom: 30px;
 }
 /*last*/
+/*[ppopapis poappi */
+/*.quisp{
+	top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.5);
+    display: block;
+    
+}
+.quisp .quizpp{
+    max-width: 850px;
+    height: 500px;
+    background: #ffffff;
+    position: relative;
+    z-index: 5;
+    margin: 5% auto;
+    padding: 25px 0;
+    overflow: hidden;
+}
+.quisp .quizpp .clossepop{
+	width: 31px;
+	height: 31px;
+	background: url('../img/png/clossePng.png')center no-repeat;
+	background-size: cover;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+.quisp .quizpp .quzArea{
+	margin-top: 25px; 
+	overflow-y: scroll;
+	height: 100%;
+	width: 100%;
+}
+ p{
+	padding: 20px;
+}
+.quzArea::-webkit-scrollbar {
+    width: 6px;
+}
+.quzArea::-webkit-scrollbar-thumbtrack {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0 , 0, 0.3);
+}
+.quzArea::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 172, 224, 0.5);
+    background: #00ace0;
+}*/
+/*popapi*/

@@ -153,4 +153,9 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
             height: $(this).data("origHeight")
           }, 1200);
       });
-  
+  // vidoe bar click adn active
+  $('.leftOlPanel ol li').on('click', function(){
+  $('.leftOlPanel ol li').removeClass('active');
+  $(this).addClass('active');
+  });
+  // videobar  click and active
