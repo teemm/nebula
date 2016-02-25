@@ -606,7 +606,7 @@ margin-top: -20px;
 /* col-sm-8 */
 @media (min-width: 768px){
 	.QuizTest{
-		margin: 37px 0px 0px 120px;
+		margin: 37px 0px 0px 50px;
 	}
 }
 .QuizTest .QuizAnswers .headerSp{
@@ -775,7 +775,6 @@ margin-top: -20px;
 	border-bottom: 1px solid #eceff1;
 	vertical-align: middle;
 	font: 14px "bpg-web";
-	
 }
 .ExamsLeftNav ul li.active{
 	padding:30px 0 0 25px;
@@ -794,14 +793,17 @@ margin-top: -20px;
 	background: #bdbdbd;
 	display: inline-block;
 	text-align: center;
-	padding: 5px 10px; 
+	line-height: 25px;
 	float: right;
-	margin-right: 30px;
+	margin-right: 20px;
 	color: #fff;
+	width: 25%;
 }
 .ExamsLeftNav ul li a{
 	text-decoration: none;
 	color: #898989;
+	display: inline-block;
+	width: 65%;
 }
 
 .ExamsRightQuiz{
@@ -961,18 +963,25 @@ margin-top: -20px;
 	margin-top: 25px;
 }
 .examBookSec ul li{
-	padding: 25px 0 0 10px;
+	margin-top: 25px;
+	background: url('../img/svg/circle.svg')no-repeat left center;
+	background-size: 7px;
 }
 .examBookSec ul li .rightTexts{
 	float: right;
-	color: #c6c6c6;
-	font-size: 11px;
-	font-family: 'bpg-web';
+    color: #c6c6c6;
+    font-size: 11px;
+    font-family: 'bpg-web';
+    display: inline-block;
+    width: 30%;
+    text-align: center;
 }
 .examBookSec ul li a{
-	padding: 25px 0 0 10px;
-	color: #888888;
-	font-size: 13px;
+	padding: 0px 0 0 20px;
+    color: #888888;
+    font-size: 13px;
+    display: inline-block;
+    width: 70%;
 }
 .examBookSec ul li a:hover{
 	color: #58bee6;
@@ -1041,11 +1050,15 @@ margin-top: -20px;
 	margin-top: 25px;
 }
 .testSimulate ul li{
-	padding: 25px 0 0 10px;
+	margin-top: 25px;
+	background: url('../img/svg/circle.svg')no-repeat left center;
+	background-size: 7px;
 }
 .testSimulate ul li a{
-	padding: 25px 0 0 10px;
+	padding-left: 20px;
 	color: #888888;
+	display: inline-block;
+	width: 72%;
 }
 .testSimulate ul li a:hover{
 	color: #58bee6;
@@ -1055,25 +1068,45 @@ margin-top: -20px;
 	color: #c6c6c6;
 	font-size: 13px;
 	font-family: 'bpg-web';
+	display: inline-block;
+	width: 28%;
+}
+.testSimulate ul li .rightTexts span.text-bl{
+	color: #c6c6c6;
+	font-size: 13px;
+	font-family: 'bpg-web';
+	display: inline-block;
+	float: right;
+	width: calc(100% - 35px);
+}
+.testSimulate ul li .rightTexts span.clck-bl{
+	background: url('../img/svg/clock.svg')no-repeat center;
+    background-size: cover;
+    display: inline-block;
+    width: 14px;
+    height: 15px;
 }
 .testSimulate ul li .green-bl{
 	background: #9ccc65;
 	padding: 3px 13px;
 	color: #fff;
+	float: right;
 
 }
 .testSimulate ul li .red-bl{
 	background: #ef5350;
 	padding: 3px 13px;
-	color: #fff
+	color: #fff;
+	float: right;
 }
 .testSimulate ul li .blue-bl{
 	background: #00ace0;
-	padding: 3px 23px;
+	padding: 3px 15px;
 	color: #fff;
 	border: 0px;
 	outline: none;
 	font-family: 'bpg-web-001-caps';
+	float: right;
 }
 .rowCircle{
 	margin-right: 5px;
