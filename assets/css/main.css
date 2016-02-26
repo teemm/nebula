@@ -700,19 +700,23 @@ margin-top: -20px;
 	-moz-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
 	box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);*/
 }
-.QuizTest .QuizAnswers .selected { 
+.QuizTest .QuizAnswers .selected,
+.QuizTest .QuizAnswers .selected:hover { 
 	background: #00ace0;
 	color: #fff;
 }
-.QuizTest .QuizAnswers .red { 
-	background: #f06361;
-	color: #fff;
+.QuizTest .QuizAnswers .red,
+.QuizTest .QuizAnswers .red:hover { 
+	background: #f06361!important;
+	color: #fff!important;
 }
-.QuizTest .QuizAnswers .green { 
+.QuizTest .QuizAnswers .green,
+.QuizTest .QuizAnswers .green:hover { 
 	background: #9ccc65;
 	color: #fff;
 }
-.QuizTest .QuizAnswers .current-answer{
+.QuizTest .QuizAnswers .current-answer,
+.QuizTest .QuizAnswers .current-answer:hover{
 	margin-top: 30px;
 }
 /* col-sm-8 */
@@ -872,22 +876,26 @@ margin-top: -20px;
 }
 /*from hover*/
 .videoTut .headText{
-	background-color: rgba(0, 172, 224,1);
+	background-color: rgba(0, 172, 224, 0);
 	position: relative;
 	top: -30px;
 	left: -10%;
 	width: 120%;
-	/*height: 80px;*/
+	height: 80px;
 	padding-left: 30px;
+	padding: 20px;
+	 -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-ou
 }
-.videoTut .headText{
-	background-color: rgba(0, 172, 224,0);
+.videoTut:hover .headText{
+	background-color: rgba(0, 172, 224, 1);
 }
 .videoTut:hover .headText span{
 	background: url('../img/svg/white-tv.svg')center no-repeat;
 }
 .videoTut:hover .headText h2{
-	padding: 20px;
 	color: #fff;
 }
 /* from hover*/
@@ -905,6 +913,12 @@ margin-top: -20px;
 	font: 16px 'bpg-web-001-caps';
 	color: #616161;
 	display: inline-block;
+}
+.for-hd-clr-transition{
+  -o-transition:color .3s ease-out;
+  -ms-transition:color .3s ease-out;
+  -moz-transition:color .3s ease-out;
+  -webkit-transition:color .3s ease-out;
 }
 .headText .examBook{
 	margin-right: 0px;
@@ -938,23 +952,30 @@ margin-top: -20px;
 	box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
 }
 .examBookSec:hover ul{
-	margin-top: -26px;
+	margin-top:2px;
 }
-.examBookSec:hover .headText{
-	background: #00ace0;
+.examBookSec .headText{
+	background-color: rgba(0, 172, 224, 0);
 	position: relative;
 	top: -30px;
 	left: -10%;
 	width: 120%;
 	height: 80px;
 	padding-left: 30px;
+	padding: 20px;
+	 -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.examBookSec:hover .headText{
+	background-color: rgba(0, 172, 224, 1)
 }
 .examBookSec:hover .headText span{
 	padding: 20px;
 	background: url('../img/svg/white-book2.svg') center no-repeat;
 }
 .examBookSec:hover .headText h2{
-	padding: 20px;
 	color: #fff;
 }
 /* hover */
@@ -967,7 +988,7 @@ margin-top: -20px;
 	padding-top: 15px;
 }
 .examBookSec ul{
-	margin-top: 25px;
+	margin-top: 20px;
 }
 .examBookSec ul li{
 	margin-top: 20px;
