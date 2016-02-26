@@ -841,7 +841,7 @@ margin-top: -20px;
 	box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
 }
 .videoTut ul{
-	margin-top: 10px;
+	margin-top: -35px!important;
 }
 .videoTut ul li{
 	margin-top: 10px
@@ -951,9 +951,6 @@ margin-top: -20px;
 	-moz-box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
 	box-shadow: 0px -1px 70px -15px rgba(0,0,0,0.75);
 }
-.examBookSec:hover ul{
-	margin-top:2px;
-}
 .examBookSec .headText{
 	background-color: rgba(0, 172, 224, 0);
 	position: relative;
@@ -988,7 +985,7 @@ margin-top: -20px;
 	padding-top: 15px;
 }
 .examBookSec ul{
-	margin-top: 20px;
+	margin-top: -35px;
 }
 .examBookSec ul li{
 	margin-top: 20px;
@@ -1080,10 +1077,10 @@ margin-top: -20px;
 	color: #fff;
 }
 .testSimulate ul {
-	margin-top: 25px;
+	margin-top: -35px;
 }
 .testSimulate ul li{
-	margin-top: 25px;
+	margin-top: 20px;
 	background: url('../img/svg/circle.svg')no-repeat left center;
 	background-size: 7px;
 }
@@ -1148,20 +1145,18 @@ margin-top: -20px;
 /* progress barr */
 @media (min-width: 768px){
 	.prgoressJumbotron{
-	padding-top: 30px;
+	padding-top: 10px;
 	padding-bottom: 0px;
 	background: #ffffff;
 	position: fixed;
 	bottom: 0;
 	margin-bottom: 0px;
 	width: 100%;
+	height: 85px;
 	-webkit-box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
 	-moz-box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
 	box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
 	}
-	/*.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
-		font-family: 'gotham-bold';
-	}*/
 }
 
 .progress{
