@@ -1157,6 +1157,9 @@ margin-top: -20px;
 	-moz-box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
 	box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
 	}
+	/*.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+		font-family: 'gotham-bold';
+	}*/
 }
 
 .progress{
@@ -2015,6 +2018,54 @@ color: #6b6b6d;
 	color: #f1aa28;
 }
 /* //circle bar */
+/*small circle bar */
+.forAllSml{
+	position: relative;
+}
+.bla{
+	position: absolute;
+	top: 20px;
+}
+.smallCircleBar .circle{
+	width: 60px!important;
+	height: 60px!important;
+	border: 7px solid #e0e0e0;
+	background: transparent;
+}
+.smallCircleBar p{
+	font: 14px 'bpg-web';
+	color: #616161;
+	padding-top: 20px;
+}
+.smallCircleBar .circle p{
+	line-height: 5px;
+    font-size: 20px;
+}
+.smallCircleBar .green{
+	border-color: #9ccc65;
+}
+.smallCircleBar .circle p.green{
+	color: #9ccc65;
+}
+.smallCircleBar .red{
+	border-color: #D48900;
+}
+.smallCircleBar .circle p.red{
+	color: #D48900;
+}
+.smallCircleBar .gray{
+	border-color: #bdbdbd;
+}
+.smallCircleBar .circle p.gray{
+	color: #bdbdbd;
+}
+.smallCircleBar .orange{
+	border-color: #f1aa28;
+}
+.smallCircleBar .circle p.orange{
+	color: #f1aa28;
+}
+/*small circle bar*/
 /* more info */
 .moreinfo{
 	font: 16px 'bpg-web';
