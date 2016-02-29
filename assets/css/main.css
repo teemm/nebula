@@ -787,6 +787,16 @@ margin-top: -20px;
 }
 .navbar-default .navbar-nav>li>a.greenCubeText:hover{
 	color: #fff;
+}
+.FrodDropAllBlock{
+	top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0);
+    display: none;
+    z-index: 1;
 }	
 .dropDownIcon{
 	width: 14px;
@@ -794,6 +804,7 @@ margin-top: -20px;
 	background: url('../img/svg/down.svg')center no-repeat;
 	background-size: cover;
 	display: inline-block;
+	z-index: 15
 }
 .dropDownIcon.active{
 	-webkit-transform: rotate(180deg);
@@ -1781,6 +1792,7 @@ color: #6b6b6d;
     height: 100%;
     background: rgba(0,0,0, 0.5);
     display: none;
+    z-index: 11;
 }
 .TempPop .tempp{
     max-width: 850px;
@@ -2316,6 +2328,7 @@ color: #6b6b6d;
     height: 100%;
     background: rgba(0,0,0, 0.5);
     display: none;
+    z-index: 11;
 }
 .videoQuiz .QuizArea{
     max-width: 670px;;

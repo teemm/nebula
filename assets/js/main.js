@@ -138,15 +138,17 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
   // click an animation 
   // navbar dropdown
   $('.navbarDropDown').on('click', function(){
+    $('.FrodDropAllBlock').fadeIn('slow');
     if($('#prodIcon').hasClass('active')){
       $('#prodIcon').removeClass('active');
+      $('.FrodDropAllBlock').fadeIn('slow');
     } else if (!$('#prodIcon').hasClass('active')){
       $('#prodIcon').addClass('active');
     }
   });
-  $('.drop-fulPage').on('click', function(){
-    $('.drop-fulPage').removeClass('.drop-fulPage');
-    $('#prodIcon').removeClass('active');
+  $('.FrodDropAllBlock').on('click', function(){
+    $('.FrodDropAllBlock').fadeOut('fast');
+     $('#prodIcon').removeClass('active');
   });
   // navbar dropdown
   $(".meter > span").each(function() {
