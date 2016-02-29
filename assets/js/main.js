@@ -154,8 +154,11 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
           }, 1200);
       });
   // vidoe bar click adn active
-  $('.leftOlPanel ol li').on('click', function(){
-  $('.leftOlPanel ol li').removeClass('active');
+  $('.leftOlPanel ul li').on('click', function(){
+  $('.leftOlPanel ul li').removeClass('active');
   $(this).addClass('active');
   });
   // videobar  click and active
+  // bootstrap tooltips
+  $('[data-toggle="tooltip"]').tooltip();   
+  //  bootstrap tooltips
