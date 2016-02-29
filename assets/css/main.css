@@ -516,7 +516,7 @@ span.verbal{
 /* col-sm-4 */
 /* col-sm-8*/
 .testProgress{
-	margin-left:100px;
+	text-align: center;
 	width: 100%;
 	height: 50px; 
 }
@@ -787,7 +787,7 @@ margin-top: -20px;
 }
 .navbar-default .navbar-nav>li>a.greenCubeText:hover{
 	color: #fff;
-}
+}	
 .dropDownIcon{
 	width: 14px;
     height: 14px;
@@ -1444,6 +1444,11 @@ margin-top: -20px;
 	.sliderbar .sliderBarArea .slideMove li span{
 	 	display:block;
 	 	margin-bottom: 8px;
+	 }
+	 .sliderbar .sliderBarArea .slideMove li span.sliderHover{
+	 	overflow: hidden;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
 	 }
 }
  /* //video slide bar */
@@ -2342,6 +2347,16 @@ color: #6b6b6d;
 .for-mrgn{
 	margin-bottom: 30px;
 }
+/* examsQuiz */
+.examSQuiz{
+	margin-top: 30px;
+}
+.examQuizsH2{
+	/*font-size: 15px;*/
+}
+/* examsQuiz */
+
+
 /*last*/
 /*[ppopapis poappi */
 /*.quisp{

@@ -144,6 +144,10 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
       $('#prodIcon').addClass('active');
     }
   });
+  $('.drop-fulPage').on('click', function(){
+    $('.drop-fulPage').removeClass('.drop-fulPage');
+    $('#prodIcon').removeClass('active');
+  });
   // navbar dropdown
   $(".meter > span").each(function() {
         $(this)
