@@ -2411,8 +2411,88 @@ color: #6b6b6d;
 	/*font-size: 15px;*/
 }
 /* examsQuiz */
+/* answers */
+.answ-pnl table { 
+	border-collapse:
+	 collapse; 
+	 width: 100%;
+}
+.answ-pnl tr { 
+	display: block;
+	 float: left; 
+	  width: calc(100%/4);
+}
+.answ-pnl tr.bigg{ 
+	display: block;
+	 float: left; 
+	  width: calc(100%/6);
+}
+.answ-pnl tr.bigg:first-child{ 
+	display: block;
+	 float: left; 
+	  width: calc(100%/7);
+}
+/*.answ-pnl tr.smal{ 
+	display: block;
+	 float: left; 
+	  width: calc(100%/4);
+}*/
+.answ-pnl th{
+	display: block;
+	 border: 1px solid black; 
+	 text-align: center;
 
+}
+.answ-pnl  td { 
+	display: block;
+	 border: 1px solid black;
+	 text-align: center; 
 
+}
+.shAnsvers ul{
+	display: block;
+	margin-bottom: 0px;
+	height: 35px;
+}
+.shAnsvers ul:first-child{
+	margin-top: 20px;
+}
+.shAnsvers ul:last-child li{
+	background: #f5f5f5;
+	outline: 2px solid #f5f5f5;
+}
+.shAnsvers ul li{
+	display: inline-block;
+	width: calc(100%/21.7);
+	text-align: center;
+	background: #00a2d4;
+	outline: 2px solid #00a2d4;
+	padding:0px;
+	margin:0px;
+	height: 30px;
+	line-height: 30px;
+	font-family:'bpg-web';
+	
+}
+/* answers */
+/* fullscrin animate */
+#fullScreen{
+	width: 50px;
+	height: 50px;
+	background: url('../img/png/full.png') center no-repeat;
+	background-size: cover;
+	display: inline-block;
+	position: absolute;
+    left: 0;
+    top: 55px;
+    z-index: 13;
+}
+#fullScreen.active{
+-webkit-transform: rotate(180deg);
+	 -moz-transform: rotate(180deg);
+	 -o-transform: rotate(180deg);
+	  transform: rotate(180deg);
+	}
 /*last*/
 /*[ppopapis poappi */
 /*.quisp{
@@ -2484,11 +2564,11 @@ color: #6b6b6d;
 }
 .lnk{
     display:inline-block;
-  line-height:60px;
+  	line-height:60px;
 }
 .lnk a{
-  text-decoration:none;
-  color: #ffffff;    
+	text-decoration:none;
+	color: #ffffff;    
 }
 .navbar-default{
     z-index:11;

@@ -169,3 +169,14 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
   $('[data-toggle="tooltip"]').tooltip(); 
    $("a").tooltip();  
   //  bootstrap tooltips
+  // full screeb animate
+  $('#fullScreen').on('click', function(){
+    $('nav, .prgoressJumbotron').slideToggle();
+    // $(this).addClass('active');
+    if ($('#fullScreen').hasClass('active')){
+       $(this).removeClass('active');
+    }else{
+       $(this).addClass('active');
+    }
+  });
+  // full screeb animate
