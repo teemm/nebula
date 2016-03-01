@@ -864,6 +864,9 @@ margin-top: -20px;
 }
 .ExamsLeftNav ul li.active a{
 	color: #fff;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .ExamsLeftNav ul li .car-quest{
 	width: auto;
@@ -873,7 +876,7 @@ margin-top: -20px;
 	text-align: center;
 	line-height: 25px;
 	float: right;
-	margin-right: 20px;
+	margin-right: 10px;
 	color: #fff;
 	width: 25%;
 }
@@ -882,6 +885,9 @@ margin-top: -20px;
 	color: #898989;
 	display: inline-block;
 	width: 64%;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .ExamsRightQuiz{
