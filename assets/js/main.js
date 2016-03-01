@@ -166,5 +166,6 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
   });
   // videobar  click and active
   // bootstrap tooltips
-  $('[data-toggle="tooltip"]').tooltip();   
+  $('[data-toggle="tooltip"]').tooltip(); 
+   $("a").tooltip();  
   //  bootstrap tooltips

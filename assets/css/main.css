@@ -31,6 +31,7 @@
  body{
  	background: #fefefe;
  	padding-bottom: 40px!important;
+ 	overflow-x: hidden 
 }
  .fullHeight::-webkit-scrollbar {
     width: 6px;
@@ -48,6 +49,27 @@
     -o-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
+.tooltip > .tooltip-inner {
+      background-color: #616161; 
+  }
+  /* Tooltip on top */
+  .tooltip.top > .tooltip-arrow {
+      border-top: 5px solid #616161;
+  }
+  /* Tooltip on bottom */
+  .tooltip.bottom > .tooltip-arrow {
+      border-bottom: 5px solid #616161;
+  }
+  /* Tooltip on left */
+  .tooltip.left > .tooltip-arrow {
+      border-left: 5px solid #616161;
+  }
+  /* Tooltip on right */
+  .tooltip.right > .tooltip-arrow {
+      border-right: 5px solid #616161;
+  }
+
+
 .navbar-default{
 	background-color: transparent;
     border-bottom-color: #e7e7e7;
@@ -1501,6 +1523,26 @@ margin-top: -20px;
 	-moz-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
 	box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
 }
+@media (max-width: 768px){
+	.progresbarArea {
+    padding: 40px 10px!important;
+	}
+	.artBoard{
+	margin-top: 30px;
+	}
+	.artBoard .leftBlock p.firstpar{
+		font-size: 38px;
+	}
+	.artBoard .leftBlock p.secpar{
+		font: 10px 'bpg-web-001-caps';
+	}
+	.theor-exams {
+    top: -50px!important;
+	}
+	.for-mr{
+		margin-bottom: 30px!important;
+	}
+}
 .date{
 	position: absolute;
 	bottom: -30px;
@@ -1556,7 +1598,7 @@ margin-top: -20px;
 	display: inline-block; 
 	font: 13px 'bpg-web-001-caps'; 
 	color: #616161;
-
+	width: 58%;
 }
 .artBoard .rightBlock .two-bl .secBlock .CountFalseAnswer{
 	display: inline-block; 
@@ -1568,6 +1610,7 @@ margin-top: -20px;
 	display: inline-block; 
 	font: 13px 'bpg-web-001-caps'; 
 	color: #616161;
+	width: 58%;
 }
 .artBoard .rightBlock .two-bl .secBlock{
 	display: inline-block;
