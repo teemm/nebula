@@ -170,13 +170,12 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
    $("a").tooltip();  
   //  bootstrap tooltips
   // full screeb animate
-  $('#fullScreen').on('click', function(){
-    $('nav, .prgoressJumbotron').slideToggle();
-    // $(this).addClass('active');
-    if ($('#fullScreen').hasClass('active')){
-       $(this).removeClass('active');
-    }else{
-       $(this).addClass('active');
+  $(window).scroll(function(){
+    if ($('body').scrollTop() > 0) {
+      $('nav, .prgoressJumbotron').slideUp();
+    }else if ($('body').scrollTop() == 0) {
+      // alert(1);
+      $('nav, .prgoressJumbotron').slideDown();
     }
   });
   // full screeb animate

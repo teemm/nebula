@@ -68,7 +68,10 @@
   .tooltip.right > .tooltip-arrow {
       border-right: 5px solid #616161;
   }
-
+.ForScrollMarg
+{
+	margin-top: 30px;
+}
 
 .navbar-default{
 	background-color: transparent;
@@ -76,7 +79,7 @@
 }	
 .navbar {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border-radius: 0px;
 }
 .navbar-default .navbar-brand{
