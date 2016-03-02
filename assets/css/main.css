@@ -595,13 +595,13 @@ button.answerBut{
 
 /* col-sm-4 */
 .shadow-pnl{
-	margin-top: 40px;
+	margin-top: 20px;
 	padding: 0px;
 	-webkit-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
 	-moz-box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
 	box-shadow: 2px 2px 68px 0px rgba(0,0,0,0.4);
 	overflow: hidden;
-    height: 550px
+    height: 465px;
 }
 .fullHeight{
 	height: 100%;
@@ -671,7 +671,7 @@ margin-top: -20px;
 /* col-sm-8 */
 @media (min-width: 768px){
 	.QuizTest{
-		margin: 37px 0px 0px 50px;
+		margin: 17px 0px 0px 50px;
 	}
 }
 .QuizTest .QuizAnswers .headerSp{
@@ -684,7 +684,7 @@ margin-top: -20px;
 	margin: 0px;
 	position: absolute;
 	margin-left: -45px;
-	top: 32px;
+	top: 12px;
 }
 .QuizTest .QuizAnswers .headerSpp{
 	color: #616161;
@@ -1290,9 +1290,12 @@ margin-top: -20px;
     font:11px 'bpg-web';
     color: #5e5e5e;
     vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .progres-desc span.mainProgres{
-	font-size: 25px;
+	font-size: 21px;
 }
 .progres-desc p{
 	color: #c5c5c5;
@@ -2442,7 +2445,7 @@ color: #6b6b6d;
 .answ-pnl tr { 
 	display: block;
 	 float: left; 
-	  width: calc(100%/4);
+	  width: calc(100%/4.1);
 }
 .answ-pnl tr.bigg{ 
 	display: block;
@@ -2461,15 +2464,23 @@ color: #6b6b6d;
 }*/
 .answ-pnl th{
 	display: block;
-	 border: 1px solid black; 
 	 text-align: center;
+	 width: 34px;
+	 height:34px;
 
 }
-.answ-pnl  td { 
+.answ-pnl td{ 
 	display: block;
-	 border: 1px solid black;
-	 text-align: center; 
-
+	 text-align: center;
+	 background: #f5f5f5;
+	 border:2px solid #fff;
+	 width: 34px;
+	 height:34px;
+	 cursor: pointer;
+}
+.answ-pnl td.active{ 
+	background: #f5f5f5 url('../img/svg/x.svg')center no-repeat;
+	background-size: 19px 19px; 
 }
 .shAnsvers ul{
 	display: block;
@@ -2511,10 +2522,34 @@ color: #6b6b6d;
 }
 #fullScreen.active{
 -webkit-transform: rotate(180deg);
-	 -moz-transform: rotate(180deg);
-	 -o-transform: rotate(180deg);
-	  transform: rotate(180deg);
-	}
+ -moz-transform: rotate(180deg);
+ -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.resetSmall{
+	margin: 0px;
+	padding:0px;
+}
+.UlNumer{
+    margin-bottom: 0px;
+    margin-top: 75px;
+    float: right;
+}
+.UlNumer li {
+	padding-top: 2px;
+	height: 34px;
+	width: 34px;
+	text-align: center;
+	right: 0; 
+}
+.answersHd{
+	text-align: center;
+	width: 100%;
+	height: 20px;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 /*last*/
 /*[ppopapis poappi */
 /*.quisp{
@@ -2652,14 +2687,14 @@ color: #6b6b6d;
 .QuizTest .QuizAnswers span p {
     display: inline-block;
     width: calc(100% - 100px);
-    font-family: bpg-web;
+    font-family: 'bpg-web';
     font-size: 14px;
     vertical-align: middle;
     margin: 10px 0 0 0;
     font-weight: normal;
 }
 .trueAnswerFromExer{
-     font-family: bpg-web;
+     font-family: 'bpg-web';
     color: #616161;
    
     vertical-align: middle;

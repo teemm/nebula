@@ -179,3 +179,7 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
     }
   });
   // full screeb animate
+  $('.answ-pnl td').on('click', function(){
+    $('.answ-pnl td').removeClass('active');
+    $(this).addClass('active');
+  });
