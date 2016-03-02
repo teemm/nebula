@@ -172,10 +172,10 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
   // full screeb animate
   $(window).scroll(function(){
     if ($('body').scrollTop() > 0) {
-      $('nav, .prgoressJumbotron').slideUp();
+      $('.prgoressJumbotron').slideUp();
     }else if ($('body').scrollTop() == 0) {
       // alert(1);
-      $('nav, .prgoressJumbotron').slideDown();
+      $('.prgoressJumbotron').slideDown();
     }
   });
   // full screeb animate
