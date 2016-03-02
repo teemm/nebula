@@ -2465,8 +2465,8 @@ color: #6b6b6d;
 .answ-pnl th{
 	display: block;
 	 text-align: center;
-	 width: 34px;
-	 height:34px;
+	 width: 24px;
+	 height:24px;
 
 }
 .answ-pnl td{ 
@@ -2474,13 +2474,13 @@ color: #6b6b6d;
 	 text-align: center;
 	 background: #f5f5f5;
 	 border:2px solid #fff;
-	 width: 34px;
-	 height:34px;
+	 width: 24px;
+	 height:24px;
 	 cursor: pointer;
 }
 .answ-pnl td.active{ 
 	background: #f5f5f5 url('../img/svg/x.svg')center no-repeat;
-	background-size: 19px 19px; 
+	background-size: 12px 12px; 
 }
 .shAnsvers ul{
 	display: block;
@@ -2532,15 +2532,17 @@ color: #6b6b6d;
 }
 .UlNumer{
     margin-bottom: 0px;
-    margin-top: 75px;
+    margin-top: 60px;
     float: right;
 }
 .UlNumer li {
-	padding-top: 2px;
-	height: 34px;
-	width: 34px;
+	padding-top: 5px;
+	color: #616161;
+	height: 24px;
+	width: 24px;
 	text-align: center;
 	right: 0; 
+	font-size: 14px;
 }
 .answersHd{
 	text-align: center;
@@ -2549,6 +2551,9 @@ color: #6b6b6d;
 	overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    color: #616161;
+    font-family: 'bpg-web';
+    font-size: 14px;
 }
 /*last*/
 /*[ppopapis poappi */
