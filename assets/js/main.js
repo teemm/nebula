@@ -170,14 +170,14 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
    $("a").tooltip();  
   //  bootstrap tooltips
   // full screeb animate
-  $(window).scroll(function(){
-    if ($('body').scrollTop() > 0) {
-      $('.prgoressJumbotron').slideUp();
-    }else if ($('body').scrollTop() == 0) {
-      // alert(1);
-      $('.prgoressJumbotron').slideDown();
-    }
-  });
+  // $(window).scroll(function(){
+  //   if ($('body').scrollTop() > 0) {
+  //     $('.prgoressJumbotron').slideUp();
+  //   }else if ($('body').scrollTop() == 0) {
+  //     // alert(1);
+  //     $('.prgoressJumbotron').slideDown();
+  //   }
+  // });
   // full screeb animate
   $('.answ-pnl td').on('click', function(){
     $(this).parent('tr').children('td').removeClass('active');
