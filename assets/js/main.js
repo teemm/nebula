@@ -183,3 +183,16 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
     $(this).parent('tr').children('td').removeClass('active');
     $(this).addClass('active');
   });
+// function getColor(value){
+//     //value from 0 to 1
+//     var hue=((value)*90).toString(10);
+//     return ["hsl(",hue,",100%,50%)"].join("");
+// }
+// var len=100;
+// for(var i=0; i<=len; i++){
+//     var value=i/len;
+//     var d=document.createElement('div');
+//     d.textContent="value="+value; 
+//     d.style.backgroundColor=getColor(value);
+//     document.body.appendChild(d);
+// }
