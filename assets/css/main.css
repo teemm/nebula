@@ -589,6 +589,18 @@ button.answerBut{
 	border: 0px; 
 	padding: 7px 15px;
 }
+@media (max-width: 1200px){
+	button.answerBut{
+	margin-left: 20px;
+	background: #00ace0;
+	color: #fff;
+	font-family: "bpg-web-001-caps";
+	font-size: 10px;
+	outline: none;
+	border: 0px; 
+	padding: 4px 10px;
+}
+}
 /* col-sm-8 */ 
 
 
