@@ -1201,7 +1201,7 @@ margin-top: -20px;
 	padding-left: 20px;
 	color: #888888;
 	display: inline-block;
-	width: 72%;
+	width: 100%;
 }
 .testSimulate ul li a:hover{
 	color: #58bee6;
@@ -1212,7 +1212,7 @@ margin-top: -20px;
 	font-size: 13px;
 	font-family: 'bpg-web';
 	display: inline-block;
-	width: 28%;
+	width: 40%;
 }
 .testSimulate ul li .rightTexts span.text-bl{
 	color: #c6c6c6;
@@ -2884,3 +2884,4 @@ color: #6b6b6d;
             margin-bottom:12px;
         }
 /* nika style */
+
