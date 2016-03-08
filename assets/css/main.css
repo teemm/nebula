@@ -863,7 +863,10 @@ margin-top: -20px;
     height: 100%;
     background: rgba(0,0,0, 0);
     display: none;
-    z-index: 1;
+    z-index: 11;
+}
+.navbar-nav>li>.dropdown-menu{
+	z-index: 15;
 }	
 .dropDownIcon{
 	width: 14px;
@@ -1654,7 +1657,7 @@ margin-top: -20px;
 }
 .artBoard .rightBlock .two-bl .firstBlock .TrueAnswer{
 	display: inline-block; 
-	font: 13px 'bpg-web-001-caps'; 
+	font: 14px 'bpg-web-001-caps'; 
 	color: #616161;
 	width: 58%;
 }
@@ -1662,7 +1665,11 @@ margin-top: -20px;
 	display: inline-block; 
 	font-size: 30px;
 	color: #ef5350;
-	padding: 13px 8px;
+	margin: 17px 5px 0px 10px;
+	background: url('../img/svg/calendar.svg')no-repeat center;
+	background-size:cover;
+	height: 30px;
+	width: 30px;
 }
 .artBoard .rightBlock .two-bl .secBlock .FalseeAnswer{
 	display: inline-block; 
