@@ -2174,19 +2174,13 @@ color: #6b6b6d;
 	font: 25px 'bpg-web-001-caps';
 	color: #616161;
 }
-.statisticsPerson p{
+.statisticsPerson p.test{
 	font: 16px 'bpg-web';
 	color: #616161;
 }
-.statisticsPerson p .timer{
-	vertical-align: middle;
-}
-.statisticsPerson p .circle{
-	width: 22px;
-    height: 25px;
-    background: url('../img/svg/clock.svg') no-repeat center;
-    background-size: cover;
-    vertical-align: middle;
+.statisticsPerson p.data{
+	font: 16px 'bpg-web';
+	color: #a1a1a1;
 }
 /* //statistic person */
 /* statistic but bar */
@@ -3085,6 +3079,21 @@ color: #6b6b6d;
 	background:url('../img/png/clossePng.png')center no-repeat;
 	background-size: 13px 13px;
 	cursor: pointer;
+}
+.examsbuttonbar{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.showMoreBut{
+	border:0px;
+	outline: 0px;
+	background:#00ace0;
+	color: #fff;
+	font: 15px 'bpg-web-001-caps';
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-top: 15px;
 }
 /*exams pages coments*/
 /* nika style  */
