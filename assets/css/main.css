@@ -1405,7 +1405,7 @@ margin-top: -20px;
 	 }
 	 .sliderbar .sliderBarArea{
 	 	width: 100%;
-	 	height: 70px;
+	 	height: 50px;
 	 }
 	  .sliderbar .sliderBarArea span.goToPrev{
 	 	display: inline-block;
@@ -3053,7 +3053,11 @@ color: #6b6b6d;
 	border-bottom:1px solid #c2c2c2;
 	padding: 0px 10px 5px 10px;
 }
-.comentarsSec .profileComent .header a.examsPageComentsName{
+.comentarsSec .profileComent .header .nameAndData{
+	width: 90%;
+	display: inline-block;
+}
+.comentarsSec .profileComent .header .nameAndData a.examsPageComentsName{
 	font: 15px 'bpg-web-001-caps';
 	color: #616161;
 	-webkit-transition: all 100ms ease-in-out;
@@ -3061,11 +3065,11 @@ color: #6b6b6d;
     -o-transition: all 100ms ease-in-out;
     transition: all 100ms ease-in-out;
 }
-.comentarsSec .profileComent .header .examsPageData{
-	margin-left: 30px;
+.comentarsSec .profileComent .header .nameAndData .examsPageData{
+	margin-left: 15px;
 	color: #616161;
 }
-.comentarsSec .profileComent .header a:hover{
+.comentarsSec .profileComent .header .nameAndData a:hover{
 	color: #00ace0;
 	text-decoration: none;
 	cursor: pointer;
