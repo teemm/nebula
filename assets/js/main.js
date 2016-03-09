@@ -197,3 +197,8 @@ $('.comentarsSec .profileComent .header .colsse').on('click', function(){
   $(this).parent('.header').parent('.profileComent').fadeOut('slow');
 });
 // coments close
+// formuls
+$('#formuls').on('click', function(){
+  $('.pdfPopup').fadeIn();
+});
+// formuls
