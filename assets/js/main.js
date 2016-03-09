@@ -179,10 +179,6 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
   //   }
   // });
   // full screeb animate
-  $('.answ-pnl td').on('click', function(){
-    $(this).parent('tr').children('td').removeClass('active');
-    $(this).addClass('active');
-  });
 // function getColor(value){
 //     //value from 0 to 1
 //     var hue=((value)*90).toString(10);
@@ -196,3 +192,8 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
 //     d.style.backgroundColor=getColor(value);
 //     document.body.appendChild(d);
 // }
+// coments colse
+$('.comentarsSec .profileComent .header .colsse').on('click', function(){
+  $(this).parent('.header').parent('.profileComent').fadeOut('slow');
+});
+// coments close
