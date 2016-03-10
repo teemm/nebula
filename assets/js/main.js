@@ -200,5 +200,11 @@ $('.comentarsSec .profileComent .header .colsse').on('click', function(){
 // formuls
 $('#formuls').on('click', function(){
   $('.pdfPopup').fadeIn();
+  $('body').css('overflow','hidden')
 });
+$('.closePdf').on('click', function(){
+  $('.pdfPopup').fadeOut();
+  $('body').css('overflow','scroll')
+});
+
 // formuls
