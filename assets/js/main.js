@@ -168,30 +168,6 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
   // bootstrap tooltips
   $('[data-toggle="tooltip"]').tooltip(); 
    $("a").tooltip();  
-  //  bootstrap tooltips
-  // full screeb animate
-  // $(window).scroll(function(){
-  //   if ($('body').scrollTop() > 0) {
-  //     $('.prgoressJumbotron').slideUp();
-  //   }else if ($('body').scrollTop() == 0) {
-  //     // alert(1);
-  //     $('.prgoressJumbotron').slideDown();
-  //   }
-  // });
-  // full screeb animate
-// function getColor(value){
-//     //value from 0 to 1
-//     var hue=((value)*90).toString(10);
-//     return ["hsl(",hue,",100%,50%)"].join("");
-// }
-// var len=100;
-// for(var i=0; i<=len; i++){
-//     var value=i/len;
-//     var d=document.createElement('div');
-//     d.textContent="value="+value; 
-//     d.style.backgroundColor=getColor(value);
-//     document.body.appendChild(d);
-// }
 // coments colse
 $('.comentarsSec .profileComent .header .colsse').on('click', function(){
   $(this).parent('.header').parent('.profileComent').fadeOut('slow');
