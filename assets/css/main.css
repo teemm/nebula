@@ -3624,7 +3624,7 @@ color: #6b6b6d;
 @media (min-width: 764px){
 	.mainPack{
 		max-width: 970px;
-		margin: px auto;
+		margin: 20px auto;
 		-webkit-box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
 		-moz-box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
 		box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
@@ -3673,7 +3673,7 @@ color: #6b6b6d;
 @media (max-width: 764px){
 	.mainPack{
 		max-width: 970px;
-		margin: px auto;
+		margin: 20px auto;
 		-webkit-box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
 		-moz-box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
 		box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
@@ -3720,6 +3720,208 @@ color: #6b6b6d;
 	}
 }
 /* packet page */
+/* buyPacket */
+@media (min-width: 764px){
+	.mainPacks{
+			max-width: 970px;
+			margin: 20px auto;
+			-webkit-box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+			-moz-box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+			box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+			
+		}
+	.mainPacks .buyPack{
+		border-right: 2px solid #eceff1;
+		width: calc(50% - 1px);
+		display: inline-block;
+		float: left;
+		padding: 20px 0px 40px 0px;
+	}
+	.mainPacks .buyPack .buyPacket{
+		width: 270px;
+		margin: 0 auto;
+	}
+	.mainPacks .buyPack .buyPacket h2{
+		font: 25px 'bpg-web';
+		color: #616161;
+	}
+	.mainPacks .buyPack .buyPacket .texts{
+		width: 100%;
+		height: 40px;
+		padding-top: 10px;
+	}
+	.mainPacks .buyPack .buyPacket .texts .key{
+		font: 14px 'bpg-web';
+		color: #bdbdbd;
+	}
+	.mainPacks .buyPack .buyPacket .texts .value{
+		font: 18px 'bpg-web';
+		color: #616161;
+		padding-left: 20px;
+	}
+	.mainPacks .buyPack .buyPacket button{
+		width: 100%;
+		height: 60px;
+		border:0px;
+		outline: none;
+		margin-top: 15px;
+		font: 18px 'bpg-web-001-caps';
+		color: #fff;
+	}
+	.mainPacks .buyPack .buyPacket button.blue{
+		background: #00ace0;
+	}
+	.mainPacks .buyPack .buyPacket button.yellow{
+		background: #f1aa28;
+	}
+	.mainPacks .buyPack .buyPacket input{
+		width: 100%;
+		height: 60px;
+		border:0px;
+		outline: none;
+		margin-top: 15px;
+		border:2px solid #eceff1;
+		font: 14px 'bpg-web';
+		padding-left: 10px;
+		color: #616161;
+	}
+	.mainPacks .socialPack{
+		width: 50%;
+		height: 500px;
+		display: inline-block;
+		padding: 20px 0px 40px 0px;
+	}
+	.mainPacks .socialPack .socialPackets{
+		width: 300px;
+		margin: 0 auto;
+		height: 420px;
+		position: relative;
+	}
+	.mainPacks .socialPack .socialPackets h2{
+		font: 25px 'bpg-web';
+		color: #616161;
+	}
+	.mainPacks .socialPack .socialPackets .paragraps{
+		margin-top: 30px;
+	}
+	.mainPacks .socialPack .socialPackets .paragraps p{
+		font: 14px 'bpg-web';
+		color: #6f6f6f;
+	}
+	.mainPacks .socialPack .socialPackets button{
+		position: absolute;
+		bottom: 0px;left: 0px;
+		width: 100%;
+		height: 60px;
+		border:0px;
+		outline: none;
+		margin-top: 15px;
+		font: 18px 'bpg-web-001-caps';
+		color: #fff;
+		background: #00ace0;
+	}
+}
+@media (max-width: 764px){
+	.mainPacks{
+			max-width: 970px;
+			margin: 20px auto;
+			-webkit-box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+			-moz-box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+			box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+			
+		}
+	.mainPacks .buyPack{
+		width: 100%;
+		display: inline-block;
+		float: left;
+		padding: 20px 0px 40px 0px;
+		border-bottom: 2px solid #eceff1;
+	}
+	.mainPacks .buyPack .buyPacket{
+		width: 270px;
+		margin: 0 auto;
+	}
+	.mainPacks .buyPack .buyPacket h2{
+		font: 25px 'bpg-web';
+		color: #616161;
+	}
+	.mainPacks .buyPack .buyPacket .texts{
+		width: 100%;
+		height: 40px;
+		padding-top: 10px;
+	}
+	.mainPacks .buyPack .buyPacket .texts .key{
+		font: 14px 'bpg-web';
+		color: #bdbdbd;
+	}
+	.mainPacks .buyPack .buyPacket .texts .value{
+		font: 18px 'bpg-web';
+		color: #616161;
+		padding-left: 20px;
+	}
+	.mainPacks .buyPack .buyPacket button{
+		width: 100%;
+		height: 60px;
+		border:0px;
+		outline: none;
+		margin-top: 15px;
+		font: 18px 'bpg-web-001-caps';
+		color: #fff;
+	}
+	.mainPacks .buyPack .buyPacket button.blue{
+		background: #00ace0;
+	}
+	.mainPacks .buyPack .buyPacket button.yellow{
+		background: #f1aa28;
+	}
+	.mainPacks .buyPack .buyPacket input{
+		width: 100%;
+		height: 60px;
+		border:0px;
+		outline: none;
+		margin-top: 15px;
+		border:2px solid #eceff1;
+		font: 14px 'bpg-web';
+		padding-left: 10px;
+		color: #616161;
+	}
+	.mainPacks .socialPack{
+		width: 100%;
+		height: 500px;
+		display: inline-block;
+		padding: 20px 0px 40px 0px;
+	}
+	.mainPacks .socialPack .socialPackets{
+		width: 300px;
+		margin: 0 auto;
+		height: 420px;
+		position: relative;
+	}
+	.mainPacks .socialPack .socialPackets h2{
+		font: 25px 'bpg-web';
+		color: #616161;
+	}
+	.mainPacks .socialPack .socialPackets .paragraps{
+		margin-top: 30px;
+	}
+	.mainPacks .socialPack .socialPackets .paragraps p{
+		font: 14px 'bpg-web';
+		color: #6f6f6f;
+	}
+	.mainPacks .socialPack .socialPackets button{
+		position: absolute;
+		bottom: 0px;left: 0px;
+		width: 100%;
+		height: 60px;
+		border:0px;
+		outline: none;
+		margin-top: 15px;
+		font: 18px 'bpg-web-001-caps';
+		color: #fff;
+		background: #00ace0;
+	}
+}
+/* buyPacket */
 /* nika style  */
 .jumbotron button, .lnk {
 	margin-top: 20px;
