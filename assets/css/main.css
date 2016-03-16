@@ -1570,6 +1570,36 @@ margin-top: -20px;
 
  /* //textarea and submit */
 /* //exams page */
+/* message */
+.messageForRowsPage{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	background: #fcdddc;
+	margin-bottom: 40px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	border-bottom-right-radius:3px;
+	border-bottom-left-radius:3px;
+}
+.messageForRowsPage p{
+	margin: 0px;
+}
+.messageForRowsPage .MessageParagrap .danger{
+	width: 27px;
+	height: 27px;
+	background-size: cover;
+	background: url('../img/svg/danger.svg')center no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+.messageForRowsPage .MessageParagrap .text{
+	font: 12px 'bpg-web';
+	color: #616161;
+	padding-left: 10px;
+	width: calc(100% - 47px);
+}
+/* message */
 /* artboard page */
 .artboardpanel{
 }
@@ -3590,6 +3620,106 @@ color: #6b6b6d;
 .canvasjs-chart-credit{
 		display: none;
 	}
+/* packet page */
+@media (min-width: 764px){
+	.mainPack{
+		max-width: 970px;
+		margin: px auto;
+		-webkit-box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+		-moz-box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+		box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+		padding: 20px 0px 40px 0px;
+	}
+	.mainPack .defaultCont{
+		max-width: 860px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.mainPack .defaultCont input{
+		width: calc(100%/3 - 16px);
+		margin: 25px 20px 0px 0px;
+		height: 55px;
+		padding-left: 18px;
+		font: 14px 'bpg-web';
+		color: #616161;
+		border:2px solid #eceff1;
+		outline: none;
+	}
+	.mainPack .defaultCont textarea{
+		width: 100%;
+		margin: 25px 20px 0px 0px;
+		height: 150px;
+		padding-left: 18px;
+		font: 14px 'bpg-web';
+		color: #616161;
+		border:0px;
+		outline: none;
+		border:2px solid #eceff1;
+	}
+	.mainPack .defaultCont button{
+		padding: 25px 50px;
+		font: 16px 'bpg-web-001-caps';
+		color: #fff;
+		outline: none;
+		border:0px;
+		background: #00ace0;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	.mainPack .defaultCont input:nth-child(3){
+		margin-right: 0px;
+	}
+}
+@media (max-width: 764px){
+	.mainPack{
+		max-width: 970px;
+		margin: px auto;
+		-webkit-box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+		-moz-box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+		box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+		padding: 20px 0px 40px 0px;
+	}
+	.mainPack .defaultCont{
+		max-width: 860px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.mainPack .defaultCont input{
+		width: 100%;
+		margin: 25px 20px 0px 0px;
+		height: 55px;
+		padding-left: 18px;
+		font: 14px 'bpg-web';
+		color: #616161;
+		border:2px solid #eceff1;
+		outline: none;
+	}
+	.mainPack .defaultCont textarea{
+		width: 100%;
+		margin: 25px 20px 0px 0px;
+		height: 150px;
+		padding-left: 18px;
+		font: 14px 'bpg-web';
+		color: #616161;
+		border:0px;
+		outline: none;
+		border:2px solid #eceff1;
+	}
+	.mainPack .defaultCont button{
+		padding: 25px 50px;
+		font: 16px 'bpg-web-001-caps';
+		color: #fff;
+		outline: none;
+		border:0px;
+		background: #00ace0;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	.mainPack .defaultCont input:nth-child(3){
+		margin-right: 0px;
+	}
+}
+/* packet page */
 /* nika style  */
 .jumbotron button, .lnk {
 	margin-top: 20px;
