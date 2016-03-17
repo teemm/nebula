@@ -1730,120 +1730,234 @@ margin-top: -20px;
 }
 /* //artboard page */
 /* personal imfo edit */
-.two-cl{
-	margin: 50px auto;
-	width: 810px;
-	height: 500px;
-	-webkit-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
-	-moz-box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
-	box-shadow: -1px 10px 39px -4px rgba(0,0,0,0.34);
+@media (min-width: 764px){
+	.mainPackets{
+	    max-width: 810px	;
+	    margin: 20px auto;
+	    -webkit-box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+	    -moz-box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+	    box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+	    padding: 10px 10px 20px 10px;
+	}
+	.freeBarArea{
+		border-right: 2px solid #eceff1;
+	    width: calc(50% - 5px);
+	    display: inline-block;
+	    float: left;
+	}
+	.freeBarArea .changePass{
+		max-width: 250px;
+		margin: 0 auto;
+		padding: 5px 0px;
+		height: 100% 
+	}
+	.freeBarArea .changePass h2{
+		font: 18px 'bpg-web';
+		color: #616161;
+	}
+	.freeBarArea .changePass input{
+		height: 55px;
+		margin-top: 20px;
+		width: 100%;
+		border:1px solid #eceff1; 
+		outline: none;
+		font: 13px "bpg-web";
+		padding-left: 20px;
+	}
+	.freeBarArea .changePass button{
+		margin-top: 20px;
+		border:0px;
+		outline: none;
+		height: 55px;
+		width: 100%;
+		font: 15px "bpg-web-001-caps";
+		color: #fff;	
+	}
+	.freeBarArea .changePass button.welcomMail{
+		background: #00ace0;
+	}
+	.freeBarArea .changePass button.Update{
+		background: #f1aa28;	
+	}
+	.PremiumBarArea{
+	    width: 50%;
+	    display: inline-block;
+	}
+	.PremiumBarArea .changePass{
+		max-width: 250px;
+		margin: 0 auto;
+		padding: 5px 0px;
+		height: 100% 
+	}
+	.PremiumBarArea .changePass h2{
+		font: 18px 'bpg-web';
+		color: #616161;
+		margin-bottom: 30px;
+	}
+	.PremiumBarArea .changePass .person p{
+		font: 17px 'bpg-web';
+		color: #616161;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.PremiumBarArea .changePass .person span{
+		width: 35px;
+		height: 35px;
+		display: inline-block;
+		border-radius: 50%;
+		background: #eeeeee url('../img/png/pencil.png')center no-repeat;
+		vertical-align: middle;
+	}
+	.PremiumBarArea .changePass .infoInput{
+		width: 100%;
+		height: 55px;
+		margin-top: 20px;
+		border:1px solid #eceff1; 
+	}
+	.PremiumBarArea .changePass .infoInput input{
+		height: 100%;
+		width: 80%;
+		outline: none;
+		border:0px;
+		font: 13px "bpg-web";
+		padding-left: 20px;
+	}
+	.PremiumBarArea .changePass .infoInput span{
+		width: 20%;
+		height: 100%;
+		background: #00ace0;
+		float: right;
+	}
+	.PremiumBarArea .changePass button{
+		margin-top: 20px;
+		border:0px;
+		outline: none;
+		height: 55px;
+		width: 100%;
+		font: 15px "bpg-web-001-caps";
+		color: #fff;	
+	}
+	.PremiumBarArea .changePass button.welcomMail{
+		background: #00ace0;
+	}
+	.PremiumBarArea .changePass button.Update{
+		background: #f1aa28;	
+	}
 }
-.freeBar{
-}
-.freeBarArea{
-	width: 402px;
-	height: 475px;
-	display: inline-block;
-	vertical-align: top;
-}
-.freeBarArea .changePass{
-	max-width: 250px;
-	margin: 0 auto;
-	padding: 5px 0px;
-	height: 100% 
-}
-.freeBarArea .changePass h2{
-	font: 18px 'bpg-web';
-	color: #616161;
-}
-.freeBarArea .changePass input{
-	height: 55px;
-	margin-top: 20px;
-	width: 100%;
-	border:1px solid #eceff1; 
-	outline: none;
-	font: 13px "bpg-web";
-	padding-left: 20px;
-}
-.freeBarArea .changePass button{
-	margin-top: 20px;
-	border:0px;
-	outline: none;
-	height: 55px;
-	width: 100%;
-	font: 15px "bpg-web-001-caps";
-	color: #fff;	
-}
-.freeBarArea .changePass button.welcomMail{
-	background: #00ace0;
-}
-.freeBarArea .changePass button.Update{
-	background: #f1aa28;	
-}
-.PremiumBarArea{
-	width: 402px;
-	height: 475px;
-	display: inline-block;
-}
-.PremiumBarArea .changePass{
-	max-width: 250px;
-	margin: 0 auto;
-	padding: 5px 0px;
-	height: 100% 
-}
-.PremiumBarArea .changePass h2{
-	font: 18px 'bpg-web';
-	color: #616161;
-	margin-bottom: 30px;
-}
-.PremiumBarArea .changePass .person p{
-	font: 17px 'bpg-web';
-	color: #616161;
-	display: inline-block;
-	vertical-align: middle;
-}
-.PremiumBarArea .changePass .person span{
-	width: 35px;
-	height: 35px;
-	display: inline-block;
-	border-radius: 50%;
-	background: #eeeeee url('../img/png/pencil.png')center no-repeat;
-	vertical-align: middle;
-}
-.PremiumBarArea .changePass .infoInput{
-	width: 100%;
-	height: 55px;
-	margin-top: 20px;
-	border:1px solid #eceff1; 
-}
-.PremiumBarArea .changePass .infoInput input{
-	height: 100%;
-	width: 80%;
-	outline: none;
-	border:0px;
-	font: 13px "bpg-web";
-	padding-left: 20px;
-}
-.PremiumBarArea .changePass .infoInput span{
-	width: 20%;
-	height: 100%;
-	background: #00ace0;
-	float: right;
-}
-.PremiumBarArea .changePass button{
-	margin-top: 20px;
-	border:0px;
-	outline: none;
-	height: 55px;
-	width: 100%;
-	font: 15px "bpg-web-001-caps";
-	color: #fff;	
-}
-.PremiumBarArea .changePass button.welcomMail{
-	background: #00ace0;
-}
-.PremiumBarArea .changePass button.Update{
-	background: #f1aa28;	
+@media (max-width: 764px){
+	.mainPackets{
+	    max-width: 810px	;
+	    margin: 20px auto;
+	    -webkit-box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+	    -moz-box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+	    box-shadow: 12px 12px 118px -25px rgba(0,0,0,0.75);
+	}
+	.freeBarArea{
+		border-bottom: 2px solid #eceff1;
+	    width: 100%;
+	    display: block;
+	    float: left;
+	    margin-bottom: 20px;
+	    padding-bottom: 20px	
+	}
+	.freeBarArea .changePass{
+		max-width: 250px;
+		margin: 0 auto;
+		padding: 5px 0px;
+		height: 100% 
+	}
+	.freeBarArea .changePass h2{
+		font: 18px 'bpg-web';
+		color: #616161;
+	}
+	.freeBarArea .changePass input{
+		height: 55px;
+		margin-top: 20px;
+		width: 100%;
+		border:1px solid #eceff1; 
+		outline: none;
+		font: 13px "bpg-web";
+		padding-left: 20px;
+	}
+	.freeBarArea .changePass button{
+		margin-top: 20px;
+		border:0px;
+		outline: none;
+		height: 55px;
+		width: 100%;
+		font: 15px "bpg-web-001-caps";
+		color: #fff;	
+	}
+	.freeBarArea .changePass button.welcomMail{
+		background: #00ace0;
+	}
+	.freeBarArea .changePass button.Update{
+		background: #f1aa28;	
+	}
+	.PremiumBarArea{
+	    width: 100%;
+	    display: block;
+	}
+	.PremiumBarArea .changePass{
+		max-width: 250px;
+		margin: 0 auto;
+		padding: 5px 0px;
+		height: 100% 
+	}
+	.PremiumBarArea .changePass h2{
+		font: 18px 'bpg-web';
+		color: #616161;
+		margin-bottom: 30px;
+	}
+	.PremiumBarArea .changePass .person p{
+		font: 17px 'bpg-web';
+		color: #616161;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.PremiumBarArea .changePass .person span{
+		width: 35px;
+		height: 35px;
+		display: inline-block;
+		border-radius: 50%;
+		background: #eeeeee url('../img/png/pencil.png')center no-repeat;
+		vertical-align: middle;
+	}
+	.PremiumBarArea .changePass .infoInput{
+		width: 100%;
+		height: 55px;
+		margin-top: 20px;
+		border:1px solid #eceff1; 
+	}
+	.PremiumBarArea .changePass .infoInput input{
+		height: 100%;
+		width: 80%;
+		outline: none;
+		border:0px;
+		font: 13px "bpg-web";
+		padding-left: 20px;
+	}
+	.PremiumBarArea .changePass .infoInput span{
+		width: 20%;
+		height: 100%;
+		background: #00ace0;
+		float: right;
+	}
+	.PremiumBarArea .changePass button{
+		margin-top: 20px;
+		border:0px;
+		outline: none;
+		height: 55px;
+		width: 100%;
+		font: 15px "bpg-web-001-caps";
+		color: #fff;	
+	}
+	.PremiumBarArea .changePass button.welcomMail{
+		background: #00ace0;
+	}
+	.PremiumBarArea .changePass button.Update{
+		background: #f1aa28;	
+	}
 }
 /* // personal imfo edit */
 /* // row page */
@@ -2843,8 +2957,6 @@ color: #6b6b6d;
 /* packets */
 .freepac,
 .premiumpack{
-	position: relative;
-	height: 424px!important;
 }
 .freepac h1,
 .premiumpack h1{
@@ -2865,7 +2977,6 @@ color: #6b6b6d;
 }
 .freepac button.freeBut{
 	background: #f1aa28;
-	position: absolute;
 	bottom: 50px;
 }
 .premium-list span.sp-ok,
@@ -2876,6 +2987,17 @@ color: #6b6b6d;
 	background-size: cover;
 	display: inline-block;
 	vertical-align: middle;
+}
+.premium-list span.sp-no,
+.freepac span.sp-no{
+	width: 20px;
+	height: 20px;
+	background: url('../img/png/false.png')center no-repeat;
+	background-size: 10px 10px;
+	display: inline-block;
+	vertical-align: middle;
+	border: 3px solid #ef5350;
+	border-radius: 50%;
 }
 .premium-list span.sp-text,
 .freepac span.sp-text{
