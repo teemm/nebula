@@ -1542,14 +1542,6 @@ margin-top: -20px;
 	-webkit-box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
 	-moz-box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
 	box-shadow: 2px -5px 48px 11px rgba(0,0,0,0.2);
-	bottom: -57px;
-	-webkit-transition: all 300ms ease-in-out;
-    -moz-transition: all 300ms ease-in-out;
-    -o-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
-	}
-	.prgoressJumbotron:hover{
-	bottom: 0px;
 	-webkit-transition: all 300ms ease-in-out;
     -moz-transition: all 300ms ease-in-out;
     -o-transition: all 300ms ease-in-out;
