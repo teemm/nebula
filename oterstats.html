@@ -10,6 +10,16 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
    </head>
    <body>
+   <div class="full-vers">
+
+      <div class="fulpage">
+         <div class="fullcls"></div>
+         <div class="fullpgArea">
+            <button>სრული ვერსია</button>
+            <p>მოხარული ვართ, რომ ყველა რეისი რომელიც საახალწლოდ გამოიგზავნა დროულად ჩამოფრინდა. წლის ბოლო რამოდენიმე რეისი კი ვადაზე ადრეც გაიცა. ვფიქრობთ ეს არაერთ მომხმარებელს გაახარებდა, განსაკუთრებით კი პატარებს, საახალწლო საჩუქრების მოლოდინში.</p>
+         </div>
+      </div>
+   </div>
       <nav class="navbar navbar-default">
          <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -21,17 +31,36 @@
                <span class="icon-bar"></span>
                </button>
                <a class="navbar-brand" href="main.html">NEBULA</a>
+               <span class="fullVersione">სრული ვერსია</span>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                <ul class="nav navbar-nav navbar-right">
                   <li><a href="about.html">ნებულას შესახებ</a></li>
                   <li>
-                     <a href="#">გიორგი მაისურაძე</a>
-                     <div class="userCircle">12</div>
+                     <a href="#">გიორგი მაისურაძე</a> 
+                  </li>
+                  <li class="usercircleparent">
+                      <li class="dropdown navbarDropDown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <div class="userCircle">12</div>
+                     </a>
+                     <ul class="dropdown-menu drop-men">
+                        <li>ინტერნეტში არსებული გენერატორები, როგორც წესი, წინასწარ განსაზღვრული ტექსტის</li>
+                        <li>ამიტომ ეს პირველი ნამდვილი გენერატორია</li>
+                        <li>ამიტომ ეს პირველი ნამდვილი გენერატორია</li>
+                        <li>აქსიმალურად ახლოსაა რეალურთა</li>
+                        <li>ამიტომ ეს პირველი ნამდვილი გენერატორია</li>
+                        <a href="#">
+                           <button class="allMsgButton">ყველა შეტყობინება</button>
+                        </a>
+                        
+                     </ul>
+                  </li>
+                     
                   </li>
                   <li class="greenCube"><a class="greenCubeText" href="#">21/80</a></li>
-                  <li class="dropdown navbarDropDown">
+                  <li id="settingsDropdown" class="dropdown navbarDropDown">
                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                         <div id="prodIcon" class="dropDownIcon transitionForClickRotate"></div>
                      </a>

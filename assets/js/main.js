@@ -137,7 +137,7 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
   })
   // click an animation 
   // navbar dropdown
-  $('.navbarDropDown').on('click', function(){
+  $('#settingsDropdown').on('click', function(){
     $('.FrodDropAllBlock').fadeIn('slow');
     if($('#prodIcon').hasClass('active')){
       $('#prodIcon').removeClass('active');
@@ -182,5 +182,19 @@ $('.closePdf').on('click', function(){
   $('.pdfPopup').fadeOut();
   $('body').css('overflow','scroll')
 });
-
 // formuls
+// fill viev popup
+$('.fullVersione').on('click', function(){
+  $('.full-vers').fadeIn('slow');
+  $('body, html').css('overflow','hidden');
+});
+$('.fullcls').on('click', function(){
+  $('.full-vers').fadeOut('slow');
+  $('body, html').css('overflow-y','scroll');
+});
+// fill viev popup
+
+
+
+
+

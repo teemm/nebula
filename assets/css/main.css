@@ -76,6 +76,86 @@
 	background-color: transparent;
     border-bottom-color: #e7e7e7;
 }	
+/* full version code */
+.fullVersione{
+	outline: none;
+    border: 0px;
+    background: #f1aa28;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font: 12px 'bpg-web';
+    color: #fff;
+    width: 100px;
+    height: 23px;
+    line-height: 23px;
+    padding-left: 4px;
+    cursor: pointer;
+}
+.navbar-header{
+ 	position: relative;
+}
+.navbar-brand{
+	float: left;
+    height: 50px;
+    padding: 0px 15px;
+    font-size: 18px;
+    line-height: 20px;
+   
+}
+.full-vers{
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0, 0.5);
+	display: none;
+	z-index: 1;
+}
+.full-vers .fulpage{
+	max-width: 570px;
+	min-height: 270px;
+	background: #ffffff;
+	position: relative;
+	top: 100px;
+	z-index: 2;
+	top:45%;
+    left: 50%;
+    margin-right:-50%;
+    transform:translate(-50%,-50%);
+}
+.full-vers .fullcls{
+	width: 31px;
+	height: 31px;
+	background: url('../img/svg/closse.svg');
+	position: absolute;
+	top: -50px;
+	cursor: pointer;
+	left: 48%;
+}
+.fullpgArea{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 10% 5%;
+}
+.fullpgArea button{
+	font: 18px 'bpg-web-001-caps';
+	color: #fff;
+	outline: none;
+	border:0px;
+	background: #f3b756;
+	width: 180px;
+	height: 45px
+}
+.fullpgArea p{
+	margin-top: 30px;
+	font: 14px 'bpg-web';
+	color: #616161;
+}
+/* full version code */
 .navbar {
     position: relative;
     margin-bottom: 20px;
@@ -829,15 +909,66 @@ margin-top: -20px;
 /* col-sm-8 */
 /*test page*/
 /* exams page */
+.drop-men{
+	position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 268px;
+    padding: 15px 20px 65px 15px;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    cursor: auto;
+}
+.drop-men li{
+	cursor: auto;
+	color: #898989;
+	font: 14px 'bpg-web';
+	background: url('../img/svg/circle.svg')no-repeat left top;
+    background-size: 7px;
+    background-position: left top;
+    padding-left: 20px;
+    margin-top:10px;
+}
+.allMsgButton{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    outline: none;
+    border: 0px;
+    background: #00ace0;
+    color: #fff;
+    font:13px 'bpg-web-001-caps';
+    height: 50px;
+}
+.drop-men li:hover{
+	color: #616161;
+	background: url('../img/svg/bluecircle.svg')no-repeat left top;
+	background-size: 7px;
+    background-position: left top;
+}
 .userCircle{
 	width: 30px;
-	height: 30px;
-	background: #00ace0;
+    height: 30px;
+    background: #00ace0;
     display: inline-block;
     border-radius: 50%;
     text-align: center;
-    padding-top: 5px;
-    margin-left: -15px;
+    line-height: 30px;
+    margin-top: -5px;
     color: #fff;
 }
 .greenCube{
