@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="-2 5.2 13.2 14.8" style="enable-background:new -2 5.2 13.2 14.8;" xml:space="preserve">
+	 viewBox="8 -3 35 30" style="enable-background:new 8 -3 35 30;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;stroke:#FEF8EC;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st0{fill:#FFFFFF;}
 </style>
-<polygon class="st0" points="-0.9,19 -0.9,6.2 10.1,12.6 "/>
+<g id="Icon_8_">
+	<g id="XMLID_3_">
+		<path id="XMLID_1_" class="st0" d="M43,10.1H16.4L28.7-0.4L25.5-3L8,12l17.5,15l3.1-2.6L16.4,13.9H43V10.1z"/>
+	</g>
+</g>
 </svg>
