@@ -122,30 +122,34 @@ $('.QuizTest .QuizAnswers p').on('click', function(){
   });
   // ტემპის შეცვლის პოპაპი
   // click an animation
+
   $('.colapsee').on('click', function(){
-  	paragHeight = parseFloat(($(this).siblings('.forClickAn').children('p').css('height')));
-  	style = $(this).parent('.user-par').attr('style');
-  	if(style == undefined){
-    $(this).parent('.user-par').css('height', paragHeight +10 + 'px');
-  	$(this).siblings('.forClickAn').css('height', paragHeight +10 + 'px');
-    $(this).children('.whit-dw').addClass('active');      	
-  	}else{
-  	$(this).parent('.user-par').removeAttr('style');
-    $(this).children('.whit-dw').removeClass('active'); 
-    $(this).siblings('.forClickAn').css('height', '28px');
-  	}
-  })
-  // click an animation 
-  // navbar dropdown
-  $('#settingsDropdown').on('click', function(){
-    $('.FrodDropAllBlock').fadeIn('slow');
-    if($('#prodIcon').hasClass('active')){
-      $('#prodIcon').removeClass('active');
-      $('.FrodDropAllBlock').fadeIn('slow');
-    } else if (!$('#prodIcon').hasClass('active')){
-      $('#prodIcon').addClass('active');
+    var parHeight = $(this).siblings('.forClickAn').children('p').height();
+   if (parHeight > 28) {
+    	paragHeight = parseFloat(($(this).siblings('.forClickAn').children('p').css('height')));
+    	style = $(this).parent('.user-par').attr('style');
+    	if(style == undefined){
+      $(this).parent('.user-par').css('height', paragHeight +10 + 'px');
+    	$(this).siblings('.forClickAn').css('height', paragHeight +10 + 'px');
+      $(this).children('.whit-dw').addClass('active');      	
+    	}else{
+    	$(this).parent('.user-par').removeAttr('style');
+      $(this).children('.whit-dw').removeClass('active'); 
+      $(this).siblings('.forClickAn').css('height', '28px');
+    	}
     }
   });
+  // click an animation 
+  // navbar dropdown
+    $('#settingsDropdown').on('click', function(){
+      $('.FrodDropAllBlock').fadeIn('slow');
+      if($('#prodIcon').hasClass('active')){
+        $('#prodIcon').removeClass('active');
+        $('.FrodDropAllBlock').fadeIn('slow');
+      } else if (!$('#prodIcon').hasClass('active')){
+        $('#prodIcon').addClass('active');
+      }
+    });
   $('.FrodDropAllBlock').on('click', function(){
     $('.FrodDropAllBlock').fadeOut('fast');
      $('#prodIcon').removeClass('active');
@@ -193,6 +197,13 @@ $('.fullcls').on('click', function(){
   $('body, html').css('overflow-y','scroll');
 });
 // fill viev popup
+// rows buttons hover
+// $(".fullBut").hover(function(){
+//     $(this).children('button').css("background-color", "yellow").slideLeft('slow');
+//     }, function(){
+//     $(this).children('button').css("background-color", "#fff");
+// });
+// rows buttons hover
 
 
 

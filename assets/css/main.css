@@ -1109,27 +1109,50 @@ margin-top: -20px;
 		font: 13px 'bpg-web';
 		color: #616161;
 	}
-	.videoTutArea a button{
-		outline: none;
-		border: 0px;
-		background: #f1aa28;
-		width: 77%;
+	.videoTutArea a .fullBut{
+		width: 80%;
 		height: 50px;
-		margin-top: 20px;
-		color: #fff;
-		font: 15px 'bpg-web-001-caps';
 		position: relative;
+		margin: 20px auto;
+		overflow: hidden;
 	}
-	.videoTutArea a button .play{
-		background: url('../img/examsicons/play.svg')center no-repeat;
-		background-size: cover;
-	    width: 12px;
-	    height: 17px;
-		display: inline-block;
-		vertical-align: middle;
+	.videoTutArea a .fullBut .icon{ 
+		background: #f1aa28 url('../img/examsicons/play.svg') no-repeat center;
+		background-size: 15px;
+		width: 50px;
+		height: 100%;
+		display:inline-block;
 		position: absolute;
-	    left: 10px;
-	    top: 15px;
+		left: 0px;
+		bottom: 0px;
+		z-index: 1;
+	}
+	.videoTutArea a .fullBut button{
+		width: calc(100% - 50px);
+		display: inline-block;
+		outline:none;
+		border:0px;
+		right: 0px;
+		bottom: 0px;
+		position: absolute;
+		height: 100%;
+		border-right: 2px solid #cfd8dc;
+		border-top: 2px solid #cfd8dc;
+		border-bottom: 2px solid #cfd8dc;
+		background:#fff;
+		color: #b5bbbe;
+		font: 14px 'bpg-web-001-caps';
+		 box-shadow: inset 0 0 0 0 #f1aa28;
+		-webkit-transition: all ease 0.3s;
+		-moz-transition: all ease 0.3s;
+		transition: all ease 0.3s;
+	}
+	.videoTutArea a .fullBut:hover button{
+		border-right: 2px solid #f1aa28;
+		border-top: 2px solid #f1aa28;
+		border-bottom: 2px solid #f1aa28;
+		box-shadow: inset 300px 0 0 0 #f1aa28;
+		color: #fff;
 	}
 }
 @media (max-width: 1000px ){
@@ -1142,27 +1165,48 @@ margin-top: -20px;
 		font: 13px 'bpg-web';
 		color: #616161;
 	}
-	.videoTutArea a button{
-		outline: none;
-		border: 0px;
-		background: #f1aa28;
-		width: 100%;
+	.videoTutArea a .fullBut{
+		width: 80%;
 		height: 50px;
-		margin-top: 20px;
-		color: #fff;
-		font: 13px 'bpg-web-001-caps';
 		position: relative;
+		margin: 20px auto;
 	}
-	.videoTutArea a button .play{
-		background: url('../img/examsicons/play.svg')center no-repeat;
-		background-size: cover;
-	    width: 12px;
-	    height: 17px;
-		display: inline-block;
-		vertical-align: middle;
+	.videoTutArea a .fullBut .icon{ 
+		background: #f1aa28 url('../img/examsicons/play.svg') no-repeat center;
+		background-size: 15px;
+		width: 50px;
+		height: 100%;
+		display:inline-block;
 		position: absolute;
-	    left: 10px;
-	    top: 15px;
+		left: 0px;
+		bottom: 0px;
+	}
+	.videoTutArea a .fullBut button{
+		width: calc(100% - 50px);
+		display: inline-block;
+		outline:none;
+		border:0px;
+		right: 0px;
+		bottom: 0px;
+		position: absolute;
+		height: 100%;
+		border-right: 2px solid #cfd8dc;
+		border-top: 2px solid #cfd8dc;
+		border-bottom: 2px solid #cfd8dc;
+		background:#fff;
+		color: #b5bbbe;
+		font: 14px 'bpg-web-001-caps';
+		 box-shadow: inset 0 0 0 0 #f1aa28;
+		-webkit-transition: all ease 0.3s;
+		-moz-transition: all ease 0.3s;
+		transition: all ease 0.3s;
+	}
+	.videoTutArea a .fullBut:hover button{
+		border-right: 2px solid #f1aa28;
+		border-top: 2px solid #f1aa28;
+		border-bottom: 2px solid #f1aa28;
+		box-shadow: inset 300px 0 0 0 #f1aa28;
+		color: #fff;
 	}
 }
 /*.videoTut ul{
@@ -1319,30 +1363,50 @@ margin-top: -20px;
 		font: 13px 'bpg-web';
 		color: #616161;
 	}
-	.exBookAr a button{
-		outline: none;
-		border: 0px;
-		background: #f1aa28;
-		width: 77%;
+	.exBookAr a .fullBut{
+		width: 80%;
 		height: 50px;
-		margin-top: 20px;
-		color: #fff;
-		font: 15px 'bpg-web-001-caps';
 		position: relative;
+		margin: 20px auto;
 	}
-	.exBookAr a button .BookExams{
-		background: url('../img/examsicons/examsBook.svg')center no-repeat;
-		background-size: cover;
-	    width: 20px;
-	    height: 24px;
-		display: inline-block;
-		vertical-align: middle;
-		margin-left: 20px;
+	.exBookAr a .fullBut .icon{ 
+		background: #f1aa28 url('../img/examsicons/examsBook.svg') no-repeat center;
+		background-size: 24px;
+		width: 50px;
+		height: 100%;
+		display:inline-block;
 		position: absolute;
-		left: -5px;
-	    top: 12px;
+		left: 0px;
+		bottom: 0px;
 	}
-}
+	.exBookAr a .fullBut button{
+		width: calc(100% - 50px);
+		display: inline-block;
+		outline:none;
+		border:0px;
+		right: 0px;
+		bottom: 0px;
+		position: absolute;
+		height: 100%;
+		border-right: 2px solid #cfd8dc;
+		border-top: 2px solid #cfd8dc;
+		border-bottom: 2px solid #cfd8dc;
+		background:#fff;
+		color: #b5bbbe;
+		font: 14px 'bpg-web-001-caps';
+		 box-shadow: inset 0 0 0 0 #f1aa28;
+		-webkit-transition: all ease 0.3s;
+		-moz-transition: all ease 0.3s;
+		transition: all ease 0.3s;
+	}
+	.exBookAr a .fullBut:hover button{
+		border-right: 2px solid #f1aa28;
+		border-top: 2px solid #f1aa28;
+		border-bottom: 2px solid #f1aa28;
+		box-shadow: inset 300px 0 0 0 #f1aa28;
+		color: #fff;
+	}
+}	
 @media (max-width: 1000px ){
 	.exBookAr{
 		width: 100%;
@@ -1353,28 +1417,48 @@ margin-top: -20px;
 		font: 13px 'bpg-web';
 		color: #616161;
 	}
-	.exBookAr a button{
-		outline: none;
-		border: 0px;
-		background: #f1aa28;
-		width: 100%;
+	.exBookAr a .fullBut{
+		width: 80%;
 		height: 50px;
-		margin-top: 20px;
-		color: #fff;
-		font: 13px 'bpg-web-001-caps';
 		position: relative;
+		margin: 20px auto;
 	}
-	.exBookAr a button .BookExams{
-		background: url('../img/examsicons/examsBook.svg')center no-repeat;
-		background-size: cover;
-	    width: 20px;
-	    height: 24px;
-		display: inline-block;
-		vertical-align: middle;
-		margin-left: 20px;
+	.exBookAr a .fullBut .icon{ 
+		background: #f1aa28 url('../img/examsicons/examsBook.svg') no-repeat center;
+		background-size: 24px;
+		width: 50px;
+		height: 100%;
+		display:inline-block;
 		position: absolute;
-		left: -5px;
-	    top: 12px;
+		left: 0px;
+		bottom: 0px;
+	}
+	.exBookAr a .fullBut button{
+		width: calc(100% - 50px);
+		display: inline-block;
+		outline:none;
+		border:0px;
+		right: 0px;
+		bottom: 0px;
+		position: absolute;
+		height: 100%;
+		border-right: 2px solid #cfd8dc;
+		border-top: 2px solid #cfd8dc;
+		border-bottom: 2px solid #cfd8dc;
+		background:#fff;
+		color: #b5bbbe;
+		font: 14px 'bpg-web-001-caps';
+		 box-shadow: inset 0 0 0 0 #f1aa28;
+		-webkit-transition: all ease 0.3s;
+		-moz-transition: all ease 0.3s;
+		transition: all ease 0.3s;
+	}
+	.exBookAr a .fullBut:hover button{
+		border-right: 2px solid #f1aa28;
+		border-top: 2px solid #f1aa28;
+		border-bottom: 2px solid #f1aa28;
+		box-shadow: inset 300px 0 0 0 #f1aa28;
+		color: #fff;
 	}
 }
 /*.examBookSec ul{
@@ -1445,55 +1529,68 @@ margin-top: -20px;
 		font: 13px 'bpg-web';
 		color: #616161;
 	}
-	.simTestAr a button{
-		outline: none;
-		border: 0px;
-		background: #f1aa28;
-		width: 77%;
+	.simTestAr a .fullBut{
+		width: 80%;
 		height: 50px;
-		margin-top: 20px;
-		color: #fff;
-		font: 15px 'bpg-web-001-caps';
 		position: relative;
+		margin: 20px auto;
 	}
-	.simTestAr a button.analitic{
-		background: #00ace0
-	}
-	.simTestAr a button .back{
-		background: url('../img/examsicons/whiteback.svg')center no-repeat;
-		background-size: cover;
-	    width: 24px;
-	    height: 20px;
-		display: inline-block;
-		vertical-align: middle;
-		margin-left: 20px;
+	.simTestAr a .fullBut .backk{ 
+		background: #f1aa28 url('../img/examsicons/whiteback.svg')no-repeat center;
+		background-size: 25px;
+		width: 50px;
+		height: 100%;
+		display:inline-block;
 		position: absolute;
-		left: -5px;
-	    top: 12px;
+		left: 0px;
+		bottom: 0px;
 	}
-	.simTestAr a button .pansil{
-		background: url('../img/examsicons/nowExam.svg')center no-repeat;
-		background-size: cover;
-	    width: 20px;
-	    height: 24px;
-		display: inline-block;
-		vertical-align: middle;
-		margin-left: 20px;
+	.simTestAr a .fullBut .pansil{ 
+		background: #f1aa28 url('../img/examsicons/nowExam.svg')no-repeat center;
+		background-size: 25px;
+		width: 50px;
+		height: 100%;
+		display:inline-block;
 		position: absolute;
-		left: -5px;
-	    top: 12px;
+		left: 0px;
+		bottom: 0px;
 	}
-	.simTestAr a .analitic .statistic{
-		background: url('../img/examsicons/analitic.svg')center no-repeat;
-		background-size: cover;
-	    width: 23px;
-	    height: 24px;
-		display: inline-block;
-		vertical-align: middle;
-		margin-left: 20px;
+	.simTestAr a .fullBut .statistic{ 
+		background: #00ace0 url('../img/examsicons/analitic.svg')no-repeat center;
+		background-size: 25px;
+		width: 50px;
+		height: 100%;
+		display:inline-block;
 		position: absolute;
-		left: -5px;
-	    top: 12px;
+		left: 0px;
+		bottom: 0px;
+	}
+	.simTestAr a .fullBut button{
+		width: calc(100% - 50px);
+		display: inline-block;
+		outline:none;
+		border:0px;
+		right: 0px;
+		bottom: 0px;
+		position: absolute;
+		height: 100%;
+		border-right: 2px solid #cfd8dc;
+		border-top: 2px solid #cfd8dc;
+		border-bottom: 2px solid #cfd8dc;
+		background:#fff;
+		color: #b5bbbe;
+		font: 14px 'bpg-web-001-caps';
+		 box-shadow: inset 0 0 0 0 #f1aa28;
+		-webkit-transition: all ease 0.3s;
+		-moz-transition: all ease 0.3s;
+		transition: all ease 0.3s;
+	}
+	.simTestAr a .fullBut:hover button{
+		border-right: 2px solid #f1aa28;
+		border-top: 2px solid #f1aa28;
+		border-bottom: 2px solid #f1aa28;
+		box-shadow: inset 300px 0 0 0 #f1aa28;
+		color: #fff;
 	}
 }
 @media (max-width: 1000px){
@@ -1506,55 +1603,68 @@ margin-top: -20px;
 		font: 13px 'bpg-web';
 		color: #616161;
 	}
-	.simTestAr a button{
-		outline: none;
-		border: 0px;
-		background: #f1aa28;
-		width: 100%;
+	.simTestAr a .fullBut{
+		width: 80%;
 		height: 50px;
-		margin-top: 20px;
-		color: #fff;
-		font: 13px 'bpg-web-001-caps';
 		position: relative;
+		margin: 20px auto;
 	}
-	.simTestAr a button.analitic{
-		background: #00ace0
-	}
-	.simTestAr a button .back{
-		background: url('../img/examsicons/whiteback.svg')center no-repeat;
-		background-size: cover;
-	    width: 24px;
-	    height: 20px;
-		display: inline-block;
-		vertical-align: middle;
-		margin-left: 20px;
+	.simTestAr a .fullBut .backk{ 
+		background: #f1aa28 url('../img/examsicons/whiteback.svg')no-repeat center;
+		background-size: 25px;
+		width: 50px;
+		height: 100%;
+		display:inline-block;
 		position: absolute;
-		left: -5px;
-	    top: 12px;
+		left: 0px;
+		bottom: 0px;
 	}
-	.simTestAr a button .pansil{
-		background: url('../img/examsicons/nowExam.svg')center no-repeat;
-		background-size: cover;
-	    width: 20px;
-	    height: 24px;
-		display: inline-block;
-		vertical-align: middle;
-		margin-left: 20px;
+	.simTestAr a .fullBut .pansil{ 
+		background: #f1aa28 url('../img/examsicons/nowExam.svg')no-repeat center;
+		background-size: 25px;
+		width: 50px;
+		height: 100%;
+		display:inline-block;
 		position: absolute;
-		left: -5px;
-	    top: 12px;
+		left: 0px;
+		bottom: 0px;
 	}
-	.simTestAr a .analitic .statistic{
-		background: url('../img/examsicons/analitic.svg')center no-repeat;
-		background-size: cover;
-	    width: 23px;
-	    height: 24px;
-		display: inline-block;
-		vertical-align: middle;
-		margin-left: 20px;
+	.simTestAr a .fullBut .statistic{ 
+		background: #00ace0 url('../img/examsicons/analitic.svg')no-repeat center;
+		background-size: 25px;
+		width: 50px;
+		height: 100%;
+		display:inline-block;
 		position: absolute;
-		left: -5px;
-	    top: 12px;
+		left: 0px;
+		bottom: 0px;
+	}
+	.simTestAr a .fullBut button.yellow{
+		width: calc(100% - 50px);
+		display: inline-block;
+		outline:none;
+		border:0px;
+		right: 0px;
+		bottom: 0px;
+		position: absolute;
+		height: 100%;
+		border-right: 2px solid #cfd8dc;
+		border-top: 2px solid #cfd8dc;
+		border-bottom: 2px solid #cfd8dc;
+		background:#fff;
+		color: #b5bbbe;
+		font: 14px 'bpg-web-001-caps';
+		 box-shadow: inset 0 0 0 0 #f1aa28;
+		-webkit-transition: all ease 0.3s;
+		-moz-transition: all ease 0.3s;
+		transition: all ease 0.3s;
+	}
+	.simTestAr a .fullBut:hover button{
+		border-right: 2px solid #f1aa28;
+		border-top: 2px solid #f1aa28;
+		border-bottom: 2px solid #f1aa28;
+		box-shadow: inset 300px 0 0 0 #f1aa28;
+		color: #fff;
 	}
 }
 /* buttons */
