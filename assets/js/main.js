@@ -196,14 +196,18 @@ $('.fullcls').on('click', function(){
   $('.full-vers').fadeOut('slow');
   $('body, html').css('overflow-y','scroll');
 });
-// fill viev popup
-// rows buttons hover
-// $(".fullBut").hover(function(){
-//     $(this).children('button').css("background-color", "yellow").slideLeft('slow');
-//     }, function(){
-//     $(this).children('button').css("background-color", "#fff");
-// });
-// rows buttons hover
+// play buttons percentage
+setTimeout(function(){
+ alllisets = $('.leftOlPanel ul li').length;
+  
+
+  for (var i = 0; i < alllisets; i++) {
+     backgrou = ($('.leftOlPanel ul li').eq(i).find('.background-by-progress').css('background-color'));
+     $('.leftOlPanel ul li').eq(i).find('.percentageVideo svg path').eq(1).css('stroke',backgrou);
+     $('.leftOlPanel ul li').eq(i).find('.percentageVideo svg path').eq(0).css({'stroke':backgrou , 'opacity':'0.3'});
+  }
+}, 0);
+// play buttons percentage              
 
 
 

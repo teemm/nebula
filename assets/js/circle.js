@@ -16,8 +16,5 @@
             value:      percentage,
             radius:     30,
             width:      5,
-            colors:     colors[i - 1],
-            valueStrokeClass:    'circles-valueStroke',
-            maxValueStrokeClass: 'circles-maxValueStroke'
          }));
       }

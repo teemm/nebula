@@ -184,6 +184,18 @@
                </div>
             </div>
             <!-- tests area -->
+            <script type="text/javascript">
+              setTimeout(function(){
+               alllisets = $('.leftOlPanel ul li').length;
+                
+
+                for (var i = 0; i < alllisets; i++) {
+                   backgrou = ($('.leftOlPanel ul li').eq(i).find('.background-by-progress').css('background-color'));
+                   $('.leftOlPanel ul li').eq(i).find('.percentageVideo svg path').eq(1).css('stroke',backgrou);
+                   $('.leftOlPanel ul li').eq(i).find('.percentageVideo svg path').eq(0).css({'stroke':backgrou , 'opacity':'0.3'});
+                }
+              }, 0);
+            </script>
             <!-- video bar area -->
             <div class="row">
                <div class="all-exs-bl">
@@ -192,20 +204,38 @@
                      <div class="leftOlPanel">
                         <ul>
                            <li>
-                              <span class="left-sp red"></span>
-                              <span class="video" id="circles-1"></span>
+                              <span data-progress="40" class="background-by-progress"></span>
+                              <span class="percentageVideo" id="circles-1">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+                                    <path  class="background-by-progress" data-progress="50" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 1 1 39.949302232260386 3.500035209108127 Z"></path>
+                                    <path  class="background-by-progress" data-progress="50" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 0 1 59.07174573163989 71.12103010421852 "></path>
+                                  </svg>
+                                    <span class="circles-integer"></span>
+                              </span>
                               <a href="">ნატურალური რიცხვები</a>
                               <span class="cube">03:03</span>
                            </li>
                            <li>
-                              <span class="left-sp green"></span>
-                              <span class="video" id="circles-2"></span>
+                              <span data-progress="50" class="background-by-progress"></span>
+                              <span class="percentageVideo" id="circles-2">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+                                    <path  class="background-by-progress" data-progress="50" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 1 1 39.949302232260386 3.500035209108127 Z"></path>
+                                    <path  class="background-by-progress" data-progress="50" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 0 1 59.07174573163989 71.12103010421852 "></path>
+                                  </svg>
+                                    <span class="circles-integer"></span>
+                              </span>
                               <a href="">შედარებები</a>
                               <span class="cube">03:03</span>
                            </li>
                            <li>
-                              <span class="left-sp orange"></span>
-                              <span class="video" id="circles-3"></span>
+                              <span data-progress="10" class="background-by-progress"></span>
+                              <span class="percentageVideo" id="circles-3">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+                                    <path  class="background-by-progress" data-progress="50" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 1 1 39.949302232260386 3.500035209108127 Z"></path>
+                                    <path  class="background-by-progress" data-progress="50" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 0 1 59.07174573163989 71.12103010421852 "></path>
+                                  </svg>
+                                    <span class="circles-integer"></span>
+                              </span>
                               <a href="">შედარებები</a>
                               <span class="cube">03:03</span>
                            </li>
@@ -216,17 +246,38 @@
                      <div class="leftOlPanel">
                         <ul>
                            <li>
-                              <span class="video" id="circles-4"></span>
+                             <span data-progress="90" class="background-by-progress"></span>
+                              <span class="percentageVideo" id="circles-4">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+                                    <path  class="background-by-progress" data-progress="50" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 1 1 39.949302232260386 3.500035209108127 Z"></path>
+                                    <path  class="background-by-progress" data-progress="50" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 0 1 59.07174573163989 71.12103010421852 "></path>
+                                  </svg>
+                                    <span class="circles-integer"></span>
+                              </span>
                               <a href="">ნატურალური რიცხვები</a>
                               <span class="cube">03:03</span>
                            </li>
                            <li>
-                              <span class="video" id="circles-5"></span>
+                             <span data-progress="60" class="background-by-progress"></span>
+                              <span class="percentageVideo" id="circles-5">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+                                    <path  class="background-by-progress" data-progress="50" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 1 1 39.949302232260386 3.500035209108127 Z"></path>
+                                    <path  class="background-by-progress" data-progress="50" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 0 1 59.07174573163989 71.12103010421852 "></path>
+                                  </svg>
+                                    <span class="circles-integer"></span>
+                              </span>
                               <a href="">ნატურალური რიცხვები</a>
                               <span class="cube">03:03</span>
                            </li>
                            <li>
-                              <span class="video" id="circles-6"></span>
+                              <span data-progress="30" class="background-by-progress"></span>
+                              <span class="percentageVideo" id="circles-6">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+                                    <path  class="background-by-progress" data-progress="50" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 1 1 39.949302232260386 3.500035209108127 Z"></path>
+                                    <path  class="background-by-progress" data-progress="50" stroke-width="7" d="M 39.992565928065126 3.500000757060633 A 36.5 36.5 0 0 1 59.07174573163989 71.12103010421852 "></path>
+                                  </svg>
+                                    <span class="circles-integer"></span>
+                              </span>
                               <a href="">ნატურალური რიცხვები</a>
                               <span class="cube">03:03</span>
                            </li>
@@ -411,7 +462,6 @@
       <div class="FrodDropAllBlock"></div>
       <script type="text/javascript" src="assets/js/bootstrap.js"></script> 
       <script type="text/javascript" src="assets/js/main.js"></script>
-      <script type="text/javascript" src="assets/js/canvas.js"></script>
       <script type="text/javascript" src="assets/js/canvasjs.min.js"></script>
       <script type="text/javascript" src="assets/js/circles.min.js"></script>
       <script type="text/javascript" src="assets/js/circle.js"></script>

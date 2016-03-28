@@ -1923,7 +1923,7 @@ margin-top: -20px;
 .circles-decimals{
 	display: none;
 }
-.leftOlPanel ul li span.video{
+.circles-wrp{
     width: 51px;
     height: 51px;
     display: inline-block;
