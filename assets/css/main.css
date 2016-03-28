@@ -2158,7 +2158,19 @@ margin-top: -20px;
 	font: 12px 'bpg-web';
 	color: #616161;
 	padding-left: 10px;
-	width: calc(100% - 47px);
+	width: 88%;
+	display: inline-block;
+}
+.messageForRowsPage .MessageParagrap a button{
+	outline: none;
+	border:0px;
+	display: inline-block;
+	background: rgb(0, 172, 224);
+	color: #fff;
+	font: 13px 'bpg-web-001-caps';
+	padding: 10px 20px;
+	border-radius: 5px;
+	vertical-align: middle;
 }
 /* message */
 /* artboard page */
