@@ -5,7 +5,7 @@ $('#reg').on('click', function(){
 });
 // პოპაპის გახსნა რეგისტაციაზე კლიკის დროს
 // პოპაპის დახურვა
-$('.closse').on('click', function(){
+$('.closse, .mainReg').on('click', function(){
  	$('.mainReg').fadeOut("slow");
  	$('body').css('overflow','scroll');
 });
@@ -20,12 +20,12 @@ $('#registration').on('click', function(){
 	$('.mainReg').fadeOut("fast");
 	$('.MainRegSuc').fadeIn("slow");
 });
-$('.closse').on('click', function(){
- 	$('.MainRegSuc').fadeOut("slow");
+$('.closse, mainReg').on('click', function(){
+ 	$('.MainRegSuc, .mainReg').fadeOut("slow");
 });
 // წარმატებული რეგისტრაცია
 // ვიდეოს დროს კითხვა
-$('#quizz ,.limitButt').on('click', function(){
+$('#quizz, .limitButt').on('click', function(){
   $('.videoQuiz').fadeIn("slow");
   $('body').css('overflow','hidden');
 });
@@ -34,16 +34,6 @@ $('#GoNexQuiz').on('click', function(){
   $('body').css('overflow','scroll');
 });
 // ვიდეოს დროს კთხვა
-// ტემპის შეცვლის პოპაპი
-$('.limitButt').on('click', function(){
-  $('.TempPop').fadeIn("slow");
-  $('body').css('overflow','hidden');
-});
-$('.closseTempBut').on('click', function(){
-  $('.TempPop').fadeOut("slow");
-  $('body').css('overflow','scroll');
-});
-// ტემპის შეცვლის პოპაპი
 // rows პანელზე ვიდეოს ნაწილზე კლიკის ბეგრაუნდი
 $('#movingSlider li').on('click', function(){
 	$('#movingSlider li').removeClass('active');
@@ -182,7 +172,7 @@ $('#formuls').on('click', function(){
   $('.pdfPopup').fadeIn();
   $('body').css('overflow','hidden')
 });
-$('.closePdf').on('click', function(){
+$('.closePdf, .pdfPopup').on('click', function(){
   $('.pdfPopup').fadeOut();
   $('body').css('overflow','scroll')
 });
@@ -192,7 +182,7 @@ $('.fullVersione').on('click', function(){
   $('.full-vers').fadeIn('slow');
   $('body, html').css('overflow','hidden');
 });
-$('.fullcls').on('click', function(){
+$('.fullcls, .full-vers').on('click', function(){
   $('.full-vers').fadeOut('slow');
   $('body, html').css('overflow-y','scroll');
 });
