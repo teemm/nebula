@@ -40,19 +40,60 @@ $('#movingSlider li').on('click', function(){
 	$(this).addClass('active');
 });
 // rows პანელზე ვიდეოს ნაწილზე კლიკის ბეგრაუნდი სლაიდერი
+// slide animation
+// slider width
+
+var lastElementcount =5;
+function slideWidh(){
+  sliderWidns = $('.slideMove').width();
+  slideCount = $('.sliderbar .sliderBarArea .slideMove li').length;
+  OneSlideWidth = sliderWidns / 6;
+  $('.sliderbar .sliderBarArea .slideMove ul').css('width', slideCount * OneSlideWidth + 'px');
+  $('.sliderbar .sliderBarArea .slideMove li').css('width',OneSlideWidth + 'px')
+  if (slideCount > 5) {
+     $('.slideMove').attr('data-countimage',lastElementcount);
+  }
+}
+
+slideWidh();
+
+$(window).resize(function(){
+    slideWidh();
+});
+// slider width
 $('.goToNext').on('click', function(){
-  var slideCount = $('.sliderbar .sliderBarArea .slideMove li').length;
-  console.log(slideCount);
-	$('#movingSlider').animate({ left: animateWidth });
-
+  slideCount = $('.sliderbar .sliderBarArea .slideMove li').length;
+  imgWidth = parseFloat($("#movingSlider li").attr("style").split(" ")[1]);
+  datacount=Number($('.slideMove').attr('data-countimage'));
+  if($('.sliderbar .sliderBarArea .slideMove li').length<6)return false;
+  if ((lastElementcount+5)<slideCount) {
+    lastElementcount = datacount+5;
+    animateWidth =(imgWidth*(lastElementcount-5));   
+  }
+  else{
+    sliceLast=slideCount-datacount-1;
+    lastElementcount = Number(datacount)+sliceLast;
+    animateWidth =(imgWidth*(lastElementcount-5)); 
+  }
+  $('.slideMove').attr('data-countimage',lastElementcount);
+  $('#movingSlider').animate({ left: -animateWidth +"px"}); 
 });
+
 $('.goToPrev').on('click', function(){
-	console.log($('.movingSlider li').length);
+  slideCount = $('.sliderbar .sliderBarArea .slideMove li').length; //17
+  imgWidth = parseFloat($("#movingSlider li").attr("style").split(" ")[1]);//87.33
+  datacount=Number($('.slideMove').attr('data-countimage'));//10
+    if(datacount%5!=0 &&datacount<10)minus=datacount%5;
+    else minus=5
+    if(lastElementcount==5||(datacount-5)<0)return false;
+    lastElementcount = datacount-5;//2
 
-	$('#movingSlider li').removeClass('active');
-	$('#movingSlider').animate({ left: animateWidth });
+    
+    animateWidth =(imgWidth*(lastElementcount-minus));   //0 
+  $('.slideMove').attr('data-countimage',lastElementcount);
+  $('#movingSlider').animate({ left: -animateWidth +"px"}); 
 });
-// სლაიდერი
+// slide animation
 // quiz select
 $('.QuizTest .QuizAnswers p').on('click', function(){
 	$('.QuizTest .QuizAnswers .quizCats').removeClass('selected')

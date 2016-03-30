@@ -2000,14 +2000,12 @@ margin-top: -20px;
 
 	 }
 	 .sliderbar .sliderBarArea .slideMove ul{
-	 	width: 200%;
 	 	height: 100%;
 	 	margin-bottom: 0px;
 	 	position: absolute;
 	 }
 	 .sliderbar .sliderBarArea .slideMove li{
 	 	display: inline-block;
-	 	width: 84px;
 	 	text-align: center;
 	 	color: #616161;
 	 	font: 11px 'bpg-web-001-caps';
@@ -2072,14 +2070,12 @@ margin-top: -20px;
 
 	 }
 	 .sliderbar .sliderBarArea .slideMove ul{
-	 	width: 200%;
 	 	height: 100%;
 	 	margin-bottom: 0px;
 	 	position: absolute;
 	 }
 	 .sliderbar .sliderBarArea .slideMove li{
 	 	display: inline-block;
-	 	width: calc(100%/12);
 	 	text-align: center;
 	 	color: #616161;
 	 	font: 13px 'bpg-web-001-caps';
