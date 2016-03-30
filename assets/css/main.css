@@ -19,12 +19,12 @@
     font-style: normal;
    }
    @font-face {
-    font-family: 'gotham-bold';
-    src: url('../fonts/gotham-bold/gothambold.eot');
-    src: url('../fonts/gotham-bold/gothambold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/gotham-bold/gothambold.woff') format('woff'),
-         url('../fonts/gotham-bold/gothambold.ttf') format('truetype'),
-         url('../fonts/gotham-bold/gothambold.svg#Sri-TSCRegular') format('svg');
+    font-family: 'dejavu';
+    src: url('../fonts/dejavu/dejavu.eot');
+    src: url('../fonts/dejavu/dejavu.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dejavu/dejavu.eot.woff') format('woff'),
+         url('../fonts/dejavu/dejavu.eot.ttf') format('truetype'),
+         url('../fonts/dejavu/dejavu.eot.svg#Sri-TSCRegular') format('svg');
     font-weight: normal;
     font-style: normal;
    }
@@ -100,12 +100,9 @@
  	position: relative;
 }
 .navbar-brand{
-	float: left;
-    height: 50px;
-    padding: 0px 15px;
-    font-size: 18px;
-    line-height: 20px;
-   
+	background: url('../img/svg/logo.svg')center no-repeat;
+	background-size: 100%;
+	width: 103px;
 }
 .full-vers{
 	top: 0;
@@ -225,8 +222,8 @@
 	padding-left: 20px;
 	width: calc(100% - 37px);
 	display: inline-block;
-	font-size: 15px;
-	color: #616161;
+	font: 15px 'dejavu';
+	color: #333;
 	}
 	.texts:first-child{
 	margin-bottom: 20px;
@@ -234,6 +231,7 @@
 	.texts a{
 		color: #00ace0;
 		text-decoration: none !important;
+		font: 15px 'dejavu';
 	}
 }
 @media (min-width: 768px){
@@ -252,11 +250,13 @@
 		width: calc(100% - 37px);
 		display: inline-block;
 		font-size: 19px;
-		color: #616161;
+		font: 15px 'dejavu';
+		color: #333;
 	}
 	.texts a{
 		color: #00ace0;
 		text-decoration: none !important;
+		font-family: 'dejavu';
 	}
 }
 
@@ -402,7 +402,7 @@
 .mainReg{
 	top: 0;
 	left: 0;
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	height: 100%;
 	background: rgba(0,0,0, 0.5);
@@ -4642,11 +4642,6 @@ color: #6b6b6d;
   text-decoration:none;
   color: #ffffff;    
 }	
-
-.mainReg {
-    z-index: 12;
-}
-
 .dropdown-menu>li>form>a {
     display: block;
     padding: 3px 20px;
