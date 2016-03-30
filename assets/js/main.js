@@ -5,7 +5,7 @@ $('#reg').on('click', function(){
 });
 // პოპაპის გახსნა რეგისტაციაზე კლიკის დროს
 // პოპაპის დახურვა
-$('.closse, .mainReg').on('click', function(){
+$('.closse, .rel').on('click', function(){
  	$('.mainReg').fadeOut("slow");
  	$('body').css('overflow','scroll');
 });
@@ -20,7 +20,7 @@ $('#registration').on('click', function(){
 	$('.mainReg').fadeOut("fast");
 	$('.MainRegSuc').fadeIn("slow");
 });
-$('.closse, mainReg').on('click', function(){
+$('.closse, .rel').on('click', function(){
  	$('.MainRegSuc, .mainReg').fadeOut("slow");
 });
 // წარმატებული რეგისტრაცია
@@ -41,21 +41,15 @@ $('#movingSlider li').on('click', function(){
 });
 // rows პანელზე ვიდეოს ნაწილზე კლიკის ბეგრაუნდი სლაიდერი
 $('.goToNext').on('click', function(){
-	animateWidth = '-100%';
-	$('#movingSlider li').removeClass('active');
-	size = parseFloat($('#movingSlider').css('left'));
-	if (size == parseFloat($('#movingSlider').css('width'))/2 * (-1)){
-		animateWidth = 0;
-	};
+  var slideCount = $('.sliderbar .sliderBarArea .slideMove li').length;
+  console.log(slideCount);
 	$('#movingSlider').animate({ left: animateWidth });
 
 });
 $('.goToPrev').on('click', function(){
-	animateWidth = '0%';
+	console.log($('.movingSlider li').length);
+
 	$('#movingSlider li').removeClass('active');
-	if (!parseFloat($('#movingSlider').css('left'))){
-		animateWidth = '-100%';
-	};
 	$('#movingSlider').animate({ left: animateWidth });
 });
 // სლაიდერი
@@ -172,7 +166,7 @@ $('#formuls').on('click', function(){
   $('.pdfPopup').fadeIn();
   $('body').css('overflow','hidden')
 });
-$('.closePdf, .pdfPopup').on('click', function(){
+$('.closePdf, .rel').on('click', function(){
   $('.pdfPopup').fadeOut();
   $('body').css('overflow','scroll')
 });
@@ -182,7 +176,7 @@ $('.fullVersione').on('click', function(){
   $('.full-vers').fadeIn('slow');
   $('body, html').css('overflow','hidden');
 });
-$('.fullcls, .full-vers').on('click', function(){
+$('.fullcls, .rel').on('click', function(){
   $('.full-vers').fadeOut('slow');
   $('body, html').css('overflow-y','scroll');
 });

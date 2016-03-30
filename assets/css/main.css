@@ -422,7 +422,7 @@
     margin-right:-50%;
     transform:translate(-50%,-50%);
     position: absolute;
-    z-index: 5;
+    z-index: 60;
 }
 .mainReg .closse{
 	width: 31px;
@@ -2007,7 +2007,7 @@ margin-top: -20px;
 	 }
 	 .sliderbar .sliderBarArea .slideMove li{
 	 	display: inline-block;
-	 	width: calc(100%/12);
+	 	width: 84px;
 	 	text-align: center;
 	 	color: #616161;
 	 	font: 11px 'bpg-web-001-caps';
@@ -4268,11 +4268,12 @@ color: #6b6b6d;
 .pdfPopup{
 	top: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     background: rgba(0,0,0, 0.5);
     display: none;
+    z-index: 50;
 }
 .pdfPopup .pdfHare{
 	width: 800px;
@@ -4281,6 +4282,7 @@ color: #6b6b6d;
 	margin: 100px auto;
 	background: #fff;
 	position: relative;
+	z-index: 60;
 }
 .pdfPopup .pdfHare .closePdf{
 	width: 31px;
@@ -4618,6 +4620,24 @@ color: #6b6b6d;
 	}
 }
 /* buyPacket */
+/* popup closser */
+.rel{
+  	position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background:rgba(0,0,0,0);
+}
+/* popup closser */
+/* 3 line text */
+section.descc{
+	margin: 20px auto;
+}
+section.descc p{
+	font: 15px 'dejavu';
+	color: #616161;
+}
+/* 3 line text */
 /* nika style  */
 .jumbotron button, .lnk {
 	margin-top: 20px;
