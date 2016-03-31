@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<style>
+	body,html{
+		margin: 0px;
+		padding: 0px;
+	}
+	.loader{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background: rgba(255,255,255, 1);
+	}
+	.icon{
+
+	}
+	.loader .iconbar{
+		position: relative;
+		top:50%;
+	    left: 50%;
+	    margin-right:-50%;
+	    transform:translate(-50%,-50%);
+	    width: 100px;
+	    height: 100px;
+	    background: transparent;
+	}
+	.loader .iconbar .icon{
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.loader .iconbar .icon_1{
+		background: url('svg/a.svg')center no-repeat;
+	}
+	.loader .iconbar .icon_2{
+		background: url('svg/apple.svg')center no-repeat;
+	}
+	.loader .iconbar .icon_3{
+		background: url('svg/book.svg')center no-repeat;
+	}
+	.loader .iconbar .icon_4{
+		background: url('svg/calc.svg')center no-repeat;
+	}
+	.loader .iconbar .icon_5{
+		background: url('svg/colb.svg')center no-repeat;
+	}
+	.loader .iconbar .icon_6{
+		background: url('svg/laptop.svg')center no-repeat;
+	}
+	.loader .iconbar .icon_7{
+		background: url('svg/uknow.svg')center no-repeat;
+	}
+	</style>
+</head>
+<body>
+<div class="loader">
+	<div class="iconbar">
+		<span class="icon icon_1"></span>
+		<span class="icon icon_2"></span>
+		<span class="icon icon_3"></span>
+		<span class="icon icon_4"></span>
+		<span class="icon icon_5"></span>
+		<span class="icon icon_6"></span>
+		<span class="icon icon_7"></span>
+	</div>
+</div>
+<script>
+var IconsCount = $('.icon').length;
+var imgCount = 1;
+ setInterval(function(){
+ 	if (imgCount > IconsCount) {
+ 		imgCount = 1;
+ 	}
+ 	$('.icon_' + (imgCount)).fadeIn(100, function(){
+ 		$('.icon_' + (imgCount)).fadeOut(900);
+ 		imgCount++;
+ 	});
+ 	
+
+}, 1000);
+</script>
+</body>
+</html>
