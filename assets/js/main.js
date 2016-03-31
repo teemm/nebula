@@ -232,7 +232,17 @@ setTimeout(function(){
      $('.leftOlPanel ul li').eq(i).find('.percentageVideo svg path').eq(0).css({'stroke':backgrou , 'opacity':'0.3'});
   }
 }, 0);
-// play buttons percentage              
+// play buttons percentage  
+// pdf
+$('#pop').on('click', function(){
+  $('.pdf_vers').fadeIn('slow');
+  $('body').css('overflow','hidden');
+});
+$('.pdfcls, .rel').on('click', function(){
+  $('.pdf_vers').fadeOut('slow');
+  $('body').css('overflow-y','scroll');
+});
+// pdf 
 
 
 
