@@ -399,7 +399,8 @@
 }
 /* თეორია სავარჯიშოები ტესტები */
 /* რეგისტრაცის პოპაპი */
-.mainReg{
+@media (max-width: 768px){
+	.mainReg{
 	top: 0;
 	left: 0;
 	position: fixed;
@@ -407,86 +408,186 @@
 	height: 100%;
 	background: rgba(0,0,0, 0.5);
 	display: none;
+	overflow: scroll;
+	}
+	.mainregistration{
+		max-width: 370px;
+		height: 450px;
+		position: relative;
+	}
+	.mainReg .regPage{
+		width: 367px;
+		height: 430px;
+		background: #ffffff;
+		z-index: 5;
+		display: block;
+		float: left;
+	}
+	.mainReg .allcenter{
+	    top:32%;
+	    left: 50%;
+	    margin-right:-50%;
+	    transform:translate(-50%,-50%);
+	    -webkit-transform:translate(-50%,-50%);
+	    position: absolute;
+	    z-index: 60;
+	}
+	.mainregistration .closse{
+		width: 31px;
+		height: 31px;
+		background: url('../img/svg/closse.svg');
+		position: absolute;
+		top: -50px;
+		cursor: pointer;
+		left: 48%;
+	}
+	.regPage .mainRegPage{
+		width: 250px;
+		height: 350px;
+		margin: 0 auto;
+		margin-top: 10%; 
+	}
+	.regPage .mainRegPage .headers{
+		text-align: center;
+	}
+	.mainRegPage .headers p{
+		height: 35px;
+		text-align: center;
+		font-family: 'bpg-web-001-caps';
+		color: #6286ae;
+		margin-top: 20px;
+		font-size: 25px;
+	}
+	.mainRegPage .headers input{
+		width: 100%;
+		height: 55px;
+		margin-top: 10px;
+		font-family: 'bpg-web';
+		padding-left: 10px;
+		outline: none;
+		font-size: 14px;
+	}
+	.mainRegPage .headers button{
+		width: 100%;
+		height: 55px;
+		margin-top: 10px;
+		background: #f1aa28;
+		border: 0px;
+		outline: none;
+		font-family: 'bpg-web-001-caps';
+		color: #fff;
+	}
+	.mainRegPage .headers button.fb-login{
+		background: #3A5795;
+	}
+	.mainRegPage .headers button.google-login{
+		background: #E46D62;
+	}
+	.mainRegPage .headers span{
+		font-family: 'bpg-web-001-caps';
+		text-decoration: none;
+		font-size: 14px;
+		color: #616161;
+		cursor: pointer;
+	}
+	.hide{
+		display: none;
+	}
 }
-.mainReg .regPage{
-	width: 370px;
-	height: 430px;
-	background: #ffffff;
-	position: relative;
-	top: 0px;
-	z-index: 5;
-}
-.mainReg .allcenter{
-    top:50%;
-    left: 50%;
-    margin-right:-50%;
-    transform:translate(-50%,-50%);
-    position: absolute;
-    z-index: 60;
-}
-.mainReg .closse{
-	width: 31px;
-	height: 31px;
-	background: url('../img/svg/closse.svg');
-	position: absolute;
-	top: -50px;
-	cursor: pointer;
-	left: 48%;
-}
-.regPage .mainRegPage{
-	width: 250px;
-	height: 350px;
-	margin: 0 auto;
-	margin-top: 10%; 
-}
-.mainRegPage .headers p{
-	height: 35px;
-	text-align: center;
-	font-family: 'bpg-web-001-caps';
-	color: #6286ae;
-	margin-top: 20px;
-	font-size: 25px;
-}
-.mainRegPage .headers input{
+@media (min-width: 768px){
+	.mainReg{
+	top: 0;
+	left: 0;
+	position: fixed;
 	width: 100%;
-	height: 55px;
-	margin-top: 10px;
-	font-family: 'bpg-web';
-	padding-left: 10px;
-	outline: none;
-	font-size: 14px;
-}
-.mainRegPage .headers button{
-	width: 100%;
-	height: 55px;
-	margin-top: 10px;
-	background: #f1aa28;
-	border: 0px;
-	outline: none;
-	font-family: 'bpg-web-001-caps';
-	color: #fff;
-}
-.mainRegPage .headers button.fb-login{
-	background: #3A5795;
-}
-.mainRegPage .headers button.google-login{
-	background: #E46D62;
-}
-.mainRegPage .headers span{
-	font-family: 'bpg-web-001-caps';
-	text-decoration: none;
-	font-size: 14px;
-	color: #c4c4c4;
-	cursor: pointer;
-}
-.mainRegPage .headers span:hover{
-	color: #616161;
-}
-.mainRegPage .headers .last{
-	float: right;
-}
-.hide{
+	height: 100%;
+	background: rgba(0,0,0, 0.5);
 	display: none;
+	}
+	.mainregistration{
+		width: 740px;
+		height: 450px;
+		position: relative;
+		z-index: 60;
+	}
+	.mainReg .regPage{
+		width: 367px;
+		height: 430px;
+		background: #ffffff;
+		z-index: 5;
+		display: block;
+		float: left;
+	}
+	.mainReg .allcenter{
+	    top:50%;
+	    left: 50%;
+	    margin-right:-50%;
+	    transform:translate(-50%,-50%);
+	    -webkit-transform:translate(-50%,-50%);
+	    position: absolute;
+
+	}
+	.mainregistration .closse{
+		width: 31px;
+		height: 31px;
+		background: url('../img/svg/closse.svg');
+		position: absolute;
+		top: -50px;
+		cursor: pointer;
+		left: 48%;
+	}
+	.regPage .mainRegPage{
+		width: 250px;
+		height: 350px;
+		margin: 0 auto;
+		margin-top: 10%; 
+	}
+	.regPage .mainRegPage .headers{
+		text-align: center;
+	}
+	.mainRegPage .headers p{
+		height: 35px;
+		text-align: center;
+		font-family: 'bpg-web-001-caps';
+		color: #6286ae;
+		margin-top: 20px;
+		font-size: 25px;
+	}
+	.mainRegPage .headers input{
+		width: 100%;
+		height: 55px;
+		margin-top: 10px;
+		font-family: 'bpg-web';
+		padding-left: 10px;
+		outline: none;
+		font-size: 14px;
+	}
+	.mainRegPage .headers button{
+		width: 100%;
+		height: 55px;
+		margin-top: 10px;
+		background: #f1aa28;
+		border: 0px;
+		outline: none;
+		font-family: 'bpg-web-001-caps';
+		color: #fff;
+	}
+	.mainRegPage .headers button.fb-login{
+		background: #3A5795;
+	}
+	.mainRegPage .headers button.google-login{
+		background: #E46D62;
+	}
+	.mainRegPage .headers span{
+		font-family: 'bpg-web-001-caps';
+		text-decoration: none;
+		font-size: 14px;
+		color: #616161;
+		cursor: pointer;
+	}
+	.hide{
+		display: none;
+	}
 }
 /* რეგისტრაცის პოპაპი */
 /* წარმატებული რეგისტრაცია */

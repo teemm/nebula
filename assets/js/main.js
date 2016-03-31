@@ -11,9 +11,9 @@ $('.closse, .rel').on('click', function(){
 });
 // პოპაპის დახურვა
 // რეგისტრაციდან ავტორიზაციაზე გადასვლა და პირიქით
-$('#aut-form, #reg-form').on('click', function(){
-	$('.forms').toggleClass('hide');
-});
+// $('#aut-form, #reg-form').on('click', function(){
+// 	$('.forms').toggleClass('hide');
+// });
 // რეგისტრაციდან ავტორიზაციაზე გადასვლა და პირიქით
 // წარმატებული რეგისტრაცია
 $('#registration').on('click', function(){
@@ -215,11 +215,11 @@ $('.closePdf, .rel').on('click', function(){
 // fill viev popup
 $('.fullVersione').on('click', function(){
   $('.full-vers').fadeIn('slow');
-  $('body, html').css('overflow','hidden');
+  $('body').css('overflow','hidden');
 });
 $('.fullcls, .rel').on('click', function(){
   $('.full-vers').fadeOut('slow');
-  $('body, html').css('overflow-y','scroll');
+  $('body').css('overflow-y','scroll');
 });
 // play buttons percentage
 setTimeout(function(){
