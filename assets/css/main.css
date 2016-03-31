@@ -4786,6 +4786,7 @@ section.descc p{
 .fullpgArea p{
 	font: 14px 'bpg-web';
 	color: #616161;
+	text-align: -webkit-left;
 }
 .fullpgArea p a{
 	font: 14px 'bpg-web';
