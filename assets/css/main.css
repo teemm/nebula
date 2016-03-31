@@ -468,6 +468,9 @@
 		outline: none;
 		font-size: 14px;
 	}
+	.mainRegPage .headers input.mrgn{
+		margin-top: 10px;
+	}
 	.mainRegPage .headers button{
 		width: 100%;
 		height: 55px;
@@ -483,6 +486,7 @@
 	}
 	.mainRegPage .headers button.google-login{
 		background: #E46D62;
+		margin-bottom: 12px;
 	}
 	.mainRegPage .headers span{
 		font-family: 'bpg-web-001-caps';
@@ -563,6 +567,9 @@
 		outline: none;
 		font-size: 14px;
 	}
+	.mainRegPage .headers input.mrgn{
+		margin-top: 18px;
+	}
 	.mainRegPage .headers button{
 		width: 100%;
 		height: 55px;
@@ -578,6 +585,7 @@
 	}
 	.mainRegPage .headers button.google-login{
 		background: #E46D62;
+		margin-bottom: 12px;
 	}
 	.mainRegPage .headers span{
 		font-family: 'bpg-web-001-caps';
