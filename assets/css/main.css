@@ -193,6 +193,7 @@
 	color: #fff;
 }
 .BuyBut{
+	margin-top: 4px;
 	margin-left: 20px;
     font-size: 15px;
     color: #ffffff;
@@ -454,6 +455,7 @@
 		position: relative;
 	}
 	.mainReg .regPage{
+		border-right: 2px solid #eceff1;
 		width: 367px;
 		height: 430px;
 		background: #ffffff;
