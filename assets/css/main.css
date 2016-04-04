@@ -727,7 +727,7 @@
 	text-decoration: none;
 	color: #898989;
 	font-size: 18px;
-	font-family: 'bpg-web';
+	font-family: 'dejavu';
 }
 /* left-navigation */
 /* right-content */
@@ -736,7 +736,7 @@
 }
 .aboutCont .textAbout h2{
 	color: #00ace0;
-	font-family: 'bpg-web';
+	font-family: 'dejavu';
 	font-size: 25px;
 }
 .aboutCont .textAbout .texts{
