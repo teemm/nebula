@@ -4882,6 +4882,54 @@ section.descc p{
 	color: #00ace0;
 }
 /*pdf*/
+/* icnons */
+.absicons{
+    position: fixed;
+    width: 40px;
+    height: 80px;
+    background: #00ace0;
+    top: 30%;
+    right: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.absicons .fb{
+	display: inline-block;
+	background: url('../img/svg/gray_fb.svg')center no-repeat;
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	margin-left: 6px;
+    margin-top: 5px;
+}
+.absicons .fb:hover{
+	display: inline-block;
+	background: url('../img/svg/fb.svg')center no-repeat;
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	margin-left: 6px;
+    margin-top: 5px;
+}
+.absicons .contact{
+	display: inline-block;
+	background: url('../img/svg/gray_message.svg')center no-repeat;
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	margin-left: 6px;
+    margin-top: 5px;
+}
+.absicons .contact:hover{
+	display: inline-block;
+	background: url('../img/svg/black_message.svg')center no-repeat;
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	margin-left: 6px;
+    margin-top: 5px;
+}
+/* icnons */
 /* nika style  */
 .jumbotron button, .lnk {
 	margin-top: 20px;
