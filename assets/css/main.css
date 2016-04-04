@@ -742,6 +742,32 @@
 .aboutCont .textAbout .texts{
 	margin-top: 15px;
 }
+.aboutCont .textAbout .texts input{
+	width: 100%;
+	border: 2px solid #eceff1;
+	outline: none;
+	height: 50px;
+	padding-left: 15px;
+}
+.aboutCont .textAbout .texts textarea{
+	width: 100%;
+	border: 1px solid black;
+	margin-top: 15px;
+	border: 2px solid #eceff1;
+	outline: none;
+	height: 150px;
+	padding: 15px 15px;
+}
+.aboutCont .textAbout .texts .sub{
+	font: 14px 'bpg-web-001-caps';
+	border:0px;
+	outline: none;
+	padding: 10px 15px;
+	margin-top: 15px;
+	float: right;
+	background: #00ace0;
+	color: #fff;
+}
 .aboutCont .textAbout .texts p{
 	font-family: 'bpg-web';
 	font-size: 14px;
