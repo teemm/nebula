@@ -4926,39 +4926,59 @@ section.descc p{
 }
 .absicons .fb{
 	display: inline-block;
-	background: url('../img/svg/gray_fb.svg')center no-repeat;
+	background: url()center no-repeat;
 	background-size: cover;
 	width: 30px;
 	height: 30px;
 	margin-left: 6px;
     margin-top: 5px;
 }
-.absicons .fb:hover{
-	display: inline-block;
-	background: url('../img/svg/fb.svg')center no-repeat;
+.absicons .fb svg{
 	background-size: cover;
 	width: 30px;
 	height: 30px;
-	margin-left: 6px;
-    margin-top: 5px;
 }
+.absicons .fb svg #Blue_1_{
+	fill:transparent;
+	transition: fill .2s ease;
+	-webkit-transition: fill .2ms ease;
+    -moz-transition: fill .2ms ease;
+    -o-transition: fill .2ms ease;
+    transition: fill .2ms ease;
+}
+.absicons .fb:hover svg #Blue_1_{
+	fill:#3C5A99;
+	-webkit-transition: fill .2ms ease;
+    -moz-transition: fill .2ms ease;
+    -o-transition: fill .2ms ease;
+    transition: fill .2ms ease;}
 .absicons .contact{
 	display: inline-block;
-	background: url('../img/svg/gray_message.svg')center no-repeat;
+	background: url()center no-repeat;
 	background-size: cover;
 	width: 30px;
 	height: 30px;
 	margin-left: 6px;
     margin-top: 5px;
 }
-.absicons .contact:hover{
-	display: inline-block;
-	background: url('../img/svg/black_message.svg')center no-repeat;
+.absicons .contact svg{
 	background-size: cover;
 	width: 30px;
 	height: 30px;
-	margin-left: 6px;
-    margin-top: 5px;
+}
+.absicons .contact svg #common-email-envelope-mail-glyph{
+	fill:#FFFFFF;
+	-webkit-transition: fill .2ms ease;
+    -moz-transition: fill .2ms ease;
+    -o-transition: fill .2ms ease;
+    transition: fill .2ms ease;
+}
+.absicons .contact:hover svg #common-email-envelope-mail-glyph{
+	fill:#3C5A99;
+	f-webkit-transition: fill .2ms ease;
+    -moz-transition: fill .2ms ease;
+    -o-transition: fill .2ms ease;
+    transition: fill .2ms ease;
 }
 /* icnons */
 /* nika style  */
