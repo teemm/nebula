@@ -35,25 +35,35 @@
          <!-- /.container -->
       </nav>
       <div class="container for-mr ForScrollMarg">
-            <div class="mainPack">
-               <div class="defaultCont">
-                  <div class="rows">
-                     <input type="text" placeholder="სახელი"></input>
-                     <input type="text" placeholder="გვარი"></input>
-                     <input type="text" placeholder="მისამართი"></input>
-                  </div>
-                   <div class="rows">
-                     <input type="text" placeholder="ტელეფონის ნომერი"></input>
-                     <input type="text" placeholder="სკოლა"></input>
-                     <input type="text" placeholder="სკოლა"></input>
-                  </div>
-                  <div class="rows">
-                     <textarea placeholder="რის საფუძველზე ითხოვთ დაფინანსებას"></textarea>
-                  </div>
-                  <div class="rows">
-                     <button>განცხადების შევსება</button>
-                  </div>  
+      <div class="mainPack">
+         <div class="defaultCont">
+            <div class="rows">
+               <input class="inp" type="text" placeholder="სახელი"></input>
+               <input class="inp" type="text" placeholder="გვარი"></input>
+            </div>
+            <div class="rows">
+               <input class="inp" type="text" placeholder="ტელეფონის ნომერი"></input>
+               <input class="inp" type="text" placeholder="პირადი ნომერი"></input>
+            </div>
+            <div class="rows forLft">
+               <div class="fileUpload btn btn-primary">
+                   <span>ატვირთვა</span>
+                   <input type="file" class="upload" />
                </div>
+               <span class="text">პირადობის დამადასტურებელი დოკუმენტის ასლი(სურათი ან pdf)</span>
+            </div>
+            <div class="rows">
+               <textarea class="txtra" placeholder="რის საფუძველზე ითხოვთ დაფინანსებას"></textarea>
+            </div>
+            <div class="rows forLft">
+               <div class="checkBox">
+                  <input class="checa" type="checkbox" checked></input>
+                  <span class="text">მოიპოვოთ სსიპ სოციალური მომსახურების სააგენტოსგან ჩემ შესახებ "სოციალურად დაუცველი ოაჯხების მონაცემთა ერთიან ბაზაში" მინიჭებული სარეიტინგო ქულა</span>
+               </div>
+               <div class="rows">
+                  <button class="submit">განცხადების შევსება</button>
+               </div>
+            </div>
          </div>
       </div>
       <!-- რეგისტრაცია -->

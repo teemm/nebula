@@ -38,7 +38,7 @@
     font-weight: normal;
     font-style: normal;
    }
- body{
+body{
  	background: #fefefe;
  	padding-bottom: 40px!important;
  	overflow-x: hidden 
@@ -60,24 +60,24 @@
     transition: all 300ms ease-in-out;
 }
 .tooltip > .tooltip-inner {
-      background-color: #616161; 
-  }
-  /* Tooltip on top */
-  .tooltip.top > .tooltip-arrow {
-      border-top: 5px solid #616161;
-  }
-  /* Tooltip on bottom */
-  .tooltip.bottom > .tooltip-arrow {
-      border-bottom: 5px solid #616161;
-  }
-  /* Tooltip on left */
-  .tooltip.left > .tooltip-arrow {
-      border-left: 5px solid #616161;
-  }
-  /* Tooltip on right */
-  .tooltip.right > .tooltip-arrow {
-      border-right: 5px solid #616161;
-  }
+  background-color: #616161; 
+}
+/* Tooltip on top */
+.tooltip.top > .tooltip-arrow {
+  border-top: 5px solid #616161;
+}
+/* Tooltip on bottom */
+.tooltip.bottom > .tooltip-arrow {
+  border-bottom: 5px solid #616161;
+}
+/* Tooltip on left */
+.tooltip.left > .tooltip-arrow {
+  border-left: 5px solid #616161;
+}
+/* Tooltip on right */
+.tooltip.right > .tooltip-arrow {
+  border-right: 5px solid #616161;
+}
 .ForScrollMarg
 {
 	margin-top: 30px;
@@ -4551,17 +4551,18 @@ color: #6b6b6d;
 		margin: 0 auto;
 		text-align: center;
 	}
-	.mainPack .defaultCont input{
-		width: calc(100%/3 - 16px);
-		margin: 25px 20px 0px 0px;
+	.mainPack .defaultCont .inp{
+		width: 48%;
+		margin: 25px 2% 0px 0%;
 		height: 55px;
 		padding-left: 18px;
 		font: 14px 'bpg-web';
 		color: #616161;
 		border:2px solid #eceff1;
 		outline: none;
+		float: left;
 	}
-	.mainPack .defaultCont textarea{
+	.mainPack .defaultCont .txtra{
 		width: 100%;
 		margin: 25px 20px 0px 0px;
 		height: 150px;
@@ -4571,8 +4572,10 @@ color: #6b6b6d;
 		border:0px;
 		outline: none;
 		border:2px solid #eceff1;
+		width: 98%;
+		resize: none;
 	}
-	.mainPack .defaultCont button{
+	.mainPack .defaultCont .submit{
 		padding: 25px 50px;
 		font: 16px 'bpg-web-001-caps';
 		color: #fff;
@@ -4582,8 +4585,37 @@ color: #6b6b6d;
 		margin: 0 auto;
 		margin-top: 20px;
 	}
-	.mainPack .defaultCont input:nth-child(3){
-		margin-right: 0px;
+	.mainPack .defaultCont .forLft{
+		text-align: left;
+	}
+	.mainPack .defaultCont .forLft .text{
+		font: 14px 'dejavu';
+		color: #616161;
+	}
+
+	.fileUpload {
+	    position: relative;
+	    overflow: hidden;
+	    margin: 10px 10px 10px 0px;
+	}
+	.fileUpload input.upload {
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    margin: 0;
+	    padding: 0;
+	    font-size: 20px;
+	    cursor: pointer;
+	    opacity: 0;
+	    filter: alpha(opacity=0);
+	}
+	.mainPack .defaultCont .checkBox .text{
+		font: 14px 'dejavu';
+		color: #616161;
+		display: inline-block;
+		vertical-align: middle;
+		width: 95%;
+		margin-left: 2%;
 	}
 }
 @media (max-width: 764px){
@@ -4600,7 +4632,7 @@ color: #6b6b6d;
 		margin: 0 auto;
 		text-align: center;
 	}
-	.mainPack .defaultCont input{
+	.mainPack .defaultCont .inp{
 		width: 100%;
 		margin: 25px 20px 0px 0px;
 		height: 55px;
@@ -4610,7 +4642,7 @@ color: #6b6b6d;
 		border:2px solid #eceff1;
 		outline: none;
 	}
-	.mainPack .defaultCont textarea{
+	.mainPack .defaultCont .txtra{
 		width: 100%;
 		margin: 25px 20px 0px 0px;
 		height: 150px;
@@ -4621,7 +4653,7 @@ color: #6b6b6d;
 		outline: none;
 		border:2px solid #eceff1;
 	}
-	.mainPack .defaultCont button{
+	.mainPack .defaultCont .submit{
 		padding: 25px 50px;
 		font: 16px 'bpg-web-001-caps';
 		color: #fff;
@@ -4631,8 +4663,39 @@ color: #6b6b6d;
 		margin: 0 auto;
 		margin-top: 20px;
 	}
-	.mainPack .defaultCont input:nth-child(3){
-		margin-right: 0px;
+	.mainPack .defaultCont .forLft{
+		text-align: left;
+	}
+	.mainPack .defaultCont .forLft .text{
+		font: 14px 'dejavu';
+		color: #616161;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.fileUpload {
+	    position: relative;
+	    overflow: hidden;
+	    margin: 10px 10px 10px 0px;
+	}
+	.fileUpload input.upload {
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    margin: 0;
+	    padding: 0;
+	    font-size: 20px;
+	    cursor: pointer;
+	    opacity: 0;
+	    filter: alpha(opacity=0);
+	}
+	.mainPack .defaultCont .checkBox .text{
+		font: 14px 'dejavu';
+		color: #616161;
+		display: inline-block;
+		vertical-align: middle;
+		width: 82%;
+		margin-left: 2%;
 	}
 }
 /* packet page */
