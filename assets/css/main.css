@@ -5285,7 +5285,9 @@ section.descc p{
 	cursor: pointer;
 	display: none;
 	top: 15px;
-	padding-left: 20px;
+	background: url('../img/svg/redClosse.svg')right no-repeat;
+	background-size: 13px 20px;
+	background-position: right center;
 }
 .content .lastNubmer .green_icon{
    	width: 12px;
