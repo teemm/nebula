@@ -4976,6 +4976,48 @@ section.descc p{
 	color: #00ace0;
 }
 /*pdf*/
+/* pdf */
+.gift{
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0, 0.5);
+	display: block;
+	z-index: 1;
+}
+.gift .fulpage{
+	width: 667px;
+	background: #ffffff;
+	position: relative;
+	top: 100px;
+	z-index: 60;
+	top:45%;
+    left: 50%;
+    margin-right:-50%;
+    transform:translate(-50%,-50%);
+}
+.gift .fulpage img{
+	background-size: 100%;
+	height: 500px;
+}
+.gift .giftcls{
+	width: 31px;
+	height: 31px;
+	background: url('../img/svg/closse.svg');
+	position: absolute;
+	top: -50px;
+	cursor: pointer;
+	left: 48%;
+}
+.fullpgArea{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 10% 5%;
+}
+/*pdf*/
 /* icnons */
 .absicons{
     position: fixed;
@@ -5039,12 +5081,244 @@ section.descc p{
 }
 .absicons .contact:hover svg #common-email-envelope-mail-glyph{
 	fill:#3C5A99;
-	f-webkit-transition: fill .2ms ease;
+	-webkit-transition: fill .2ms ease;
     -moz-transition: fill .2ms ease;
     -o-transition: fill .2ms ease;
     transition: fill .2ms ease;
 }
 /* icnons */
+/* teachers styles */
+/* first page */
+.TextTT{
+	display: inline-block;
+	vertical-align: middle;
+	font: 14px 'dejavu';
+}
+.LogOutRedSvg{
+	display: inline-block;
+	vertical-align: middle;
+	background-size: cover;
+	background: url('../img/png/off.png')center no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+}
+.tableJumb{
+	margin-top: -20px;
+	background: #f8f9fa;
+	padding: 32px 0px;
+}
+.searchbar{
+	width: 100%;
+	height: 100%
+}
+.searchbar span.searchIc{
+	height: 26px;
+	width: 26px;
+	background: url('../img/svg/search.svg')center no-repeat;
+	background-size: cover;
+	display: inline-block;
+	vertical-align: middle;
+}
+.searchbar input.searchIn{
+	background:#f8f9fa;
+	outline: none;
+	border: 3px solid transparent;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	-webkit-transition: border 300ms ease-in-out;
+    -moz-transition: border 300ms ease-in-out;
+    -o-transition: border 300ms ease-in-out;
+    transition: border 300ms ease-in-out;
+	padding:10px 20px;
+	font: 16px 'bpg-web-001-caps';
+	margin-left: 30px;\
+	color: #f8f9fa;
+}
+.searchbar input.searchIn:hover{
+	background:#f8f9fa;
+	outline: none;
+	border: 3px solid #616161;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	-webkit-transition: border 300ms ease-in-out;
+    -moz-transition: border 300ms ease-in-out;
+    -o-transition: border 300ms ease-in-out;
+    transition: border 300ms ease-in-out;
+}
+.addTeacherBut{
+	width: 155px;
+	height: 40px;
+	background: #9ccc65;
+	background-size: 20px 20px;
+	background-position: right center;
+	outline: none;
+	border:0px;
+	margin-top: 3px;
+}
+.addTeacherBut .text{
+	display: inline-block;
+	vertical-align: middle;
+	font: 14px 'bpg-web-001-caps';
+	color: #fff;
+}
+.addTeacherBut .plus{
+	background: url('../img/svg/plus.svg')center no-repeat;
+	background-size: cover;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: -4px 0px 0px 10px;
+	padding-top: -2px;
+}
+.panelArea{
+	width: 100%;
+	height: 100%;
+}
+.headers{
+	padding: 30px 0px;
+}
+.headers span{
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(100%/4 - 17px);
+	vertical-align: middle;
+}
+.content span{
+	vertical-align: middle;
+}
+.values{
+	display: inline-block;
+	width: calc(100% - 54px);
+	vertical-align: middle;
+}
+.values div{
+	width: calc(100%/4 - 9px);
+	float: left;
+	height: 50px;
+	line-height: 50px;
+}
+.headers .profile{
+	display: inline-block;
+	width: 40px;
+	background: url('../img/svg/teacherUser.svg')center no-repeat;
+	background-size: 60%;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #f4f4f4;
+}
+.content .profile{
+	display: inline-block;
+	width: 40px;
+	background: url('../img/svg/teacherUser.svg')center no-repeat;
+	background-size: 60%;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #f4f4f4;
+	font-size: 0px;
+}
+/*.content span.profile img{
+	display: inline-block;
+	width: 40px;
+	background-size: 100%;
+	border-radius: 50%;
+	border: 2px solid #f4f4f4;
+}*/
+.headers .name{
+	color: #00ace0;
+	font: 14px 'dejavu';
+	padding-left: 44px;	
+}
+.headers .idNum{
+	color: #00ace0;
+	font: 14px 'dejavu';
+	padding-left: 44px;
+}
+.headers .currentNumber{
+	color: #00ace0;
+	font: 14px 'dejavu';
+	text-align: center;
+}
+.headers .lastNubmer{
+	color: #00ace0;
+	font: 14px 'dejavu';
+	text-align: center;
+}
+.content{
+	padding: 5px 0px;
+}
+.content .name{
+	font: 14px 'dejavu';
+	margin-left: 34px;	
+	background: #f8f9fa;
+	padding-left: 10px;
+	padding-top: 18px;
+}
+.content .idNum{
+	font: 14px 'dejavu';
+	padding-left: 16px;
+	background: #f8f9fa;
+	padding-top: 18px;
+}
+.content .currentNumber{
+	font: 18px 'dejavu';
+	text-align: center;
+	background: #f8f9fa;
+	padding-top: 18px;
+	color: #f1aa28;
+}
+.content .currentNumber .icon{
+   	width: 12px;
+   	height: 12px;
+   	display: inline-block;
+   	vertical-align: middle;
+   	background-size: cover;
+   	background: url('../img/png/count.png')center no-repeat;
+   	margin-top: -5px;
+}
+.content .currentNumber .text{
+  	padding-left: 20px;
+}
+.content .lastNubmer{
+	font: 18px 'dejavu';
+	text-align: center;
+	background: #f8f9fa;
+	padding-top: 18px;
+}
+.content .lastNubmer .green_icon{
+   	width: 12px;
+   	height: 12px;
+   	display: inline-block;
+   	vertical-align: middle;
+   	background-size: cover;
+   	background: url('../img/png/greenCircle.png')center no-repeat;
+   	margin-top: -5px;
+}
+.content .lastNubmer .green_text{
+  	padding-left: 20px;
+  	color: #9ccc65;
+}
+.content .lastNubmer .red_icon{
+   	width: 12px;
+   	height: 12px;
+   	display: inline-block;
+   	vertical-align: middle;
+   	background-size: cover;
+   	background: url('../img/png/redCircle.png')center no-repeat;
+   	margin-top: -5px;
+}
+.content .lastNubmer .red_text{
+  	padding-left: 20px;
+  	color: #ef5350;
+}
+/* first page */
+/* teachers styles */
+
 /* nika style  */
 .jumbotron button, .lnk {
 	margin-top: 20px;
