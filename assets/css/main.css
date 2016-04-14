@@ -4976,7 +4976,7 @@ section.descc p{
 	color: #00ace0;
 }
 /*pdf*/
-/* pdf */
+/* gift */
 .gift{
 	top: 0;
 	left: 0;
@@ -5017,7 +5017,7 @@ section.descc p{
 	text-align: center;
 	padding: 10% 5%;
 }
-/*pdf*/
+/*gift*/
 /* icnons */
 .absicons{
     position: fixed;
@@ -5137,19 +5137,6 @@ section.descc p{
 	margin-left: 30px;\
 	color: #f8f9fa;
 }
-.searchbar input.searchIn:hover{
-	background:#f8f9fa;
-	outline: none;
-	border: 3px solid #616161;
-	border-top-right-radius: 30px;
-	border-bottom-right-radius: 30px;
-	border-top-left-radius: 30px;
-	border-bottom-left-radius: 30px;
-	-webkit-transition: border 300ms ease-in-out;
-    -moz-transition: border 300ms ease-in-out;
-    -o-transition: border 300ms ease-in-out;
-    transition: border 300ms ease-in-out;
-}
 .addTeacherBut{
 	width: 155px;
 	height: 40px;
@@ -5215,20 +5202,16 @@ section.descc p{
 .content .profile{
 	display: inline-block;
 	width: 40px;
-	background: url('../img/svg/teacherUser.svg')center no-repeat;
-	background-size: 60%;
+	border: 2px solid #f4f4f4;
 	height: 40px;
 	border-radius: 50%;
-	border: 2px solid #f4f4f4;
-	font-size: 0px;
+	overflow: hidden;
 }
-/*.content span.profile img{
+.content .profile img{
 	display: inline-block;
-	width: 40px;
+	width: 100%;
 	background-size: 100%;
-	border-radius: 50%;
-	border: 2px solid #f4f4f4;
-}*/
+}
 .headers .name{
 	color: #00ace0;
 	font: 14px 'dejavu';
@@ -5289,6 +5272,20 @@ section.descc p{
 	text-align: center;
 	background: #f8f9fa;
 	padding-top: 18px;
+	position: relative;
+}
+.content:hover  .lastNubmer .teachClose{
+	display: block;
+}
+.content .lastNubmer .teachClose{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: -20px;
+	cursor: pointer;
+	display: none;
+	top: 15px;
+	padding-left: 20px;
 }
 .content .lastNubmer .green_icon{
    	width: 12px;
