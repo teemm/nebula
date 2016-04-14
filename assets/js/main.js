@@ -243,7 +243,21 @@ $('.pdfcls, .rel').on('click', function(){
   $('body').css('overflow-y','scroll');
 });
 // pdf 
-
+// teach aut&reg
+$('#teachAut').on('click', function(){
+  $('#teachReg').removeClass('active');
+  $(this).addClass('active');
+  $('.regFade').fadeOut('fast');
+  $('.autFade').fadeIn('slow');
+ 
+});
+$('#teachReg').on('click', function(){
+  $('#teachAut').removeClass('active');
+  $(this).addClass('active');
+  $('.autFade').fadeOut('fast');
+  $('.regFade').fadeIn('slow');
+});
+// teach aut&reg
 
 
 

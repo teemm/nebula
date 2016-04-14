@@ -5353,14 +5353,16 @@ section.descc p{
    -o-transition: border 300ms ease-in-out;
    transition: border 300ms ease-in-out;
 }
-.swicherBl .teachCont .aut:hover{
+.swicherBl .teachCont .aut:hover,
+.swicherBl .teachCont .aut.active{
 	border-bottom: 3px solid #00ace0;
 	-webkit-transition: border 300ms ease-in-out;
     -moz-transition: border 300ms ease-in-out;
     -o-transition: border 300ms ease-in-out;
     transition: border 300ms ease-in-out;
 }
-.swicherBl .teachCont .reg:hover{
+.swicherBl .teachCont .reg:hover,
+.swicherBl .teachCont .reg.active{
 	border-bottom: 3px solid #00ace0;
    -webkit-transition: border 300ms ease-in-out;
     -moz-transition: border 300ms ease-in-out;
@@ -5383,7 +5385,7 @@ section.descc p{
 	border-radius: 50%;
 	border: 1px solid #e7e7e7;
 	background : url('../img/svg/teacherUser.svg')center no-repeat;
-	background-size: 60%;
+	background-size: 40%;
 }
 .loginBar{
 	margin-top: 20px;
@@ -5429,6 +5431,33 @@ section.descc p{
 
 }
 /* aut */
+/* reg */
+.registrationTeach{
+	display: block;
+	margin: 20px auto;
+	border: 0px;
+	outline: none;
+	font: 16px 'bpg-web-001-caps';
+	width: 100%;
+	height: 50px;
+	background: #9ccc65 url('../img/svg/arrow_right.svg')right no-repeat;
+	background-size: 50px 20px;
+	color: #fff;
+	line-height: 55px;
+}
+.IconUserReg{
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid #e7e7e7;
+	background : url('../img/svg/teachRegIcon.svg')center no-repeat;
+	background-size: 60%;
+}
+.regFade{
+	display: none;
+}
+/* reg */
 /* teachers styles */
 
 /* nika style  */

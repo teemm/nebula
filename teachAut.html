@@ -15,17 +15,31 @@
       </nav>
       <div class="swicherBl">
         <div class="teachCont">
-          <button class="aut">ავტორიზაცია</button>
-          <button class="reg">რეგისრაცია</button>
+          <button id="teachAut" class="aut active">ავტორიზაცია</button>
+          <button id="teachReg" class="reg">რეგისრაცია</button>
         </div>
       </div>
-      <div class="teachCont mrgTp">
+      <div class="teachCont mrgTp autFade active">
         <div class="IconUser"></div>
         <div class="loginBar">
           <input class="user" placeholder="ელ.ფოსტა" type="text">
           <input class="pass" placeholder="პაროლი" type="password">
           <button class="teachAutBuT">ავტორიზაცია</button>
           <button class="teachForgetPas">დაგავიწყდა პაროლი?</button>
+        </div>
+      </div>
+
+      <div class="teachCont mrgTp regFade">
+        <div class="IconUserReg"></div>
+        <div class="loginBar">
+          <input class="user" placeholder="სახელი" type="text">
+          <input class="user" placeholder="გვარი" type="text">
+          <input class="user" placeholder="ელ.ფოსტა" type="text">
+          <input class="user" placeholder="ტელეფონი" type="text">
+          <input class="user" placeholder="პირადი ნომერი" type="text">
+          <input class="user" placeholder="პაროლი" type="text">
+          <input class="pass" placeholder="გაიმეორეთ პაროლი" type="password">
+          <button class="registrationTeach">რეგისტრაცია</button>
         </div>
       </div>
       <script type="text/javascript" src="assets/js/bootstrap.js"></script> 
