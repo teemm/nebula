@@ -224,14 +224,12 @@ $('.fullcls, .rel').on('click', function(){
 // play buttons percentage
 setTimeout(function(){
  alllisets = $('.leftOlPanel ul li').length;
-  
-
   for (var i = 0; i < alllisets; i++) {
      backgrou = ($('.leftOlPanel ul li').eq(i).find('.background-by-progress').css('background-color'));
      $('.leftOlPanel ul li').eq(i).find('.percentageVideo svg path').eq(1).css('stroke',backgrou);
      $('.leftOlPanel ul li').eq(i).find('.percentageVideo svg path').eq(0).css({'stroke':backgrou , 'opacity':'0.3'});
   }
-}, 0);
+}, 2);
 // play buttons percentage  
 // pdf
 $('#pop').on('click', function(){
