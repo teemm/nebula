@@ -5458,6 +5458,68 @@ section.descc p{
 	display: none;
 }
 /* reg */
+/* buyForTeachers */
+@media (min-width: 764px){
+	.buyForTeachers{
+		border: 0px;
+		outline: none;
+		border-top-right-radius: 2em;
+	    border-bottom-right-radius: 2em;
+	    border-top-left-radius: 2em;
+	    border-bottom-left-radius: 2em;
+	    background: #f1aa28;
+	    height: 40px;
+	    padding: 10px 15px;
+	    margin-left: 20px;
+	    margin-top: 5px;
+	}
+	.buyForTeachers .icon{
+		background: url('../img/svg/fotTeachersButon.svg')center no-repeat;
+		background-size: contain;
+		width: 20px;
+		height: 30px;
+		display: inline-block;
+		vertical-align: middle;
+		    margin-top: -7px;
+	}
+	.buyForTeachers .text{
+		color:#fff;
+		padding-left: 10px;
+		display: inline-block;
+		vertical-align: middle;
+		    margin-top: -3px;
+	}
+}
+@media (max-width: 764px){
+	.buyForTeachers{
+		border: 0px;
+		outline: none;
+		border-top-right-radius: 2em;
+	    border-bottom-right-radius: 2em;
+	    border-top-left-radius: 2em;
+	    border-bottom-left-radius: 2em;
+	    background: #f1aa28;
+	    height: 40px;
+	    padding: 10px 15px;
+	    color: #fff;
+	    margin-top: 5px;
+	}
+	/*.buyForTeachers .icon{
+		background: url('../img/svg/fotTeachersButon.svg')center no-repeat;
+		background-size: contain;
+		width: 20px;
+		height: 30px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.buyForTeachers .text{
+		color:#fff;
+		padding-left: 10px;
+		display: inline-block;
+		vertical-align: middle;
+	}*/
+}
+/* buyForTeachers */
 /* teachers styles */
 
 /* nika style  */
